@@ -1,0 +1,36 @@
+<map id="XenevaOS/Libs/Chitralekha/widgets/button.h" name="XenevaOS/Libs/Chitralekha/widgets/button.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="289,5,487,45"/>
+<area shape="rect" id="Node000002" href="$Libs_2Chitralekha_2widgets_2window_8h.html" title=" " alt="" coords="347,93,429,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="391,46,391,79,385,79,385,46"/>
+<area shape="rect" id="Node000007" href="$base_8h.html" title=" " alt="" coords="602,167,667,192"/>
+<area shape="poly" id="edge19_Node000001_Node000007" title=" " alt="" coords="420,43,605,157,602,161,417,48"/>
+<area shape="rect" id="Node000010" href="$__xeneva_8h.html" title=" " alt="" coords="304,240,392,265"/>
+<area shape="poly" id="edge20_Node000001_Node000010" title=" " alt="" coords="289,36,217,49,140,73,103,91,69,112,39,138,13,168,8,180,13,190,30,204,57,216,131,232,214,242,290,247,289,252,214,248,130,238,56,221,28,209,8,194,3,180,8,165,35,134,66,108,101,86,138,68,215,44,288,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="554,313,625,339"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="430,111,487,129,516,144,541,165,563,197,577,233,586,269,590,299,585,300,581,270,572,235,558,200,537,168,513,149,485,134,429,116"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="329,167,447,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="391,119,391,153,385,153,385,119"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="23,167,100,192"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="347,119,114,169,113,164,346,114"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="124,167,201,192"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="352,121,213,165,211,160,351,116"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="428,116,590,162,588,167,427,121"/>
+<area shape="rect" id="Node000013" href="$Libs_2Chitralekha_2widgets_2list_8h.html" title=" " alt="" coords="471,167,526,192"/>
+<area shape="poly" id="edge14_Node000002_Node000013" title=" " alt="" coords="407,116,470,157,467,161,404,121"/>
+<area shape="rect" id="Node000014" href="$setjmp_8h.html" title=" " alt="" coords="226,167,305,192"/>
+<area shape="poly" id="edge17_Node000002_Node000014" title=" " alt="" coords="370,121,298,162,296,157,367,116"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="633,193,600,301,594,299,628,192"/>
+<area shape="rect" id="Node000008" href="$__keipcpostbox_8h.html" title=" " alt="" coords="653,240,806,265"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="651,190,704,229,701,234,648,194"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="831,240,903,265"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="668,188,818,234,816,239,667,193"/>
+<area shape="poly" id="edge11_Node000007_Node000010" title=" " alt="" coords="602,191,406,240,405,235,601,186"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="708,268,625,309,623,305,706,263"/>
+<area shape="rect" id="Node000011" href="$Libs_2XEClib_2includes_2stdint_8h.html" title=" " alt="" coords="313,313,383,339"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="351,266,351,300,345,300,345,266"/>
+<area shape="rect" id="Node000012" href="$size__t_8h.html" title=" " alt="" coords="312,387,384,412"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="351,339,351,373,345,373,345,339"/>
+<area shape="poly" id="edge15_Node000013_Node000003" title=" " alt="" coords="507,191,547,264,574,301,570,304,543,267,502,194"/>
+<area shape="poly" id="edge16_Node000013_Node000010" title=" " alt="" coords="475,194,386,236,384,232,473,190"/>
+<area shape="poly" id="edge18_Node000014_Node000010" title=" " alt="" coords="280,190,326,229,322,233,277,194"/>
+</map>

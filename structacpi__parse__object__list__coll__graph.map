@@ -1,0 +1,13 @@
+<map id="acpi_parse_object_list" name="acpi_parse_object_list">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,196,172,221"/>
+<area shape="poly" id="edge6_Node000001_Node000001" title=" " alt="" coords="187,200,199,209,191,217,173,220,172,215,188,212,193,209,185,204"/>
+<area shape="rect" id="Node000002" href="$unionacpi__parse__object.html" title=" " alt="" coords="138,93,277,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,128,157,145,101,198,98,194,154,141,176,124"/>
+<area shape="rect" id="Node000005" href="$structacpi__parse__obj__asl.html" title=" " alt="" coords="256,196,401,221"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="201,132,199,152,205,170,227,183,262,193,261,199,225,188,201,174,194,153,196,131"/>
+<area shape="rect" id="Node000003" href="$structacpi__parse__obj__common.html" title=" " alt="" coords="16,5,199,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="133,38,195,91,192,95,130,42"/>
+<area shape="rect" id="Node000004" href="$structacpi__parse__obj__named.html" title=" " alt="" coords="223,5,394,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="286,42,223,95,220,91,283,38"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="320,184,311,163,297,145,278,131,257,121,259,116,281,126,301,141,316,160,325,182"/>
+</map>

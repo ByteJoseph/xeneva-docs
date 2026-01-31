@@ -1,0 +1,18 @@
+<map id="SPD_LPDDR_MANUFACTURING_DATA" name="SPD_LPDDR_MANUFACTURING_DATA">
+<area shape="rect" id="Node000001" title=" " alt="" coords="873,118,1136,143"/>
+<area shape="rect" id="Node000002" href="$structSPD__LPDDR__UNIQUE__MODULE__ID.html" title=" " alt="" coords="409,89,652,114"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="666,107,873,120,873,125,666,112"/>
+<area shape="rect" id="Node000003" href="$unionSPD__LPDDR__MANUFACTURER__ID__CODE.html" title=" " alt="" coords="29,5,244,45"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="258,28,530,47,690,65,850,89,960,115,959,121,849,95,690,70,529,53,257,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="255,45,464,86,463,91,254,51"/>
+<area shape="rect" id="Node000004" href="$structSPD__LPDDR__MANUFACTURING__LOCATION.html" title=" " alt="" coords="25,75,248,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="262,97,292,97,409,99,409,104,292,103,262,102"/>
+<area shape="rect" id="Node000005" href="$structSPD__LPDDR__MANUFACTURING__DATE.html" title=" " alt="" coords="5,139,268,165"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="257,135,385,119,439,111,440,117,386,124,257,140"/>
+<area shape="rect" id="Node000006" href="$unionSPD__LPDDR__MANUFACTURER__SERIAL__NUMBER.html" title=" " alt="" coords="29,189,244,229"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="257,195,322,178,384,151,395,138,408,124,438,112,440,116,411,129,399,142,387,155,324,183,259,200"/>
+<area shape="rect" id="Node000007" href="$structSPD__LPDDR__MODULE__PART__NUMBER.html" title=" " alt="" coords="429,139,632,179"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="646,156,849,148,918,141,918,146,850,153,646,161"/>
+<area shape="rect" id="Node000008" href="$structSPD__LPDDR__MANUFACTURER__SPECIFIC.html" title=" " alt="" coords="423,203,638,243"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="651,208,748,195,849,176,912,159,967,141,969,146,914,164,850,181,749,200,652,213"/>
+</map>

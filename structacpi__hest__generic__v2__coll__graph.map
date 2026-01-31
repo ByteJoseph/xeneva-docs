@@ -1,0 +1,9 @@
+<map id="acpi_hest_generic_v2" name="acpi_hest_generic_v2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="165,108,328,133"/>
+<area shape="rect" id="Node000002" href="$structacpi__hest__header.html" title=" " alt="" coords="5,5,141,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,35,228,106,226,110,104,40"/>
+<area shape="rect" id="Node000003" href="$structacpi__generic__address.html" title=" " alt="" coords="165,5,328,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,45,249,108,244,108,244,45"/>
+<area shape="rect" id="Node000004" href="$structacpi__hest__notify.html" title=" " alt="" coords="352,5,480,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="411,45,400,67,383,86,357,102,329,112,327,107,355,97,380,82,395,64,406,43"/>
+</map>

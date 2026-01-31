@@ -1,0 +1,17 @@
+<map id="XenevaOS/BaseHdr/pcie.h" name="XenevaOS/BaseHdr/pcie.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="65,5,256,31"/>
+<area shape="rect" id="Node000002" href="$BaseHdr_2stdint_8h.html" title=" " alt="" coords="5,79,76,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,33,74,74,71,69,140,28"/>
+<area shape="rect" id="Node000003" href="$basicacpi_8h.html" title=" " alt="" coords="100,79,221,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,31,163,65,158,65,158,31"/>
+<area shape="rect" id="Node000006" href="$hal_8h.html" title=" " alt="" coords="246,79,326,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="182,28,255,69,252,74,179,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="223,152,293,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="178,102,232,141,229,146,175,106"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="123,152,199,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="163,104,163,138,158,138,158,104"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="284,105,270,140,265,138,279,103"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="267,106,194,147,192,143,265,102"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="318,152,382,177"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="299,103,333,140,329,144,295,106"/>
+</map>

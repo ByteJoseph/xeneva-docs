@@ -1,0 +1,32 @@
+<map id="XenevaOS/BaseHdr/Hal/x86_64_signal.h" name="XenevaOS/BaseHdr/Hal/x86_64_signal.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="266,5,441,45"/>
+<area shape="rect" id="Node000002" href="$x86__64__cpu_8h.html" title=" " alt="" coords="231,93,369,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="343,47,318,83,314,80,338,44"/>
+<area shape="rect" id="Node000012" href="$x86__64__sched_8h.html" title=" " alt="" coords="335,240,487,265"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="365,45,384,93,401,165,411,226,406,227,396,166,379,94,360,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="251,313,322,339"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="302,119,291,299,286,299,297,119"/>
+<area shape="rect" id="Node000004" href="$process_8h.html" title=" " alt="" coords="127,167,211,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="280,121,204,162,201,158,278,116"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="321,167,385,192"/>
+<area shape="poly" id="edge13_Node000002_Node000011" title=" " alt="" coords="311,117,339,154,335,157,307,121"/>
+<area shape="rect" id="Node000005" href="$BaseHdr_2stdint_8h.html" title=" " alt="" coords="23,387,94,412"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="169,193,148,257,131,299,110,340,82,378,77,375,106,337,126,297,143,256,164,192"/>
+<area shape="rect" id="Node000006" href="$vfs_8h.html" title=" " alt="" coords="173,240,246,265"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="178,191,199,227,194,229,174,194"/>
+<area shape="rect" id="Node000009" href="$BaseHdr_2list_8h.html" title=" " alt="" coords="31,240,86,265"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="153,194,90,235,87,230,150,190"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="224,263,266,302,262,306,220,267"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="173,313,227,339"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="211,266,206,300,201,299,205,265"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="346,313,422,339"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="239,263,344,306,342,310,237,268"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="46,267,31,281,18,299,9,318,11,338,22,358,37,376,33,379,17,361,6,339,4,317,13,296,27,278,42,263"/>
+<area shape="rect" id="Node000010" href="$BaseHdr_2aurora_8h.html" title=" " alt="" coords="21,313,97,339"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="61,266,61,300,56,300,56,266"/>
+<area shape="poly" id="edge12_Node000010_Node000005" title=" " alt="" coords="61,339,61,373,56,373,56,339"/>
+<area shape="poly" id="edge15_Node000012_Node000003" title=" " alt="" coords="392,268,320,309,318,304,390,263"/>
+<area shape="poly" id="edge16_Node000012_Node000008" title=" " alt="" coords="409,267,396,302,391,300,404,265"/>
+<area shape="rect" id="Node000013" href="$signal_8h.html" title=" " alt="" coords="447,313,543,339"/>
+<area shape="poly" id="edge17_Node000012_Node000013" title=" " alt="" coords="426,263,472,302,469,306,423,267"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="EFI_IFR_TYPE_VALUE" name="EFI_IFR_TYPE_VALUE">
+<area shape="rect" id="Node000001" title=" " alt="" coords="111,181,270,207"/>
+<area shape="rect" id="Node000002" href="$structEFI__HII__TIME.html" title=" " alt="" coords="5,93,112,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,124,174,179,171,183,86,128"/>
+<area shape="rect" id="Node000003" href="$structEFI__HII__DATE.html" title=" " alt="" coords="137,93,245,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,133,193,181,188,181,188,133"/>
+<area shape="rect" id="Node000004" href="$structEFI__HII__REF.html" title=" " alt="" coords="269,93,368,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="292,129,210,183,207,179,289,124"/>
+<area shape="rect" id="Node000005" href="$structGUID.html" title=" " alt="" coords="291,5,347,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="321,45,321,93,316,93,316,45"/>
+</map>

@@ -1,0 +1,29 @@
+<map id="XenevaOS/Boot/include/Protocol/SmmStandbyButtonDispatch2.h" name="XenevaOS/Boot/include/Protocol/SmmStandbyButtonDispatch2.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="507,5,798,45"/>
+<area shape="rect" id="Node000002" href="$MmStandbyButtonDispatch_8h.html" title=" " alt="" coords="553,93,753,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="655,46,655,79,650,79,650,46"/>
+<area shape="rect" id="Node000003" href="$PiMmCis_8h.html" title=" " alt="" coords="599,181,706,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="655,134,655,167,650,167,650,134"/>
+<area shape="rect" id="Node000004" href="$PiMultiPhase_8h.html" title=" " alt="" coords="501,255,636,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="641,209,595,248,591,243,637,205"/>
+<area shape="rect" id="Node000014" href="$MmCpuIo_8h.html" title=" " alt="" coords="660,255,813,280"/>
+<area shape="poly" id="edge13_Node000003_Node000014" title=" " alt="" coords="668,205,714,243,711,248,664,209"/>
+<area shape="rect" id="Node000005" href="$PiFirmwareVolume_8h.html" title=" " alt="" coords="5,328,177,353"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="502,281,182,329,181,323,501,276"/>
+<area shape="rect" id="Node000006" href="$PiFirmwareFile_8h.html" title=" " alt="" coords="202,328,349,353"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="522,283,337,327,335,322,521,277"/>
+<area shape="rect" id="Node000007" href="$PiBootMode_8h.html" title=" " alt="" coords="373,328,501,353"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="549,282,471,324,469,319,546,278"/>
+<area shape="rect" id="Node000008" href="$PiHob_8h.html" title=" " alt="" coords="525,328,613,353"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="571,280,571,314,566,314,566,280"/>
+<area shape="rect" id="Node000009" href="$PiDependency_8h.html" title=" " alt="" coords="637,328,778,353"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="592,278,674,319,671,324,590,282"/>
+<area shape="rect" id="Node000010" href="$PiStatusCode_8h.html" title=" " alt="" coords="802,328,938,353"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="618,277,809,322,808,327,616,283"/>
+<area shape="rect" id="Node000013" href="$PiS3BootScript_8h.html" title=" " alt="" coords="963,328,1108,353"/>
+<area shape="poly" id="edge12_Node000004_Node000013" title=" " alt="" coords="636,276,950,324,949,329,636,282"/>
+<area shape="rect" id="Node000011" href="$DebugSupport_8h.html" title=" " alt="" coords="779,401,961,427"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="873,354,873,388,867,388,867,354"/>
+<area shape="rect" id="Node000012" href="$PeImage_8h.html" title=" " alt="" coords="767,475,973,500"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="873,427,873,461,867,461,867,427"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="EFI_IP6_MODE_DATA" name="EFI_IP6_MODE_DATA">
+<area shape="rect" id="Node000001" title=" " alt="" coords="684,111,841,137"/>
+<area shape="rect" id="Node000002" href="$structEFI__IP6__CONFIG__DATA.html" title=" " alt="" coords="349,33,517,58"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="531,46,595,55,661,69,706,88,743,109,740,114,704,93,659,75,595,60,530,52"/>
+<area shape="rect" id="Node000003" href="$structIPv6__ADDRESS.html" title=" " alt="" coords="20,75,139,101"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="103,64,136,40,177,20,238,17,354,16,532,17,598,16,627,18,661,30,691,47,717,69,754,109,750,113,713,72,688,51,659,34,625,23,598,21,532,23,354,21,238,22,178,25,139,44,106,68"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="152,73,177,69,348,50,349,55,178,75,152,78"/>
+<area shape="rect" id="Node000004" href="$structEFI__IP6__ADDRESS__INFO.html" title=" " alt="" coords="344,82,521,107"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="153,87,344,90,344,96,153,92"/>
+<area shape="rect" id="Node000005" href="$structEFI__IP6__ROUTE__TABLE.html" title=" " alt="" coords="349,133,517,158"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="118,104,178,125,265,139,349,144,348,149,265,144,177,131,117,109"/>
+<area shape="rect" id="Node000006" href="$structEFI__IP6__NEIGHBOR__CACHE.html" title=" " alt="" coords="333,182,532,207"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="104,109,137,138,178,163,216,176,256,185,333,193,333,199,255,190,215,181,176,168,134,142,100,113"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="535,101,684,114,684,120,535,106"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="530,147,594,147,660,143,711,134,712,139,660,148,594,152,530,152"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="545,187,602,180,659,168,702,152,738,134,740,139,704,157,661,173,603,185,546,193"/>
+<area shape="rect" id="Node000007" href="$structEFI__MAC__ADDRESS.html" title=" " alt="" coords="5,226,153,251"/>
+<area shape="poly" id="edge10_Node000006_Node000007" title=" " alt="" coords="168,248,238,249,274,244,308,235,320,226,332,216,362,205,364,210,335,221,323,231,310,240,275,249,238,254,168,254"/>
+<area shape="rect" id="Node000008" href="$structEFI__IP6__ICMP__TYPE.html" title=" " alt="" coords="359,231,507,257"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="520,239,590,229,625,220,659,207,686,191,711,172,749,135,752,139,715,176,689,196,661,212,627,225,591,234,521,244"/>
+</map>

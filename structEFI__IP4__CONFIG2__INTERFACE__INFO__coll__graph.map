@@ -1,0 +1,10 @@
+<map id="EFI_IP4_CONFIG2_INTERFACE_INFO" name="EFI_IP4_CONFIG2_INTERFACE_INFO">
+<area shape="rect" id="Node000001" title=" " alt="" coords="76,215,328,240"/>
+<area shape="rect" id="Node000002" href="$structEFI__MAC__ADDRESS.html" title=" " alt="" coords="5,125,153,150"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,162,97,176,108,189,128,202,151,212,149,217,125,207,104,193,93,179,85,164"/>
+<area shape="rect" id="Node000003" href="$structIPv4__ADDRESS.html" title=" " alt="" coords="164,5,283,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,45,206,215,201,214,218,45"/>
+<area shape="rect" id="Node000004" href="$structEFI__IP4__ROUTE__TABLE.html" title=" " alt="" coords="329,125,497,150"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="255,36,395,122,392,127,252,40"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="373,158,231,217,229,212,371,153"/>
+</map>

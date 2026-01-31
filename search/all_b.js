@@ -1,0 +1,18 @@
+var searchData=
+[
+  ['japanesenecfloppyissupported_0',['JapaneseNecFloppyIsSupported',['../structMISC__BIOS__CHARACTERISTICS.html#ac15bcdfebe71d04d4311369a9bd39a1b',1,'MISC_BIOS_CHARACTERISTICS']]],
+  ['japanesetoshibafloppyissupported_1',['JapaneseToshibaFloppyIsSupported',['../structMISC__BIOS__CHARACTERISTICS.html#a2ecf2b7dd7ba299d688a74001bd1a14c',1,'MISC_BIOS_CHARACTERISTICS']]],
+  ['jmp_2',['jmp',['../struct__FAT__BPB__.html#a538d660429579ea9c2056e209dacc2c3',1,'_FAT_BPB_::jmp'],['../Process_2Files_2main_8cpp.html#ab8ebbfeb517fea7812af441dc3718d02',1,'jmp:&#160;main.cpp']]],
+  ['jmp_5fbuf_3',['jmp_buf',['../setjmp_8h.html#a48e403a8e085db88dbc3d2a9a97ed187',1,'setjmp.h']]],
+  ['jmp_5fm_5fconditional_4',['JMP_M_CONDITIONAL',['../Ebc_8h.html#af631f6d14ee92d24fe5bd8da865d8a8b',1,'Ebc.h']]],
+  ['jmp_5fm_5fcs_5',['JMP_M_CS',['../Ebc_8h.html#a952bfe800ecd2332458c055145340817',1,'Ebc.h']]],
+  ['jmp_5fm_5frelative_6',['JMP_M_RELATIVE',['../Ebc_8h.html#a9c995fcb048995334a80790591f1127b',1,'Ebc.h']]],
+  ['job_7',['job',['../Process_2XEShell_2main_8cpp.html#a0a729bce66882cf7f07e605ca8bf1f38',1,'main.cpp']]],
+  ['journal_5fdev_8',['journal_dev',['../struct__ext2__sb__.html#a2d5e34c52c04cae8f48c354d69757e61',1,'_ext2_sb_']]],
+  ['journal_5finum_9',['journal_inum',['../struct__ext2__sb__.html#aa1b337628ff91d088d277ac163871fdf',1,'_ext2_sb_']]],
+  ['journal_5fuuid_10',['journal_uuid',['../struct__ext2__sb__.html#a5b004d2a268573085789cbc06846f648',1,'_ext2_sb_']]],
+  ['jpeg_11',['Jpeg',['../namespaceJpeg.html',1,'']]],
+  ['jpeg_5fdecoder_5fthrow_12',['JPEG_DECODER_THROW',['../nanojpg_8h.html#a56dc4276b2dc0b3b5cd09a8c75d6dd0f',1,'nanojpg.h']]],
+  ['jump_13',['jump',['../struct__chwin__.html#a74b6a5c96107f0e11379e2ada5e93c5c',1,'_chwin_']]],
+  ['jump_5fbuffer_14',['jump_buffer',['../structFT__ValidatorRec__.html#aa0b346f9ef78939e93c85389aa2b54b3',1,'FT_ValidatorRec_']]]
+];

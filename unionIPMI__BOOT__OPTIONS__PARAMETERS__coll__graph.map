@@ -1,0 +1,31 @@
+<map id="IPMI_BOOT_OPTIONS_PARAMETERS" name="IPMI_BOOT_OPTIONS_PARAMETERS">
+<area shape="rect" id="Node000001" title=" " alt="" coords="725,237,979,262"/>
+<area shape="rect" id="Node000002" href="$unionIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__0.html" title=" " alt="" coords="397,5,632,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="618,48,633,55,701,98,762,150,810,198,842,234,838,238,806,202,758,153,698,103,631,60,616,53"/>
+<area shape="rect" id="Node000003" href="$structIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__1.html" title=" " alt="" coords="397,69,632,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="613,111,633,119,693,147,749,179,834,234,831,239,747,184,690,152,631,124,611,116"/>
+<area shape="rect" id="Node000004" href="$unionIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__2.html" title=" " alt="" coords="397,133,632,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="603,175,633,183,809,234,807,239,631,188,602,180"/>
+<area shape="rect" id="Node000005" href="$unionIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__3.html" title=" " alt="" coords="397,197,632,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="646,227,725,235,725,240,645,232"/>
+<area shape="rect" id="Node000006" href="$structIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__4.html" title=" " alt="" coords="397,261,632,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="645,266,725,259,725,264,646,272"/>
+<area shape="rect" id="Node000007" href="$structIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__5.html" title=" " alt="" coords="397,325,632,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="602,319,631,311,807,259,809,265,633,316,603,324"/>
+<area shape="rect" id="Node000008" href="$unionIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__5__DATA__1.html" title=" " alt="" coords="5,165,240,205"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="213,207,241,215,280,223,312,228,342,237,375,259,385,273,388,287,390,300,399,311,417,323,414,327,395,315,386,302,383,288,380,275,371,263,340,242,311,233,279,229,239,220,211,212"/>
+<area shape="rect" id="Node000009" href="$unionIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__5__DATA__2.html" title=" " alt="" coords="5,229,240,269"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="230,270,374,304,398,311,441,323,440,328,397,316,373,309,229,275"/>
+<area shape="rect" id="Node000010" href="$unionIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__5__DATA__3.html" title=" " alt="" coords="5,293,240,333"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="254,321,398,333,397,338,254,327"/>
+<area shape="rect" id="Node000011" href="$unionIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__5__DATA__4.html" title=" " alt="" coords="5,357,240,397"/>
+<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="254,364,397,352,398,358,254,369"/>
+<area shape="rect" id="Node000012" href="$unionIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__5__DATA__5.html" title=" " alt="" coords="5,421,240,461"/>
+<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="237,416,373,383,397,375,438,363,439,368,398,380,374,388,238,421"/>
+<area shape="rect" id="Node000013" href="$structIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__6.html" title=" " alt="" coords="397,389,632,429"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="611,382,631,375,690,347,747,315,831,260,834,265,749,319,693,351,633,380,613,387"/>
+<area shape="rect" id="Node000014" href="$unionIPMI__BOOT__OPTIONS__CHANNEL__NUMBER.html" title=" " alt="" coords="8,485,237,525"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="218,479,431,427,433,432,219,485"/>
+<area shape="rect" id="Node000015" href="$structIPMI__BOOT__OPTIONS__RESPONSE__PARAMETER__7.html" title=" " alt="" coords="397,453,632,493"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="615,446,631,439,698,396,759,345,807,296,838,260,842,264,811,300,762,349,702,400,633,444,617,451"/>
+</map>

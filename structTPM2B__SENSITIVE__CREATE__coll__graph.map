@@ -1,0 +1,9 @@
+<map id="TPM2B_SENSITIVE_CREATE" name="TPM2B_SENSITIVE_CREATE">
+<area shape="rect" id="Node000001" title=" " alt="" coords="55,181,254,207"/>
+<area shape="rect" id="Node000002" href="$structTPMS__SENSITIVE__CREATE.html" title=" " alt="" coords="60,93,249,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,133,157,181,152,181,152,133"/>
+<area shape="rect" id="Node000003" href="$structTPM2B__DIGEST.html" title=" " alt="" coords="5,5,128,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,38,144,91,141,95,86,42"/>
+<area shape="rect" id="Node000004" href="$structTPM2B__SENSITIVE__DATA.html" title=" " alt="" coords="153,5,335,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="224,42,169,95,165,91,220,38"/>
+</map>

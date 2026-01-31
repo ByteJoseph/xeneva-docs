@@ -1,0 +1,16 @@
+<map id="XenevaOS/BaseHdr/Net/socket.h" name="XenevaOS/BaseHdr/Net/socket.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="95,5,269,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,76,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,48,75,89,73,84,147,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="100,93,171,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,47,152,83,147,80,168,44"/>
+<area shape="rect" id="Node000004" href="$stack_8h.html" title=" " alt="" coords="195,93,265,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="196,44,218,80,213,83,191,47"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="289,93,344,119"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="216,43,286,84,284,89,213,48"/>
+<area shape="rect" id="Node000005" href="$BaseHdr_2stdint_8h.html" title=" " alt="" coords="193,240,264,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="229,120,219,167,220,198,225,226,219,227,214,198,214,166,224,118"/>
+<area shape="rect" id="Node000006" href="$BaseHdr_2aurora_8h.html" title=" " alt="" coords="229,167,305,192"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="239,118,257,153,253,156,234,120"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="263,194,244,229,239,227,259,191"/>
+</map>

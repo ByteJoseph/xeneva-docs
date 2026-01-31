@@ -1,0 +1,43 @@
+<map id="SPD4_MODULE_LOADREDUCED" name="SPD4_MODULE_LOADREDUCED">
+<area shape="rect" id="Node000001" title=" " alt="" coords="584,634,811,659"/>
+<area shape="rect" id="Node000002" href="$unionSPD4__LRDIMM__MODULE__NOMINAL__HEIGHT.html" title=" " alt="" coords="62,23,243,63"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,21,331,17,412,23,453,31,492,44,529,62,562,86,578,104,593,129,619,194,641,273,660,360,686,527,697,634,692,634,680,528,655,361,636,275,614,196,588,131,574,107,558,90,526,66,490,49,451,36,412,28,331,22,257,27"/>
+<area shape="rect" id="Node000003" href="$unionSPD4__LRDIMM__MODULE__NOMINAL__THICKNESS.html" title=" " alt="" coords="62,87,243,127"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,103,343,105,432,112,510,126,540,137,562,150,576,166,590,188,615,244,637,314,656,391,683,538,697,634,692,634,678,539,650,392,632,316,610,246,585,190,572,169,558,154,538,142,508,132,431,118,343,110,258,108"/>
+<area shape="rect" id="Node000004" href="$unionSPD4__LRDIMM__REFERENCE__RAW__CARD.html" title=" " alt="" coords="52,151,253,191"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="267,167,351,170,437,178,511,191,540,201,562,214,586,237,607,262,641,319,666,381,682,444,692,505,698,559,699,634,694,634,692,559,687,505,677,445,661,383,637,321,603,265,582,240,558,218,538,206,510,197,436,183,351,175,267,173"/>
+<area shape="rect" id="Node000005" href="$unionSPD4__LRDIMM__MODULE__ATTRIBUTES.html" title=" " alt="" coords="62,215,243,255"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="258,231,343,233,431,240,509,253,539,263,562,275,602,315,634,363,658,416,675,470,693,568,698,634,693,634,688,569,670,471,653,418,629,366,598,319,558,279,537,268,508,258,430,245,342,238,257,236"/>
+<area shape="rect" id="Node000006" href="$unionSPD4__LRDIMM__THERMAL__HEAT__SPREADER__SOLUTION.html" title=" " alt="" coords="46,279,259,319"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="273,293,355,294,439,300,512,311,540,320,562,331,598,364,627,404,650,448,668,493,689,576,698,633,692,634,684,577,663,494,645,450,623,407,594,368,558,336,538,325,510,317,438,305,355,300,273,298"/>
+<area shape="rect" id="Node000007" href="$unionSPD4__MANUFACTURER__ID__CODE.html" title=" " alt="" coords="34,343,271,369"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="285,349,364,350,444,355,513,365,541,373,561,383,594,410,621,442,643,478,661,515,685,585,696,633,691,635,680,586,656,517,638,480,617,445,590,414,559,388,539,378,512,370,444,360,364,355,285,355"/>
+<area shape="rect" id="Node000008" href="$unionSPD4__LRDIMM__REGISTER__REVISION__NUMBER.html" title=" " alt="" coords="59,393,247,433"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="260,399,331,399,409,406,488,423,526,437,561,455,588,474,611,496,650,547,677,596,694,633,689,635,673,598,645,550,607,500,584,478,559,460,523,442,486,428,408,411,331,404,260,405"/>
+<area shape="rect" id="Node000009" href="$unionSPD4__LRDIMM__ADDRESS__MAPPING__FROM__REGISTER__TO__DRAM.html" title=" " alt="" coords="49,458,256,513"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="270,484,338,490,412,500,488,517,561,542,599,562,634,586,685,632,682,636,631,591,597,566,559,546,487,522,411,505,337,495,270,489"/>
+<area shape="rect" id="Node000010" href="$unionSPD4__LRDIMM__REGISTER__OUTPUT__DRIVE__STRENGTH__FOR__CONTROL__COMMAND__ADDRESS.html" title=" " alt="" coords="15,537,290,591"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="304,572,430,586,561,607,657,631,655,636,559,612,429,591,304,578"/>
+<area shape="rect" id="Node000011" href="$unionSPD4__LRDIMM__REGISTER__OUTPUT__DRIVE__STRENGTH__FOR__CLOCK.html" title=" " alt="" coords="49,615,257,670"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="271,641,584,643,584,649,271,646"/>
+<area shape="rect" id="Node000012" href="$structSPD4__LRDIMM__DATA__BUFFER__REVISION__NUMBER.html" title=" " alt="" coords="44,695,261,735"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="275,699,560,664,612,657,613,662,560,669,275,704"/>
+<area shape="rect" id="Node000013" href="$unionSPD4__LRDIMM__DRAM__VREFDQ__FOR__PACKAGE__RANK.html" title=" " alt="" coords="40,759,265,799"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="279,779,439,776,509,769,559,758,599,736,634,709,684,658,688,661,638,713,602,741,561,762,510,774,439,781,279,784"/>
+<area shape="rect" id="Node000014" href="$structSPD4__LRDIMM__DATA__BUFFER__VREFDQ__FOR__DRAM__INTERFACE.html" title=" " alt="" coords="31,823,274,863"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="288,832,456,818,522,809,559,800,603,769,641,729,669,689,687,658,692,661,673,692,645,732,607,773,561,805,523,814,456,823,288,837"/>
+<area shape="rect" id="Node000015" href="$unionSPD4__LRDIMM__DATA__BUFFER__MDQ__DRIVE__STRENGTH__RTT__FOR__DATA__RATE.html" title=" " alt="" coords="44,891,261,946"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="276,932,357,939,439,942,510,938,538,932,559,923,592,896,620,863,642,825,659,786,682,712,692,659,697,660,687,713,664,788,647,828,624,866,596,900,561,928,540,937,511,943,439,948,356,945,275,937"/>
+<area shape="rect" id="Node000016" href="$unionSPD4__LRDIMM__DRAM__DRIVE__STRENGTH.html" title=" " alt="" coords="47,971,258,1011"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="272,987,449,980,520,973,559,963,595,931,624,891,647,847,664,802,685,717,692,659,698,660,690,718,669,803,651,849,628,894,599,934,561,968,521,978,449,985,272,992"/>
+<area shape="rect" id="Node000017" href="$unionSPD4__LRDIMM__DRAM__ODT__RTT__WR__RTT__NOM__FOR__DATA__RATE.html" title=" " alt="" coords="19,1067,286,1107"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="300,1100,377,1104,452,1104,516,1097,540,1090,558,1081,584,1050,608,1002,629,942,648,875,676,746,691,659,697,660,681,747,653,877,634,944,612,1004,588,1053,562,1085,542,1095,517,1102,452,1109,377,1110,300,1105"/>
+<area shape="rect" id="Node000018" href="$unionSPD4__LRDIMM__DRAM__ODT__RTT__PARK__FOR__DATA__RATE.html" title=" " alt="" coords="48,1181,257,1221"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="271,1214,354,1221,438,1223,511,1217,538,1210,558,1199,574,1183,589,1160,616,1097,638,1018,656,932,681,766,692,659,698,660,686,767,661,933,643,1020,621,1098,594,1162,578,1186,562,1203,540,1215,512,1222,438,1229,354,1226,271,1219"/>
+<area shape="rect" id="Node000019" href="$unionSPD4__LRDIMM__DATA__BUFFER__VREFDQ__FOR__DRAM__INTERFACE__RANGE.html" title=" " alt="" coords="5,1245,300,1285"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="314,1281,388,1285,459,1284,519,1276,542,1269,558,1259,576,1241,591,1215,619,1144,642,1057,660,961,683,777,693,660,698,660,688,777,665,962,647,1058,624,1146,596,1217,580,1244,562,1263,544,1274,520,1281,459,1289,388,1290,314,1286"/>
+<area shape="rect" id="Node000020" href="$unionSPD4__LRDIMM__DATA__BUFFER__DQ__DECISION__FEEDBACK__EQUALIZATION.html" title=" " alt="" coords="44,1310,261,1365"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="266,1365,338,1375,416,1374,455,1369,492,1358,527,1343,558,1321,577,1300,594,1271,623,1192,646,1096,664,990,685,787,693,660,698,660,690,787,669,990,651,1097,628,1194,599,1273,581,1303,562,1325,529,1347,494,1363,456,1374,417,1380,338,1380,265,1370"/>
+<area shape="rect" id="Node000021" href="$unionSPD4__CYCLIC__REDUNDANCY__CODE.html" title=" " alt="" coords="27,1389,279,1414"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="202,1416,279,1436,325,1444,374,1448,423,1447,472,1439,517,1423,558,1397,579,1373,598,1341,614,1300,629,1253,652,1144,669,1025,681,907,688,799,693,659,698,660,693,800,686,907,675,1026,657,1145,634,1254,619,1302,602,1343,583,1376,562,1401,520,1428,473,1444,424,1452,373,1453,324,1449,278,1441,201,1421"/>
+</map>

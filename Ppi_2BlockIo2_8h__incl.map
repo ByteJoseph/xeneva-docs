@@ -1,0 +1,27 @@
+<map id="XenevaOS/Boot/include/Ppi/BlockIo2.h" name="XenevaOS/Boot/include/Ppi/BlockIo2.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="79,5,253,45"/>
+<area shape="rect" id="Node000002" href="$Ppi_2BlockIo_8h.html" title=" " alt="" coords="33,93,139,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,47,110,85,106,82,145,44"/>
+<area shape="rect" id="Node000003" href="$DevicePath_8h.html" title=" " alt="" coords="164,93,328,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,44,226,82,222,85,184,47"/>
+<area shape="rect" id="Node000004" href="$PcAnsi_8h.html" title=" " alt="" coords="5,167,116,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="217,121,104,164,103,159,215,116"/>
+<area shape="rect" id="Node000005" href="$Bluetooth_8h.html" title=" " alt="" coords="140,167,352,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="249,119,249,153,243,153,243,119"/>
+<area shape="rect" id="Node000006" href="$Acpi60_8h.html" title=" " alt="" coords="376,167,569,192"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="283,116,424,160,422,165,282,121"/>
+<area shape="rect" id="Node000007" href="$Acpi51_8h.html" title=" " alt="" coords="376,240,569,265"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="475,192,475,226,470,226,470,192"/>
+<area shape="rect" id="Node000008" href="$Acpi50_8h.html" title=" " alt="" coords="376,313,569,339"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="475,266,475,300,470,300,470,266"/>
+<area shape="rect" id="Node000009" href="$Acpi40_8h.html" title=" " alt="" coords="376,387,569,412"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="475,339,475,373,470,373,470,339"/>
+<area shape="rect" id="Node000010" href="$Acpi30_8h.html" title=" " alt="" coords="376,460,569,485"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="475,412,475,446,470,446,470,412"/>
+<area shape="rect" id="Node000011" href="$Acpi20_8h.html" title=" " alt="" coords="376,533,569,559"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="475,486,475,520,470,520,470,486"/>
+<area shape="rect" id="Node000012" href="$Acpi10_8h.html" title=" " alt="" coords="376,607,569,632"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="475,559,475,593,470,593,470,559"/>
+<area shape="rect" id="Node000013" href="$AcpiAml_8h.html" title=" " alt="" coords="371,680,574,705"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="475,632,475,666,470,666,470,632"/>
+</map>

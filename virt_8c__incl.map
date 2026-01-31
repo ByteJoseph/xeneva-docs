@@ -1,0 +1,24 @@
+<map id="XenevaOS/KernelAA64/Board/Virt/virt.c" name="XenevaOS/KernelAA64/Board/Virt/virt.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="285,5,453,45"/>
+<area shape="rect" id="Node000002" href="$pcie_8h.html" title=" " alt="" coords="204,93,265,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="338,48,268,89,265,84,336,43"/>
+<area shape="rect" id="Node000009" href="$BaseHdr_2Drivers_2virtio_8h.html" title=" " alt="" coords="310,93,429,119"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="372,46,372,79,367,79,367,46"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="453,93,523,119"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="400,43,461,84,458,88,397,48"/>
+<area shape="rect" id="Node000003" href="$BaseHdr_2stdint_8h.html" title=" " alt="" coords="281,167,351,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="249,117,294,156,291,160,246,121"/>
+<area shape="rect" id="Node000004" href="$basicacpi_8h.html" title=" " alt="" coords="135,167,257,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="231,120,211,156,206,153,226,118"/>
+<area shape="rect" id="Node000007" href="$hal_8h.html" title=" " alt="" coords="31,167,111,192"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="209,121,111,164,109,159,207,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="194,240,265,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="204,191,221,227,216,229,199,193"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="94,240,170,265"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="187,194,153,232,149,228,183,191"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="97,190,192,232,190,237,95,194"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="83,191,115,228,111,231,79,194"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,240,69,265"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="68,193,51,229,46,227,63,191"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="375,119,377,154,374,175,365,193,347,212,325,227,279,245,277,240,323,222,344,208,360,191,369,173,372,154,369,119"/>
+</map>

@@ -1,0 +1,37 @@
+<map id="XenevaOS/Libs/Chitralekha/widgets/onoff.h" name="XenevaOS/Libs/Chitralekha/widgets/onoff.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="216,5,414,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="173,313,244,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="264,48,202,76,131,118,97,143,64,172,36,205,13,241,8,260,14,276,28,289,49,299,104,313,160,320,159,325,103,319,47,304,25,293,9,279,3,261,8,239,32,202,61,169,93,139,128,113,199,71,262,43"/>
+<area shape="rect" id="Node000003" href="$base_8h.html" title=" " alt="" coords="176,167,241,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="304,47,226,157,222,154,299,44"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="701,167,820,192"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="371,43,714,160,712,165,369,48"/>
+<area shape="rect" id="Node000010" href="$Libs_2Chitralekha_2widgets_2window_8h.html" title=" " alt="" coords="364,93,447,119"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="339,44,383,82,380,86,335,48"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="176,186,119,194,61,208,38,219,23,231,18,246,25,264,53,290,87,307,124,317,159,321,159,327,123,322,85,312,50,294,21,267,12,246,18,228,35,214,59,203,118,188,175,181"/>
+<area shape="rect" id="Node000004" href="$__keipcpostbox_8h.html" title=" " alt="" coords="132,240,285,265"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="211,192,211,226,206,226,206,192"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="35,240,107,265"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="187,194,107,236,104,231,185,190"/>
+<area shape="rect" id="Node000006" href="$__xeneva_8h.html" title=" " alt="" coords="503,240,591,265"/>
+<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="242,185,490,237,489,242,241,190"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="211,266,211,300,206,300,206,266"/>
+<area shape="rect" id="Node000007" href="$Libs_2XEClib_2includes_2stdint_8h.html" title=" " alt="" coords="512,313,582,339"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="550,266,550,300,544,300,544,266"/>
+<area shape="rect" id="Node000008" href="$size__t_8h.html" title=" " alt="" coords="511,387,583,412"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="550,339,550,373,544,373,544,339"/>
+<area shape="poly" id="edge12_Node000010_Node000002" title=" " alt="" coords="371,121,335,140,319,152,306,168,301,181,299,192,302,215,306,239,305,252,298,267,277,291,251,309,248,305,274,287,294,264,299,251,301,239,297,216,294,192,296,179,302,165,316,149,332,135,368,116"/>
+<area shape="poly" id="edge16_Node000010_Node000003" title=" " alt="" coords="375,121,254,164,252,159,373,116"/>
+<area shape="poly" id="edge13_Node000010_Node000009" title=" " alt="" coords="447,113,691,161,690,167,446,118"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="316,167,394,192"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="399,121,373,157,369,154,395,117"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="418,167,495,192"/>
+<area shape="poly" id="edge15_Node000010_Node000012" title=" " alt="" coords="416,117,442,154,438,157,412,121"/>
+<area shape="rect" id="Node000013" href="$Libs_2Chitralekha_2widgets_2list_8h.html" title=" " alt="" coords="520,167,574,192"/>
+<area shape="poly" id="edge17_Node000010_Node000013" title=" " alt="" coords="429,116,513,158,511,163,427,121"/>
+<area shape="rect" id="Node000014" href="$setjmp_8h.html" title=" " alt="" coords="598,167,677,192"/>
+<area shape="poly" id="edge20_Node000010_Node000014" title=" " alt="" coords="444,116,588,160,586,165,442,121"/>
+<area shape="poly" id="edge18_Node000013_Node000002" title=" " alt="" coords="521,195,249,310,246,306,519,190"/>
+<area shape="poly" id="edge19_Node000013_Node000006" title=" " alt="" coords="550,192,550,226,544,226,544,192"/>
+<area shape="poly" id="edge21_Node000014_Node000006" title=" " alt="" coords="625,194,574,233,571,229,621,190"/>
+</map>

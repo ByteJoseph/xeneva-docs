@@ -1,0 +1,9 @@
+<map id="EFI_ACPI_6_2_GENERIC_HARDWARE_ERROR_SOURCE_STRUCTURE" name="EFI_ACPI_6_2_GENERIC_HARDWARE_ERROR_SOURCE_STRUCTURE">
+<area shape="rect" id="Node000001" title=" " alt="" coords="961,30,1180,85"/>
+<area shape="rect" id="Node000002" href="$structEFI__ACPI__6__2__GENERIC__ADDRESS__STRUCTURE.html" title=" " alt="" coords="556,5,733,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="747,30,961,46,961,52,747,36"/>
+<area shape="rect" id="Node000003" href="$structEFI__ACPI__6__2__HARDWARE__ERROR__NOTIFICATION__STRUCTURE.html" title=" " alt="" coords="515,69,775,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="788,76,937,65,961,63,961,69,938,71,789,82"/>
+<area shape="rect" id="Node000004" href="$structEFI__ACPI__6__2__HARDWARE__ERROR__NOTIFICATION__CONFIGURATION__WRITE__ENABLE__STRUCTURE.html" title=" " alt="" coords="5,62,296,117"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="310,87,514,87,514,92,310,92"/>
+</map>

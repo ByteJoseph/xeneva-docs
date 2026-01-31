@@ -1,0 +1,6 @@
+<map id="_EFI_SERIAL_IO_PROTOCOL" name="_EFI_SERIAL_IO_PROTOCOL">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,125,205,150"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="172,121,213,123,226,128,232,137,225,147,208,152,158,153,158,147,207,147,222,143,227,137,223,133,211,129,171,126"/>
+<area shape="rect" id="Node000002" href="$structEFI__SERIAL__IO__MODE.html" title=" " alt="" coords="24,5,187,31"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="108,45,108,124,103,124,103,45"/>
+</map>

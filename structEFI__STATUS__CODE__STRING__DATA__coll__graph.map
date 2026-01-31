@@ -1,0 +1,11 @@
+<map id="EFI_STATUS_CODE_STRING_DATA" name="EFI_STATUS_CODE_STRING_DATA">
+<area shape="rect" id="Node000001" title=" " alt="" coords="84,196,323,221"/>
+<area shape="rect" id="Node000002" href="$structEFI__STATUS__CODE__DATA.html" title=" " alt="" coords="5,108,188,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,140,191,194,187,198,120,144"/>
+<area shape="rect" id="Node000003" href="$structGUID.html" title=" " alt="" coords="69,13,125,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,52,99,108,94,108,94,52"/>
+<area shape="rect" id="Node000004" href="$unionEFI__STATUS__CODE__STRING.html" title=" " alt="" coords="212,108,411,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="288,144,220,198,216,194,284,140"/>
+<area shape="rect" id="Node000005" href="$structEFI__STATUS__CODE__STRING__TOKEN.html" title=" " alt="" coords="212,5,411,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="314,59,314,108,309,108,309,59"/>
+</map>

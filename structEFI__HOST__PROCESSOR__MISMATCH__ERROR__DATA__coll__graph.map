@@ -1,0 +1,7 @@
+<map id="EFI_HOST_PROCESSOR_MISMATCH_ERROR_DATA" name="EFI_HOST_PROCESSOR_MISMATCH_ERROR_DATA">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,181,197,221"/>
+<area shape="rect" id="Node000002" href="$structEFI__STATUS__CODE__DATA.html" title=" " alt="" coords="10,93,193,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,132,104,181,99,181,99,132"/>
+<area shape="rect" id="Node000003" href="$structGUID.html" title=" " alt="" coords="73,5,129,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,45,104,93,99,93,99,45"/>
+</map>

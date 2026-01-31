@@ -1,0 +1,19 @@
+<map id="_EFI_SPI_IO_PROTOCOL" name="_EFI_SPI_IO_PROTOCOL">
+<area shape="rect" id="Node000001" title=" " alt="" coords="495,275,669,301"/>
+<area shape="poly" id="edge10_Node000001_Node000001" title=" " alt="" coords="685,279,696,288,688,296,670,300,669,295,686,292,691,288,682,283"/>
+<area shape="rect" id="Node000002" href="$struct__EFI__SPI__PERIPHERAL.html" title=" " alt="" coords="261,132,423,157"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="367,164,420,205,486,247,546,273,544,278,483,252,417,209,364,168"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="392,127,431,129,444,135,450,145,443,156,426,162,379,160,379,155,425,156,440,152,445,145,441,139,430,134,392,133"/>
+<area shape="rect" id="Node000005" href="$struct__EFI__SPI__BUS.html" title=" " alt="" coords="185,275,296,301"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="302,166,266,189,251,204,239,221,235,234,234,249,239,275,234,276,229,249,230,234,234,219,247,200,263,185,299,161"/>
+<area shape="rect" id="Node000003" href="$structGUID.html" title=" " alt="" coords="218,5,274,31"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="245,44,250,68,263,88,281,105,319,130,316,134,278,109,259,91,245,70,240,45"/>
+<area shape="rect" id="Node000004" href="$struct__EFI__SPI__PART.html" title=" " alt="" coords="381,5,495,31"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="428,45,411,71,356,134,352,130,407,68,423,42"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="302,268,327,248,338,225,342,201,341,158,347,158,348,201,343,227,331,251,305,272"/>
+<area shape="rect" id="Node000006" href="$structEFI__DEVICE__PATH__PROTOCOL.html" title=" " alt="" coords="5,132,220,157"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="113,171,115,210,121,230,132,248,156,266,186,277,184,282,154,271,128,251,117,232,110,211,107,171"/>
+<area shape="rect" id="Node000007" href="$struct__EFI__LEGACY__SPI__CONTROLLER__PROTOCOL.html" title=" " alt="" coords="589,125,817,165"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="688,178,664,214,633,251,602,277,598,273,629,247,659,211,683,175"/>
+<area shape="poly" id="edge9_Node000007_Node000007" title=" " alt="" coords="832,132,841,137,844,145,836,155,818,161,817,156,833,151,839,144,837,141,830,137"/>
+</map>

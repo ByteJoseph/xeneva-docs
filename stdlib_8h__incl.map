@@ -1,0 +1,18 @@
+<map id="XenevaOS/Libs/XEClib/includes/stdlib.h" name="XenevaOS/Libs/XEClib/includes/stdlib.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="75,5,240,45"/>
+<area shape="rect" id="Node000002" href="$__xeneva_8h.html" title=" " alt="" coords="80,167,168,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,46,132,154,127,152,151,45"/>
+<area shape="rect" id="Node000005" href="$stddef_8h.html" title=" " alt="" coords="5,93,80,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="131,48,72,88,69,83,128,43"/>
+<area shape="rect" id="Node000006" href="$__xeprint_8h.html" title=" " alt="" coords="155,93,242,119"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="170,44,188,80,184,82,165,47"/>
+<area shape="rect" id="Node000007" href="$Libs_2XEClib_2includes_2stdarg_8h.html" title=" " alt="" coords="217,167,292,192"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="204,43,234,64,257,92,265,123,263,153,258,153,260,124,252,95,230,68,201,48"/>
+<area shape="rect" id="Node000003" href="$Libs_2XEClib_2includes_2stdint_8h.html" title=" " alt="" coords="47,240,118,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,194,99,229,94,227,115,191"/>
+<area shape="rect" id="Node000004" href="$size__t_8h.html" title=" " alt="" coords="47,313,119,339"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="85,266,85,300,80,300,80,266"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="49,118,78,226,73,227,43,120"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="189,121,148,159,144,155,185,117"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="210,117,239,154,235,157,206,121"/>
+</map>

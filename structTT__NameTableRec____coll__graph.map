@@ -1,0 +1,14 @@
+<map id="TT_NameTableRec_" name="TT_NameTableRec_">
+<area shape="rect" id="Node000001" title=" " alt="" coords="135,200,284,225"/>
+<area shape="rect" id="Node000002" href="$structTT__NameRec__.html" title=" " alt="" coords="5,110,120,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,140,192,198,189,202,92,145"/>
+<area shape="rect" id="Node000003" href="$structTT__LangTagRec__.html" title=" " alt="" coords="145,110,274,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,149,212,200,207,200,207,149"/>
+<area shape="rect" id="Node000004" href="$structFT__StreamRec__.html" title=" " alt="" coords="299,110,421,135"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="332,145,277,178,233,202,230,198,275,174,329,140"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="436,114,448,123,440,131,422,134,421,128,437,126,443,123,434,118"/>
+<area shape="rect" id="Node000005" href="$unionFT__StreamDesc__.html" title=" " alt="" coords="217,5,348,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="302,41,353,108,349,111,298,44"/>
+<area shape="rect" id="Node000006" href="$structFT__MemoryRec__.html" title=" " alt="" coords="373,5,502,31"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="431,45,407,86,379,112,376,108,403,82,426,42"/>
+</map>

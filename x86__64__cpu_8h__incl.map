@@ -1,0 +1,24 @@
+<map id="XenevaOS/BaseHdr/Hal/x86_64_cpu.h" name="XenevaOS/BaseHdr/Hal/x86_64_cpu.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="176,5,351,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,240,76,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,47,64,232,60,228,243,44"/>
+<area shape="rect" id="Node000003" href="$process_8h.html" title=" " alt="" coords="221,93,305,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="266,46,266,79,261,79,261,46"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="330,93,394,119"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="289,43,338,82,335,87,286,48"/>
+<area shape="rect" id="Node000004" href="$BaseHdr_2stdint_8h.html" title=" " alt="" coords="357,313,428,339"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="290,116,325,136,359,165,382,199,394,239,398,270,398,299,392,299,393,271,389,241,377,201,355,168,322,141,288,121"/>
+<area shape="rect" id="Node000005" href="$vfs_8h.html" title=" " alt="" coords="145,167,219,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="252,121,207,160,204,156,249,117"/>
+<area shape="rect" id="Node000008" href="$BaseHdr_2list_8h.html" title=" " alt="" coords="289,167,344,192"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="274,117,302,154,298,157,270,121"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="160,194,77,236,75,231,158,190"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="200,240,255,265"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="192,191,215,227,210,230,187,194"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="100,240,176,265"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="177,194,155,230,150,227,172,191"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="331,190,351,212,370,239,383,269,391,299,385,300,378,271,365,241,347,215,327,194"/>
+<area shape="rect" id="Node000009" href="$BaseHdr_2aurora_8h.html" title=" " alt="" coords="279,240,355,265"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="319,192,319,226,314,226,314,192"/>
+<area shape="poly" id="edge11_Node000009_Node000004" title=" " alt="" coords="331,263,372,302,368,306,327,267"/>
+</map>

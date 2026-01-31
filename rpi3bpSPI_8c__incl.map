@@ -1,0 +1,41 @@
+<map id="XenevaOS/KernelAA64/Board/Rpi3bp/rpi3bpSPI.c" name="XenevaOS/KernelAA64/Board/Rpi3bp/rpi3bpSPI.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="715,5,904,45"/>
+<area shape="rect" id="Node000002" href="$rpi3bp__spi_8h.html" title=" " alt="" coords="5,93,160,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="715,36,474,58,326,75,174,96,173,91,325,70,473,53,714,31"/>
+<area shape="rect" id="Node000004" href="$rpi3_8h.html" title=" " alt="" coords="1155,101,1277,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="905,42,1143,91,1160,95,1159,100,1142,96,904,47"/>
+<area shape="rect" id="Node000005" href="$aucon_8h.html" title=" " alt="" coords="1302,101,1375,126"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="905,31,1085,51,1188,68,1290,91,1300,94,1299,99,1289,96,1187,74,1084,57,904,36"/>
+<area shape="rect" id="Node000008" href="$rpi3bp__gpio_8h.html" title=" " alt="" coords="184,93,339,133"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="715,41,550,64,352,96,352,91,549,59,714,36"/>
+<area shape="rect" id="Node000010" href="$aa64lowlevel_8h.html" title=" " alt="" coords="803,101,989,126"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="830,44,876,89,872,92,827,48"/>
+<area shape="rect" id="Node000011" href="$BaseHdr_2Mm_2vmmngr_8h.html" title=" " alt="" coords="363,101,480,126"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="715,48,493,96,477,100,476,95,491,91,714,43"/>
+<area shape="rect" id="Node000012" href="$rpi3bp_8h.html" title=" " alt="" coords="1399,101,1566,126"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="905,33,1126,56,1388,91,1416,95,1415,101,1388,96,1125,61,904,38"/>
+<area shape="rect" id="Node000013" href="$pmmngr_8h.html" title=" " alt="" coords="1013,101,1131,126"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="868,43,1025,94,1023,99,866,48"/>
+<area shape="rect" id="Node000014" href="$uart_8h.html" title=" " alt="" coords="669,101,779,126"/>
+<area shape="poly" id="edge18_Node000001_Node000014" title=" " alt="" coords="792,47,747,92,744,89,789,44"/>
+<area shape="rect" id="Node000016" href="$devinput_8h.html" title=" " alt="" coords="505,101,645,126"/>
+<area shape="poly" id="edge21_Node000001_Node000016" title=" " alt="" coords="759,48,619,99,618,94,757,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="386,181,457,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="161,130,373,179,372,184,160,135"/>
+<area shape="rect" id="Node000006" href="$BaseHdr_2aurora_8h.html" title=" " alt="" coords="1301,181,1377,207"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1341,126,1341,167,1336,167,1336,126"/>
+<area shape="rect" id="Node000007" href="$BaseHdr_2stdint_8h.html" title=" " alt="" coords="1303,255,1374,280"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1341,207,1341,241,1336,241,1336,207"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="301,131,387,173,384,178,298,136"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="537,181,613,207"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="337,131,523,177,522,182,336,136"/>
+<area shape="poly" id="edge11_Node000010_Node000009" title=" " alt="" coords="850,129,627,183,626,178,849,123"/>
+<area shape="poly" id="edge13_Node000011_Node000003" title=" " alt="" coords="424,126,424,167,419,167,419,126"/>
+<area shape="poly" id="edge14_Node000011_Node000009" title=" " alt="" coords="445,124,541,173,539,177,443,129"/>
+<area shape="poly" id="edge17_Node000013_Node000009" title=" " alt="" coords="1032,129,1000,136,627,188,626,183,1000,131,1031,123"/>
+<area shape="poly" id="edge20_Node000014_Node000003" title=" " alt="" coords="684,129,657,136,471,183,469,178,655,131,682,123"/>
+<area shape="rect" id="Node000015" href="$aa64hcode_8h.html" title=" " alt="" coords="671,181,777,207"/>
+<area shape="poly" id="edge19_Node000014_Node000015" title=" " alt="" coords="727,126,727,167,721,167,721,126"/>
+<area shape="poly" id="edge22_Node000016_Node000003" title=" " alt="" coords="553,129,457,177,455,173,551,124"/>
+<area shape="poly" id="edge23_Node000016_Node000009" title=" " alt="" coords="577,126,577,167,572,167,572,126"/>
+</map>

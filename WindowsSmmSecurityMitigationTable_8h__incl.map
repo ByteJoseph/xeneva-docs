@@ -1,0 +1,25 @@
+<map id="XenevaOS/Boot/include/IndustryStandard/WindowsSmmSecurityMitigationTable.h" name="XenevaOS/Boot/include/IndustryStandard/WindowsSmmSecurityMitigationTable.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,240,60"/>
+<area shape="rect" id="Node000002" href="$IndustryStandard_2Acpi_8h.html" title=" " alt="" coords="34,108,211,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,60,125,94,120,94,120,60"/>
+<area shape="rect" id="Node000003" href="$Acpi62_8h.html" title=" " alt="" coords="26,181,219,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,134,125,168,120,168,120,134"/>
+<area shape="rect" id="Node000004" href="$Acpi61_8h.html" title=" " alt="" coords="26,255,219,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="125,207,125,241,120,241,120,207"/>
+<area shape="rect" id="Node000005" href="$Acpi60_8h.html" title=" " alt="" coords="26,328,219,353"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="125,280,125,314,120,314,120,280"/>
+<area shape="rect" id="Node000006" href="$Acpi51_8h.html" title=" " alt="" coords="26,401,219,427"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="125,354,125,388,120,388,120,354"/>
+<area shape="rect" id="Node000007" href="$Acpi50_8h.html" title=" " alt="" coords="26,475,219,500"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="125,427,125,461,120,461,120,427"/>
+<area shape="rect" id="Node000008" href="$Acpi40_8h.html" title=" " alt="" coords="26,548,219,573"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="125,500,125,534,120,534,120,500"/>
+<area shape="rect" id="Node000009" href="$Acpi30_8h.html" title=" " alt="" coords="26,621,219,647"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="125,574,125,608,120,608,120,574"/>
+<area shape="rect" id="Node000010" href="$Acpi20_8h.html" title=" " alt="" coords="26,695,219,720"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="125,647,125,681,120,681,120,647"/>
+<area shape="rect" id="Node000011" href="$Acpi10_8h.html" title=" " alt="" coords="26,768,219,793"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="125,720,125,754,120,754,120,720"/>
+<area shape="rect" id="Node000012" href="$AcpiAml_8h.html" title=" " alt="" coords="21,841,224,867"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="125,794,125,828,120,828,120,794"/>
+</map>

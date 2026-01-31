@@ -1,0 +1,51 @@
+<map id="XenevaOS/Kernel/Mm/vmmngr.cpp" name="XenevaOS/Kernel/Mm/vmmngr.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="407,5,570,45"/>
+<area shape="rect" id="Node000002" href="$BaseHdr_2Mm_2vmmngr_8h.html" title=" " alt="" coords="131,240,249,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="461,48,392,95,293,171,216,233,213,229,290,167,389,91,458,43"/>
+<area shape="rect" id="Node000005" href="$pmmngr_8h.html" title=" " alt="" coords="377,167,494,192"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="485,47,447,154,442,153,480,45"/>
+<area shape="rect" id="Node000006" href="$aucon_8h.html" title=" " alt="" coords="692,93,765,119"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="547,43,682,87,680,92,545,48"/>
+<area shape="rect" id="Node000009" href="$x86__64__lowlevel_8h.html" title=" " alt="" coords="273,240,443,265"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="466,47,414,98,388,131,367,168,360,197,359,226,353,226,355,197,362,166,383,128,410,94,463,43"/>
+<area shape="rect" id="Node000010" href="$x86__64__cpu_8h.html" title=" " alt="" coords="51,93,188,119"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="408,46,187,93,186,88,407,41"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="719,167,789,192"/>
+<area shape="poly" id="edge24_Node000001_Node000016" title=" " alt="" coords="534,43,630,91,729,156,726,161,627,96,531,48"/>
+<area shape="rect" id="Node000017" href="$__null_8h.html" title=" " alt="" coords="789,93,855,119"/>
+<area shape="poly" id="edge25_Node000001_Node000017" title=" " alt="" coords="571,42,776,90,775,95,570,48"/>
+<area shape="rect" id="Node000018" href="$serial_8h.html" title=" " alt="" coords="521,93,617,119"/>
+<area shape="poly" id="edge26_Node000001_Node000018" title=" " alt="" coords="510,44,549,82,545,85,506,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="155,313,225,339"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="193,266,193,300,187,300,187,266"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="320,313,396,339"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="218,263,319,305,317,310,216,268"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="445,191,460,226,462,247,457,267,434,292,406,310,403,306,431,288,452,264,457,246,455,227,440,193"/>
+<area shape="rect" id="Node000007" href="$BaseHdr_2aurora_8h.html" title=" " alt="" coords="745,313,821,339"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="754,117,782,136,805,165,814,201,813,238,806,273,796,302,791,300,801,272,808,238,809,202,800,168,778,140,751,121"/>
+<area shape="rect" id="Node000008" href="$BaseHdr_2stdint_8h.html" title=" " alt="" coords="672,387,743,412"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="773,341,732,379,728,375,769,337"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="332,268,231,310,229,305,330,263"/>
+<area shape="poly" id="edge11_Node000009_Node000004" title=" " alt="" coords="361,266,361,300,355,300,355,266"/>
+<area shape="poly" id="edge13_Node000010_Node000003" title=" " alt="" coords="81,121,46,139,30,152,18,168,11,186,8,212,11,239,23,264,41,277,71,290,142,311,141,316,69,295,38,282,19,267,6,240,3,212,6,185,13,165,26,148,43,135,79,116"/>
+<area shape="rect" id="Node000011" href="$process_8h.html" title=" " alt="" coords="28,167,112,192"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="114,121,88,157,84,154,109,117"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="137,167,201,192"/>
+<area shape="poly" id="edge23_Node000010_Node000015" title=" " alt="" coords="130,117,155,154,151,157,125,121"/>
+<area shape="poly" id="edge15_Node000011_Node000008" title=" " alt="" coords="58,194,39,214,23,241,19,265,20,294,25,321,32,337,44,344,65,351,127,363,306,380,505,390,659,395,659,400,504,396,306,386,126,368,63,356,42,349,28,340,20,322,15,294,14,264,18,239,35,211,54,190"/>
+<area shape="rect" id="Node000012" href="$vfs_8h.html" title=" " alt="" coords="33,240,107,265"/>
+<area shape="poly" id="edge16_Node000011_Node000012" title=" " alt="" coords="73,192,73,226,67,226,67,192"/>
+<area shape="rect" id="Node000014" href="$BaseHdr_2list_8h.html" title=" " alt="" coords="719,240,773,265"/>
+<area shape="poly" id="edge20_Node000011_Node000014" title=" " alt="" coords="113,187,125,189,294,211,459,228,705,246,705,252,459,233,293,217,124,195,112,193"/>
+<area shape="poly" id="edge17_Node000012_Node000003" title=" " alt="" coords="91,263,160,304,157,308,88,268"/>
+<area shape="poly" id="edge19_Node000012_Node000004" title=" " alt="" coords="108,261,307,309,306,315,107,266"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="43,313,97,339"/>
+<area shape="poly" id="edge18_Node000012_Node000013" title=" " alt="" coords="73,266,73,300,67,300,67,266"/>
+<area shape="poly" id="edge22_Node000014_Node000007" title=" " alt="" coords="755,264,774,300,769,303,750,267"/>
+<area shape="poly" id="edge21_Node000014_Node000008" title=" " alt="" coords="746,266,717,374,712,373,740,265"/>
+<area shape="poly" id="edge27_Node000018_Node000003" title=" " alt="" coords="566,120,552,150,528,190,496,232,456,268,416,284,359,299,240,320,239,315,358,294,414,279,453,263,492,229,524,187,547,147,562,118"/>
+<area shape="poly" id="edge30_Node000018_Node000004" title=" " alt="" coords="598,116,623,130,646,147,660,168,662,181,658,193,636,225,609,251,578,272,543,289,473,311,410,323,409,318,471,306,541,284,575,267,606,246,632,221,653,191,656,180,655,170,642,151,620,134,596,121"/>
+<area shape="poly" id="edge29_Node000018_Node000016" title=" " alt="" coords="600,116,712,159,710,164,598,121"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="569,167,643,192"/>
+<area shape="poly" id="edge28_Node000018_Node000019" title=" " alt="" coords="577,118,596,153,591,156,573,120"/>
+</map>

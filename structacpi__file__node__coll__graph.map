@@ -1,0 +1,7 @@
+<map id="acpi_file_node" name="acpi_file_node">
+<area shape="rect" id="Node000001" title=" " alt="" coords="27,95,141,121"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="156,99,168,108,160,116,142,119,141,114,157,111,163,108,154,104"/>
+<area shape="rect" id="Node000002" href="$structacpi__comment__node.html" title=" " alt="" coords="5,5,163,31"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="87,44,87,95,81,95,81,44"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="177,10,189,18,181,25,163,28,162,23,179,20,184,18,175,14"/>
+</map>

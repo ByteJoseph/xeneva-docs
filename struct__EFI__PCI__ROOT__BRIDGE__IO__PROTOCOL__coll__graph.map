@@ -1,0 +1,7 @@
+<map id="_EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL" name="_EFI_PCI_ROOT_BRIDGE_IO_PROTOCOL">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,66,184,106"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="150,61,172,60,191,64,205,72,211,86,204,101,186,110,163,112,137,109,137,103,163,107,185,105,200,98,205,86,201,76,190,69,172,65,151,66"/>
+<area shape="rect" id="Node000002" href="$structEFI__PCI__ROOT__BRIDGE__IO__PROTOCOL__ACCESS.html" title=" " alt="" coords="5,259,184,299"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="79,119,67,145,58,174,55,204,60,234,75,257,71,260,55,236,49,204,53,173,62,143,74,117"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="97,245,97,235,98,164,94,107,99,106,103,164,103,235,102,245"/>
+</map>

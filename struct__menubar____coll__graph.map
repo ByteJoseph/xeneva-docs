@@ -1,0 +1,30 @@
+<map id="_menubar_" name="_menubar_">
+<area shape="rect" id="Node000001" title=" " alt="" coords="253,420,347,445"/>
+<area shape="rect" id="Node000002" href="$struct__ChWidget__.html" title=" " alt="" coords="139,229,237,255"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,268,189,312,193,335,202,356,217,376,236,393,276,418,273,422,233,397,213,380,198,359,188,336,183,312,182,269"/>
+<area shape="rect" id="Node000005" href="$struct__popup__menu__.html" title=" " alt="" coords="240,332,360,357"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="213,262,289,330,286,334,209,266"/>
+<area shape="rect" id="Node000003" href="$struct__list__.html" title=" " alt="" coords="452,97,508,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="500,133,515,158,529,188,536,222,532,255,511,304,487,339,456,368,412,398,381,414,349,425,347,420,379,409,409,394,452,363,483,335,506,302,527,254,531,222,524,190,511,160,495,135"/>
+<area shape="poly" id="edge16_Node000005_Node000003" title=" " alt="" coords="479,137,470,175,454,222,430,269,395,310,374,324,350,334,348,330,371,320,392,306,425,266,449,220,465,174,473,136"/>
+<area shape="rect" id="Node000006" href="$struct__chwin__.html" title=" " alt="" coords="261,229,336,255"/>
+<area shape="poly" id="edge14_Node000006_Node000003" title=" " alt="" coords="440,125,439,125,412,130,391,132,371,136,350,149,338,161,332,174,320,206,307,230,303,228,315,204,327,172,333,158,346,145,369,131,390,126,412,125,438,120,438,120"/>
+<area shape="rect" id="Node000004" href="$struct__data__.html" title=" " alt="" coords="447,7,513,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="483,46,483,97,477,97,477,46"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="528,10,536,13,539,20,531,29,513,31,513,26,529,24,534,20,532,17,526,15"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="303,371,303,419,297,419,297,371"/>
+<area shape="poly" id="edge17_Node000005_Node000005" title=" " alt="" coords="375,336,387,345,378,352,360,355,360,350,376,348,381,345,372,341"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="302,269,303,332,297,332,296,269"/>
+<area shape="poly" id="edge15_Node000006_Node000006" title=" " alt="" coords="351,231,359,235,363,242,354,252,337,254,336,249,352,247,357,242,355,239,349,236"/>
+<area shape="rect" id="Node000007" href="$struct__ChCanvas__.html" title=" " alt="" coords="5,97,107,123"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="78,131,119,168,170,203,262,229,261,234,168,208,116,172,75,135"/>
+<area shape="rect" id="Node000008" href="$struct__ChSharedWin__.html" title=" " alt="" coords="131,97,253,123"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="205,134,225,168,251,203,281,227,277,231,247,207,220,171,201,136"/>
+<area shape="rect" id="Node000009" href="$struct__chrect__.html" title=" " alt="" coords="154,7,230,33"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="195,46,195,97,189,97,189,46"/>
+<area shape="rect" id="Node000010" href="$struct__ChApp__.html" title=" " alt="" coords="278,97,357,123"/>
+<area shape="poly" id="edge11_Node000006_Node000010" title=" " alt="" coords="298,135,291,148,286,169,287,191,297,229,292,230,282,192,281,169,285,146,293,132"/>
+<area shape="poly" id="edge13_Node000010_Node000010" title=" " alt="" coords="371,101,379,104,383,110,375,118,357,121,357,115,373,114,378,110,376,108,369,106"/>
+<area shape="rect" id="Node000011" href="$struct__ch__font__.html" title=" " alt="" coords="275,7,359,33"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="320,46,320,97,315,97,315,46"/>
+</map>

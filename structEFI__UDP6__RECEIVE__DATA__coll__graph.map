@@ -1,0 +1,11 @@
+<map id="EFI_UDP6_RECEIVE_DATA" name="EFI_UDP6_RECEIVE_DATA">
+<area shape="rect" id="Node000001" title=" " alt="" coords="112,196,300,221"/>
+<area shape="rect" id="Node000002" href="$structEFI__TIME.html" title=" " alt="" coords="5,108,87,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,139,122,170,175,193,173,198,119,174,71,144"/>
+<area shape="rect" id="Node000003" href="$structEFI__UDP6__SESSION__DATA.html" title=" " alt="" coords="111,108,301,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,147,209,195,203,195,203,147"/>
+<area shape="rect" id="Node000004" href="$structIPv6__ADDRESS.html" title=" " alt="" coords="147,5,265,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="209,45,209,108,203,108,203,45"/>
+<area shape="rect" id="Node000005" href="$structEFI__UDP6__FRAGMENT__DATA.html" title=" " alt="" coords="325,108,532,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="387,141,237,198,235,193,385,136"/>
+</map>

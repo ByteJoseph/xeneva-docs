@@ -1,0 +1,15 @@
+<map id="EFI_USB_DEVICE_INFO" name="EFI_USB_DEVICE_INFO">
+<area shape="rect" id="Node000001" title=" " alt="" coords="91,269,261,295"/>
+<area shape="rect" id="Node000002" href="$structUSB__DEVICE__DESCRIPTOR.html" title=" " alt="" coords="5,181,200,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,217,135,244,161,267,158,271,131,247,113,220"/>
+<area shape="rect" id="Node000003" href="$structEFI__USB__CONFIG__INFO.html" title=" " alt="" coords="224,181,397,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="290,218,252,248,206,272,203,267,249,243,287,214"/>
+<area shape="rect" id="Node000004" href="$structUSB__CONFIG__DESCRIPTOR.html" title=" " alt="" coords="121,93,319,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="237,128,260,155,292,179,289,183,257,159,233,132"/>
+<area shape="rect" id="Node000005" href="$structEFI__USB__INTERFACE__INFO.html" title=" " alt="" coords="343,93,537,119"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="416,129,373,160,333,183,331,179,371,155,413,125"/>
+<area shape="rect" id="Node000006" href="$structUSB__INTERFACE__DESCRIPTOR.html" title=" " alt="" coords="211,5,429,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="349,37,425,91,422,95,346,41"/>
+<area shape="rect" id="Node000007" href="$structUSB__ENDPOINT__DESCRIPTOR.html" title=" " alt="" coords="453,5,667,31"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="548,45,524,71,502,85,479,96,477,91,500,81,521,67,544,41"/>
+</map>

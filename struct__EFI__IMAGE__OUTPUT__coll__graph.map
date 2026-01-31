@@ -1,0 +1,14 @@
+<map id="_EFI_IMAGE_OUTPUT" name="_EFI_IMAGE_OUTPUT">
+<area shape="rect" id="Node000001" title=" " alt="" coords="55,405,215,431"/>
+<area shape="rect" id="Node000002" href="$structEFI__GRAPHICS__OUTPUT__BLT__PIXEL.html" title=" " alt="" coords="5,301,183,341"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,352,133,404,128,406,105,355"/>
+<area shape="rect" id="Node000003" href="$struct__EFI__GRAPHICS__OUTPUT__PROTOCOL.html" title=" " alt="" coords="207,301,391,341"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="256,350,157,407,154,403,254,345"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="406,311,418,320,410,329,392,332,391,327,408,324,413,321,403,316"/>
+<area shape="rect" id="Node000004" href="$structEFI__GRAPHICS__OUTPUT__PROTOCOL__MODE.html" title=" " alt="" coords="211,196,388,236"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="302,250,302,300,297,300,297,250"/>
+<area shape="rect" id="Node000005" href="$structEFI__GRAPHICS__OUTPUT__MODE__INFORMATION.html" title=" " alt="" coords="211,93,388,133"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="302,147,302,196,297,196,297,147"/>
+<area shape="rect" id="Node000006" href="$structEFI__PIXEL__BITMASK.html" title=" " alt="" coords="224,5,375,31"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="302,44,302,93,297,93,297,44"/>
+</map>

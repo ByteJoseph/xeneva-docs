@@ -1,0 +1,8 @@
+<map id="XenevaOS/Boot/include/Protocol/HiiFont.h" name="XenevaOS/Boot/include/Protocol/HiiFont.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="14,5,189,45"/>
+<area shape="rect" id="Node000002" href="$GraphicsOutput_8h.html" title=" " alt="" coords="5,167,197,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,47,76,80,72,99,73,118,89,154,84,156,68,119,67,99,71,78,86,44"/>
+<area shape="rect" id="Node000003" href="$HiiImage_8h.html" title=" " alt="" coords="83,93,234,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,44,144,80,140,84,113,47"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="151,121,121,158,117,154,147,117"/>
+</map>

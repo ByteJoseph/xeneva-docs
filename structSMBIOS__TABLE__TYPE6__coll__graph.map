@@ -1,0 +1,9 @@
+<map id="SMBIOS_TABLE_TYPE6" name="SMBIOS_TABLE_TYPE6">
+<area shape="rect" id="Node000001" title=" " alt="" coords="200,108,367,133"/>
+<area shape="rect" id="Node000002" href="$structSMBIOS__STRUCTURE.html" title=" " alt="" coords="5,5,164,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,35,262,106,260,110,119,39"/>
+<area shape="rect" id="Node000003" href="$structMEMORY__CURRENT__TYPE.html" title=" " alt="" coords="189,5,378,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,45,286,108,281,108,281,45"/>
+<area shape="rect" id="Node000004" href="$structMEMORY__INSTALLED__ENABLED__SIZE.html" title=" " alt="" coords="402,5,663,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="508,41,470,64,427,86,387,100,347,111,346,105,386,95,425,82,468,60,505,36"/>
+</map>

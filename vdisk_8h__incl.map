@@ -1,0 +1,16 @@
+<map id="XenevaOS/BaseHdr/Fs/vdisk.h" name="XenevaOS/BaseHdr/Fs/vdisk.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="56,5,223,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="46,167,116,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,48,39,67,24,80,13,94,9,112,16,128,31,144,49,157,46,162,27,148,12,131,4,112,8,92,20,76,36,63,70,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="236,167,312,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,43,220,64,250,92,266,122,274,152,268,154,261,124,245,95,217,68,183,48"/>
+<area shape="rect" id="Node000004" href="$vfs_8h.html" title=" " alt="" coords="163,93,236,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="156,44,184,81,180,84,152,47"/>
+<area shape="rect" id="Node000006" href="$__FsGUIDs_8h.html" title=" " alt="" coords="23,93,139,119"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="127,47,100,84,96,80,123,44"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="182,121,114,162,111,157,179,116"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="213,117,254,155,250,159,210,121"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="158,167,212,192"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="200,120,193,154,187,153,195,118"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="84,119,84,153,78,153,78,119"/>
+</map>

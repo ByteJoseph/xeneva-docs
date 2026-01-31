@@ -1,0 +1,7 @@
+<map id="_ACPI_EFI_PCI_IO" name="_ACPI_EFI_PCI_IO">
+<area shape="rect" id="Node000001" title=" " alt="" coords="41,5,176,31"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="191,9,203,18,195,26,177,30,176,25,192,22,197,18,188,13"/>
+<area shape="rect" id="Node000002" href="$structACPI__EFI__PCI__IO__PROTOCOL__CONFIG__ACCESS.html" title=" " alt="" coords="5,108,212,148"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="83,42,74,56,70,69,74,83,89,106,85,109,69,85,65,69,69,54,79,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,94,111,84,111,55,108,31,114,31,117,54,117,84,116,94"/>
+</map>

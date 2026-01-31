@@ -1,0 +1,10 @@
+<map id="EFI_80211_AUTHENTICATE_DATA_TOKEN" name="EFI_80211_AUTHENTICATE_DATA_TOKEN">
+<area shape="rect" id="Node000001" title=" " alt="" coords="146,196,342,236"/>
+<area shape="rect" id="Node000002" href="$structEFI__80211__AUTHENTICATE__DATA.html" title=" " alt="" coords="5,101,243,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,133,223,194,220,198,147,137"/>
+<area shape="rect" id="Node000003" href="$structEFI__80211__MAC__ADDRESS.html" title=" " alt="" coords="147,5,341,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="220,41,140,103,137,98,217,37"/>
+<area shape="rect" id="Node000004" href="$structEFI__80211__AUTHENTICATE__RESULT.html" title=" " alt="" coords="267,93,463,133"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="271,37,342,91,339,95,268,41"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="334,144,268,198,265,194,331,140"/>
+</map>

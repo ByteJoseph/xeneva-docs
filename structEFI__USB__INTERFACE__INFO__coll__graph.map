@@ -1,0 +1,7 @@
+<map id="EFI_USB_INTERFACE_INFO" name="EFI_USB_INTERFACE_INFO">
+<area shape="rect" id="Node000001" title=" " alt="" coords="137,93,331,119"/>
+<area shape="rect" id="Node000002" href="$structUSB__INTERFACE__DESCRIPTOR.html" title=" " alt="" coords="5,5,223,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,37,219,91,216,95,140,41"/>
+<area shape="rect" id="Node000003" href="$structUSB__ENDPOINT__DESCRIPTOR.html" title=" " alt="" coords="247,5,461,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="342,45,318,71,296,85,273,96,271,91,294,81,315,67,338,41"/>
+</map>

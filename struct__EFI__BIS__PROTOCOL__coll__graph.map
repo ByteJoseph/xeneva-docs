@@ -1,0 +1,6 @@
+<map id="_EFI_BIS_PROTOCOL" name="_EFI_BIS_PROTOCOL">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,211,160,236"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="121,204,144,202,165,204,180,211,187,223,179,237,159,244,134,244,108,239,109,234,135,239,158,239,175,233,181,223,177,214,164,209,144,207,122,210"/>
+<area shape="rect" id="Node000002" href="$structEFI__BIS__DATA.html" title=" " alt="" coords="27,5,138,31"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="85,44,85,211,80,211,80,44"/>
+</map>

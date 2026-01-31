@@ -1,0 +1,5 @@
+<map id="FIBRECHANNELEX_DEVICE_PATH" name="FIBRECHANNELEX_DEVICE_PATH">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,93,240,119"/>
+<area shape="rect" id="Node000002" href="$structEFI__DEVICE__PATH__PROTOCOL.html" title=" " alt="" coords="15,5,230,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,45,125,93,120,93,120,45"/>
+</map>

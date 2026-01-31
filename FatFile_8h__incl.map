@@ -1,0 +1,24 @@
+<map id="XenevaOS/BaseHdr/Fs/Fat/FatFile.h" name="XenevaOS/BaseHdr/Fs/Fat/FatFile.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="92,5,258,45"/>
+<area shape="rect" id="Node000002" href="$Fat_8h.html" title=" " alt="" coords="128,93,222,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,46,178,79,172,79,172,46"/>
+<area shape="rect" id="Node000004" href="$vdisk_8h.html" title=" " alt="" coords="56,167,144,192"/>
+<area shape="poly" id="edge13_Node000001_Node000004" title=" " alt="" coords="155,47,135,69,119,94,109,124,104,153,99,152,103,123,114,92,131,66,151,44"/>
+<area shape="rect" id="Node000006" href="$vfs_8h.html" title=" " alt="" coords="224,240,297,265"/>
+<area shape="poly" id="edge14_Node000001_Node000006" title=" " alt="" coords="199,44,220,65,237,92,250,127,258,164,263,226,258,227,253,164,245,129,232,95,216,69,195,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="6,313,77,339"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,121,87,140,65,153,46,169,25,191,13,212,8,236,12,265,28,301,23,303,7,266,3,235,8,210,21,188,42,165,62,148,85,135,130,116"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="165,121,124,159,120,155,161,117"/>
+<area shape="poly" id="edge12_Node000002_Node000006" title=" " alt="" coords="184,118,249,227,244,229,180,120"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="75,194,45,213,31,226,21,241,17,256,18,271,29,300,24,302,13,272,12,255,16,239,27,223,42,209,72,190"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="148,313,224,339"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="117,190,141,211,162,239,176,269,184,299,179,301,171,271,158,241,137,215,114,194"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="127,190,223,232,221,237,125,194"/>
+<area shape="rect" id="Node000008" href="$__FsGUIDs_8h.html" title=" " alt="" coords="32,240,148,265"/>
+<area shape="poly" id="edge10_Node000004_Node000008" title=" " alt="" coords="101,193,96,227,91,226,96,192"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="226,268,91,312,89,306,224,263"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="250,267,209,306,206,302,246,263"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="248,313,302,339"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="265,265,272,299,267,300,260,266"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="84,267,59,304,55,301,79,264"/>
+</map>

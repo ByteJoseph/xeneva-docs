@@ -1,0 +1,5 @@
+<map id="acpi_madt_local_apic_nmi" name="acpi_madt_local_apic_nmi">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,93,200,119"/>
+<area shape="rect" id="Node000002" href="$structacpi__subtable__header.html" title=" " alt="" coords="21,5,185,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,45,105,93,100,93,100,45"/>
+</map>

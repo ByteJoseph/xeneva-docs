@@ -1,0 +1,7 @@
+<map id="UDF_ANCHOR_VOLUME_DESCRIPTOR_POINTER" name="UDF_ANCHOR_VOLUME_DESCRIPTOR_POINTER">
+<area shape="rect" id="Node000001" title=" " alt="" coords="48,137,315,177"/>
+<area shape="rect" id="Node000002" href="$structUDF__DESCRIPTOR__TAG.html" title=" " alt="" coords="5,5,179,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,42,150,112,168,136,164,139,146,115,103,44"/>
+<area shape="rect" id="Node000003" href="$structUDF__EXTENT__AD.html" title=" " alt="" coords="203,5,338,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="270,45,261,80,243,115,218,139,214,135,239,112,256,78,265,44"/>
+</map>

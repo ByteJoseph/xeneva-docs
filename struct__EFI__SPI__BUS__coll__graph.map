@@ -1,0 +1,13 @@
+<map id="_EFI_SPI_BUS" name="_EFI_SPI_BUS">
+<area shape="rect" id="Node000001" title=" " alt="" coords="318,93,429,119"/>
+<area shape="rect" id="Node000002" href="$struct__EFI__SPI__PERIPHERAL.html" title=" " alt="" coords="184,198,347,223"/>
+<area shape="poly" id="edge5_Node000002_Node000001" title=" " alt="" coords="329,127,303,145,283,172,272,199,267,196,279,169,299,141,325,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="326,190,354,170,367,144,371,118,376,119,372,146,358,174,330,195"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="362,201,373,211,365,219,348,223,347,217,363,214,368,211,359,206"/>
+<area shape="rect" id="Node000003" href="$structGUID.html" title=" " alt="" coords="5,93,61,119"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="38,132,44,152,56,170,77,181,108,189,184,201,183,206,107,195,75,186,53,174,39,155,33,133"/>
+<area shape="rect" id="Node000004" href="$struct__EFI__SPI__PART.html" title=" " alt="" coords="168,93,283,119"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="224,132,224,152,229,171,238,185,250,196,247,200,234,188,224,173,219,153,219,132"/>
+<area shape="rect" id="Node000005" href="$structEFI__DEVICE__PATH__PROTOCOL.html" title=" " alt="" coords="266,5,481,31"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="376,45,376,93,371,93,371,45"/>
+</map>

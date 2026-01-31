@@ -1,0 +1,16 @@
+<map id="EFI_80211_CONNECT_NETWORK_TOKEN" name="EFI_80211_CONNECT_NETWORK_TOKEN">
+<area shape="rect" id="Node000001" title=" " alt="" coords="125,372,359,412"/>
+<area shape="rect" id="Node000002" href="$structEFI__80211__CONNECT__NETWORK__DATA.html" title=" " alt="" coords="105,284,379,309"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,323,245,372,239,372,239,323"/>
+<area shape="rect" id="Node000003" href="$structEFI__80211__NETWORK.html" title=" " alt="" coords="161,196,323,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="245,235,245,283,239,283,239,235"/>
+<area shape="rect" id="Node000004" href="$structEFI__80211__SSID.html" title=" " alt="" coords="5,101,132,126"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="103,130,222,194,219,198,101,135"/>
+<area shape="rect" id="Node000005" href="$structEFI__80211__AKM__SUITE__SELECTOR.html" title=" " alt="" coords="157,93,327,133"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="245,147,245,196,239,196,239,147"/>
+<area shape="rect" id="Node000006" href="$structEFI__80211__SUITE__SELECTOR.html" title=" " alt="" coords="239,5,447,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="323,42,264,95,261,91,319,38"/>
+<area shape="rect" id="Node000007" href="$structEFI__80211__CIPHER__SUITE__SELECTOR.html" title=" " alt="" coords="351,93,541,133"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="375,36,397,53,433,91,429,95,394,57,372,40"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="393,142,268,198,266,193,391,137"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="XenevaOS/Boot/include/IndustryStandard/ServiceProcessorManagementInterfaceTable.h" name="XenevaOS/Boot/include/IndustryStandard/ServiceProcessorManagementInterfaceTable.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,257,60"/>
+<area shape="rect" id="Node000002" href="$IndustryStandard_2Acpi_8h.html" title=" " alt="" coords="43,108,220,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,60,134,94,129,94,129,60"/>
+<area shape="rect" id="Node000003" href="$Acpi62_8h.html" title=" " alt="" coords="35,181,228,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,134,134,168,129,168,129,134"/>
+<area shape="rect" id="Node000004" href="$Acpi61_8h.html" title=" " alt="" coords="35,255,228,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="134,207,134,241,129,241,129,207"/>
+<area shape="rect" id="Node000005" href="$Acpi60_8h.html" title=" " alt="" coords="35,328,228,353"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="134,280,134,314,129,314,129,280"/>
+<area shape="rect" id="Node000006" href="$Acpi51_8h.html" title=" " alt="" coords="35,401,228,427"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="134,354,134,388,129,388,129,354"/>
+<area shape="rect" id="Node000007" href="$Acpi50_8h.html" title=" " alt="" coords="35,475,228,500"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="134,427,134,461,129,461,129,427"/>
+<area shape="rect" id="Node000008" href="$Acpi40_8h.html" title=" " alt="" coords="35,548,228,573"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="134,500,134,534,129,534,129,500"/>
+<area shape="rect" id="Node000009" href="$Acpi30_8h.html" title=" " alt="" coords="35,621,228,647"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="134,574,134,608,129,608,129,574"/>
+<area shape="rect" id="Node000010" href="$Acpi20_8h.html" title=" " alt="" coords="35,695,228,720"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="134,647,134,681,129,681,129,647"/>
+<area shape="rect" id="Node000011" href="$Acpi10_8h.html" title=" " alt="" coords="35,768,228,793"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="134,720,134,754,129,754,129,720"/>
+<area shape="rect" id="Node000012" href="$AcpiAml_8h.html" title=" " alt="" coords="30,841,233,867"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="134,794,134,828,129,828,129,794"/>
+</map>

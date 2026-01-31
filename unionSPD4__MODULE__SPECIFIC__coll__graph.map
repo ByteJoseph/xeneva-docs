@@ -1,0 +1,91 @@
+<map id="SPD4_MODULE_SPECIFIC" name="SPD4_MODULE_SPECIFIC">
+<area shape="rect" id="Node000001" title=" " alt="" coords="956,1219,1141,1245"/>
+<area shape="rect" id="Node000002" href="$structSPD4__MODULE__UNBUFFERED.html" title=" " alt="" coords="594,173,811,198"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="715,210,1046,1218,1041,1220,710,212"/>
+<area shape="rect" id="Node000003" href="$unionSPD4__UNBUF__MODULE__NOMINAL__HEIGHT.html" title=" " alt="" coords="31,69,274,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="288,99,423,116,566,141,666,170,665,175,565,147,422,121,287,104"/>
+<area shape="rect" id="Node000004" href="$unionSPD4__UNBUF__MODULE__NOMINAL__THICKNESS.html" title=" " alt="" coords="31,133,274,173"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="288,158,594,176,593,182,288,164"/>
+<area shape="rect" id="Node000005" href="$unionSPD4__UNBUF__REFERENCE__RAW__CARD.html" title=" " alt="" coords="55,197,250,237"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="263,211,565,195,594,193,594,198,566,200,264,216"/>
+<area shape="rect" id="Node000006" href="$unionSPD4__UNBUF__ADDRESS__MAPPING.html" title=" " alt="" coords="63,5,242,45"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="256,24,326,30,405,41,487,58,566,84,604,103,639,127,690,171,687,175,636,131,601,108,564,89,486,63,404,46,326,35,255,30"/>
+<area shape="rect" id="Node000007" href="$unionSPD4__CYCLIC__REDUNDANCY__CODE.html" title=" " alt="" coords="27,919,279,945"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="289,913,298,905,307,890,313,871,318,822,315,763,309,699,302,635,299,575,305,526,312,506,322,490,342,478,371,473,442,472,514,473,543,470,564,462,596,433,623,399,645,361,663,322,686,248,697,198,702,199,691,250,668,324,650,363,628,402,600,437,567,466,544,475,514,479,442,478,371,478,344,483,326,494,316,508,310,527,305,576,307,634,314,698,321,763,323,822,319,872,312,893,302,908,293,917"/>
+<area shape="rect" id="Node000008" href="$structSPD4__MODULE__REGISTERED.html" title=" " alt="" coords="598,659,807,685"/>
+<area shape="poly" id="edge18_Node000008_Node000007" title=" " alt="" coords="290,943,369,948,449,948,517,942,544,936,564,927,596,902,622,872,644,837,662,801,686,733,697,684,702,685,691,734,667,803,649,840,627,875,599,906,567,932,546,941,518,947,449,953,369,953,289,948"/>
+<area shape="rect" id="Node000019" href="$structSPD4__MODULE__LOADREDUCED.html" title=" " alt="" coords="589,1431,816,1457"/>
+<area shape="poly" id="edge39_Node000019_Node000007" title=" " alt="" coords="270,945,301,955,325,970,361,978,393,980,452,973,480,971,508,973,537,983,567,1003,591,1027,613,1053,647,1111,671,1174,688,1239,698,1300,703,1355,705,1431,699,1431,698,1356,693,1301,683,1240,666,1176,642,1113,608,1056,587,1030,564,1007,534,988,507,978,480,976,452,979,393,985,360,984,323,974,299,960,269,950"/>
+<area shape="rect" id="Node000038" href="$structSPD4__MODULE__NVDIMM.html" title=" " alt="" coords="611,2345,795,2370"/>
+<area shape="poly" id="edge46_Node000038_Node000007" title=" " alt="" coords="292,946,302,956,309,975,313,1013,317,1133,314,1481,312,1828,316,1948,320,1985,326,2002,353,2024,380,2032,409,2031,439,2025,470,2018,502,2015,534,2020,567,2038,603,2072,632,2113,655,2158,672,2203,694,2287,703,2344,698,2345,689,2288,667,2205,650,2160,627,2116,599,2076,564,2042,532,2025,501,2021,471,2024,440,2030,410,2036,380,2037,350,2029,322,2006,315,1986,311,1949,307,1828,309,1481,312,1133,308,1013,303,976,298,959,288,950"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="721,695,1042,1218,1037,1220,717,698"/>
+<area shape="rect" id="Node000009" href="$unionSPD4__RDIMM__MODULE__NOMINAL__HEIGHT.html" title=" " alt="" coords="31,548,274,588"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="288,572,423,586,496,598,566,613,627,634,678,657,675,662,625,639,565,619,495,603,423,591,287,577"/>
+<area shape="rect" id="Node000010" href="$unionSPD4__RDIMM__MODULE__NOMINAL__THICKNESS.html" title=" " alt="" coords="31,692,274,732"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="288,701,565,681,598,679,598,684,566,687,288,706"/>
+<area shape="rect" id="Node000011" href="$unionSPD4__RDIMM__REFERENCE__RAW__CARD.html" title=" " alt="" coords="55,756,250,796"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="264,765,408,748,487,735,565,719,622,701,671,682,673,687,623,706,566,724,488,741,409,754,264,771"/>
+<area shape="rect" id="Node000012" href="$unionSPD4__RDIMM__MODULE__ATTRIBUTES.html" title=" " alt="" coords="22,821,283,846"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="297,821,450,804,517,793,564,779,603,758,638,731,688,683,692,687,641,735,606,762,566,784,518,798,451,809,298,826"/>
+<area shape="rect" id="Node000013" href="$unionSPD4__RDIMM__THERMAL__HEAT__SPREADER__SOLUTION.html" title=" " alt="" coords="46,261,259,301"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="273,260,345,258,422,265,461,273,498,284,534,301,567,322,606,359,637,404,660,453,677,504,697,597,703,659,698,659,692,597,672,505,655,455,632,407,602,363,564,326,531,305,496,289,459,278,421,270,345,263,273,265"/>
+<area shape="rect" id="Node000014" href="$unionSPD4__MANUFACTURER__ID__CODE.html" title=" " alt="" coords="34,870,271,895"/>
+<area shape="poly" id="edge13_Node000008_Node000014" title=" " alt="" coords="285,869,464,853,564,839,588,823,610,804,648,760,676,717,693,684,698,686,680,720,652,763,614,808,591,828,566,844,464,858,286,875"/>
+<area shape="poly" id="edge25_Node000019_Node000014" title=" " alt="" coords="285,883,460,892,529,900,567,912,583,930,597,953,623,1014,645,1088,664,1171,690,1328,703,1431,697,1431,685,1329,658,1172,640,1090,618,1015,592,955,578,933,564,917,528,906,459,897,285,888"/>
+<area shape="rect" id="Node000015" href="$unionSPD4__RDIMM__REGISTER__REVISION__NUMBER.html" title=" " alt="" coords="62,325,243,365"/>
+<area shape="poly" id="edge14_Node000008_Node000015" title=" " alt="" coords="258,340,344,341,433,346,512,357,544,366,567,378,602,408,630,445,653,486,670,527,693,605,702,659,697,660,688,606,665,529,648,488,625,448,598,412,564,382,542,371,511,362,433,351,343,346,258,345"/>
+<area shape="rect" id="Node000016" href="$unionSPD4__RDIMM__ADDRESS__MAPPING__FROM__REGISTER__TO__DRAM.html" title=" " alt="" coords="49,390,256,445"/>
+<area shape="poly" id="edge15_Node000008_Node000016" title=" " alt="" coords="270,411,353,412,439,416,514,426,544,434,567,444,596,467,621,494,643,524,661,555,687,615,701,658,695,660,682,617,656,558,638,527,617,497,593,471,564,449,542,439,513,432,439,422,353,417,270,417"/>
+<area shape="rect" id="Node000017" href="$unionSPD4__RDIMM__REGISTER__OUTPUT__DRIVE__STRENGTH__FOR__CONTROL__COMMAND__ADDRESS.html" title=" " alt="" coords="15,469,290,523"/>
+<area shape="poly" id="edge16_Node000008_Node000017" title=" " alt="" coords="304,516,566,556,606,579,642,607,692,657,689,661,638,611,603,583,564,561,303,521"/>
+<area shape="rect" id="Node000018" href="$unionSPD4__RDIMM__REGISTER__OUTPUT__DRIVE__STRENGTH__FOR__CLOCK.html" title=" " alt="" coords="49,613,257,667"/>
+<area shape="poly" id="edge17_Node000008_Node000018" title=" " alt="" coords="271,644,598,663,598,669,270,649"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="735,1422,1025,1243,1028,1247,738,1426"/>
+<area shape="rect" id="Node000020" href="$unionSPD4__LRDIMM__MODULE__NOMINAL__HEIGHT.html" title=" " alt="" coords="62,2017,243,2057"/>
+<area shape="poly" id="edge20_Node000019_Node000020" title=" " alt="" coords="257,2054,344,2066,434,2073,512,2070,542,2063,564,2053,581,2034,597,2008,625,1939,647,1852,665,1756,688,1573,698,1457,703,1457,694,1574,671,1757,653,1853,630,1940,602,2011,585,2037,567,2057,544,2069,513,2076,434,2079,343,2071,257,2059"/>
+<area shape="rect" id="Node000021" href="$unionSPD4__LRDIMM__MODULE__NOMINAL__THICKNESS.html" title=" " alt="" coords="62,2081,243,2121"/>
+<area shape="poly" id="edge21_Node000019_Node000021" title=" " alt="" coords="257,2112,344,2119,434,2121,512,2115,542,2107,564,2095,582,2075,599,2047,627,1972,650,1879,668,1776,690,1580,698,1457,703,1457,695,1580,673,1777,656,1880,632,1974,603,2050,586,2079,567,2099,544,2112,513,2120,434,2127,343,2124,257,2117"/>
+<area shape="rect" id="Node000022" href="$unionSPD4__LRDIMM__REFERENCE__RAW__CARD.html" title=" " alt="" coords="52,2145,253,2185"/>
+<area shape="poly" id="edge22_Node000019_Node000022" title=" " alt="" coords="267,2172,352,2176,440,2174,515,2164,543,2155,564,2143,583,2121,600,2091,630,2009,653,1909,670,1798,691,1588,698,1457,704,1457,696,1589,676,1799,658,1910,635,2011,605,2093,587,2124,567,2147,546,2160,516,2169,440,2179,352,2181,267,2178"/>
+<area shape="rect" id="Node000023" href="$unionSPD4__LRDIMM__MODULE__ATTRIBUTES.html" title=" " alt="" coords="62,2209,243,2249"/>
+<area shape="poly" id="edge23_Node000019_Node000023" title=" " alt="" coords="248,2249,324,2259,409,2258,451,2251,492,2239,530,2221,564,2197,584,2173,602,2139,618,2098,633,2051,656,1942,673,1822,685,1704,693,1596,698,1457,704,1457,698,1597,690,1704,679,1823,661,1943,638,2052,623,2100,607,2142,588,2176,567,2201,532,2226,494,2244,452,2256,409,2263,324,2264,247,2254"/>
+<area shape="rect" id="Node000024" href="$unionSPD4__LRDIMM__THERMAL__HEAT__SPREADER__SOLUTION.html" title=" " alt="" coords="46,969,259,1009"/>
+<area shape="poly" id="edge24_Node000019_Node000024" title=" " alt="" coords="274,1009,324,1017,378,1021,449,1023,518,1030,546,1037,567,1049,609,1092,642,1144,666,1200,683,1257,694,1313,700,1362,704,1431,699,1431,695,1363,688,1313,677,1259,661,1202,637,1146,605,1096,564,1053,544,1042,517,1035,449,1028,378,1026,324,1023,273,1014"/>
+<area shape="rect" id="Node000025" href="$unionSPD4__LRDIMM__REGISTER__REVISION__NUMBER.html" title=" " alt="" coords="59,1033,247,1073"/>
+<area shape="poly" id="edge26_Node000019_Node000025" title=" " alt="" coords="260,1059,453,1076,530,1085,567,1094,606,1131,637,1176,660,1225,677,1276,697,1369,703,1431,698,1431,692,1369,672,1277,655,1227,632,1179,602,1135,564,1098,529,1091,452,1082,260,1064"/>
+<area shape="rect" id="Node000026" href="$unionSPD4__LRDIMM__ADDRESS__MAPPING__FROM__REGISTER__TO__DRAM.html" title=" " alt="" coords="49,1098,256,1153"/>
+<area shape="poly" id="edge27_Node000019_Node000026" title=" " alt="" coords="270,1122,354,1125,440,1133,515,1145,545,1155,567,1166,600,1194,627,1229,650,1267,667,1306,691,1379,702,1430,697,1431,686,1380,663,1308,645,1269,623,1232,596,1198,564,1170,543,1159,514,1151,439,1138,354,1131,270,1128"/>
+<area shape="rect" id="Node000027" href="$unionSPD4__LRDIMM__REGISTER__OUTPUT__DRIVE__STRENGTH__FOR__CONTROL__COMMAND__ADDRESS.html" title=" " alt="" coords="15,1177,290,1231"/>
+<area shape="poly" id="edge28_Node000019_Node000027" title=" " alt="" coords="304,1199,381,1202,456,1207,521,1217,567,1234,595,1254,619,1279,658,1336,685,1390,700,1430,695,1432,680,1392,654,1338,615,1282,591,1258,564,1238,520,1223,455,1213,380,1207,304,1205"/>
+<area shape="rect" id="Node000028" href="$unionSPD4__LRDIMM__REGISTER__OUTPUT__DRIVE__STRENGTH__FOR__CLOCK.html" title=" " alt="" coords="49,1255,257,1310"/>
+<area shape="poly" id="edge29_Node000019_Node000028" title=" " alt="" coords="270,1268,339,1267,415,1272,493,1286,566,1311,609,1337,646,1370,695,1429,691,1433,642,1374,606,1341,564,1316,491,1291,414,1278,339,1273,270,1274"/>
+<area shape="rect" id="Node000029" href="$structSPD4__LRDIMM__DATA__BUFFER__REVISION__NUMBER.html" title=" " alt="" coords="44,1335,261,1375"/>
+<area shape="poly" id="edge30_Node000019_Node000029" title=" " alt="" coords="275,1335,342,1330,416,1331,492,1338,566,1353,604,1369,638,1389,689,1429,686,1433,635,1394,601,1374,565,1359,491,1343,416,1336,343,1336,275,1340"/>
+<area shape="rect" id="Node000030" href="$unionSPD4__LRDIMM__DRAM__VREFDQ__FOR__PACKAGE__RANK.html" title=" " alt="" coords="40,1399,265,1439"/>
+<area shape="poly" id="edge31_Node000019_Node000030" title=" " alt="" coords="279,1416,417,1418,566,1425,603,1429,603,1434,565,1431,417,1424,279,1421"/>
+<area shape="rect" id="Node000031" href="$structSPD4__LRDIMM__DATA__BUFFER__VREFDQ__FOR__DRAM__INTERFACE.html" title=" " alt="" coords="31,1463,274,1503"/>
+<area shape="poly" id="edge32_Node000019_Node000031" title=" " alt="" coords="287,1471,589,1449,589,1455,288,1476"/>
+<area shape="rect" id="Node000032" href="$unionSPD4__LRDIMM__DATA__BUFFER__MDQ__DRIVE__STRENGTH__RTT__FOR__DATA__RATE.html" title=" " alt="" coords="44,1641,261,1695"/>
+<area shape="poly" id="edge33_Node000019_Node000032" title=" " alt="" coords="276,1680,358,1686,441,1688,514,1684,543,1678,564,1670,593,1649,619,1622,640,1592,658,1560,683,1500,696,1456,701,1458,688,1502,662,1563,645,1595,623,1625,597,1653,567,1674,544,1683,515,1689,441,1694,357,1691,275,1685"/>
+<area shape="rect" id="Node000033" href="$unionSPD4__LRDIMM__DRAM__DRIVE__STRENGTH.html" title=" " alt="" coords="47,1720,258,1760"/>
+<area shape="poly" id="edge34_Node000019_Node000033" title=" " alt="" coords="272,1742,355,1742,440,1738,514,1728,543,1720,564,1710,596,1683,623,1651,645,1615,662,1577,686,1506,697,1456,702,1458,691,1508,667,1579,649,1617,627,1654,600,1687,567,1714,545,1725,515,1733,441,1743,355,1747,272,1747"/>
+<area shape="rect" id="Node000034" href="$unionSPD4__LRDIMM__DRAM__ODT__RTT__WR__RTT__NOM__FOR__DATA__RATE.html" title=" " alt="" coords="19,1543,286,1583"/>
+<area shape="poly" id="edge35_Node000019_Node000034" title=" " alt="" coords="300,1571,452,1575,518,1571,564,1561,605,1539,641,1510,690,1455,694,1458,645,1514,608,1544,566,1567,518,1576,452,1580,300,1577"/>
+<area shape="rect" id="Node000035" href="$unionSPD4__LRDIMM__DRAM__ODT__RTT__PARK__FOR__DATA__RATE.html" title=" " alt="" coords="48,1809,257,1849"/>
+<area shape="poly" id="edge36_Node000019_Node000035" title=" " alt="" coords="272,1845,355,1853,441,1857,515,1853,543,1846,564,1836,587,1818,607,1796,640,1746,664,1691,681,1633,691,1578,697,1527,699,1457,704,1457,702,1528,696,1578,686,1635,669,1692,645,1749,611,1799,590,1821,567,1841,545,1851,515,1858,441,1863,355,1859,271,1850"/>
+<area shape="rect" id="Node000036" href="$unionSPD4__LRDIMM__DATA__BUFFER__VREFDQ__FOR__DRAM__INTERFACE__RANGE.html" title=" " alt="" coords="5,1873,300,1913"/>
+<area shape="poly" id="edge37_Node000019_Node000036" title=" " alt="" coords="314,1911,389,1916,462,1916,523,1910,546,1903,564,1894,577,1881,590,1863,614,1812,636,1750,654,1681,682,1546,697,1457,702,1457,688,1547,659,1682,641,1751,619,1815,595,1865,581,1884,567,1898,548,1908,524,1915,462,1922,389,1921,314,1916"/>
+<area shape="rect" id="Node000037" href="$unionSPD4__LRDIMM__DATA__BUFFER__DQ__DECISION__FEEDBACK__EQUALIZATION.html" title=" " alt="" coords="44,1938,261,1993"/>
+<area shape="poly" id="edge38_Node000019_Node000037" title=" " alt="" coords="276,1975,359,1980,443,1979,516,1971,544,1963,564,1953,578,1937,592,1916,618,1859,640,1787,658,1708,685,1555,697,1456,703,1457,690,1556,663,1709,645,1788,623,1860,597,1919,582,1941,567,1957,546,1968,517,1976,444,1985,359,1985,276,1980"/>
+<area shape="poly" id="edge40_Node000001_Node000038" title=" " alt="" coords="709,2330,1041,1244,1046,1246,715,2332"/>
+<area shape="rect" id="Node000039" href="$unionSPD4__NVDIMM__SUBSYSTEM__CONTROLLER__MANUFACTURER__ID__CODE.html" title=" " alt="" coords="37,2530,269,2585"/>
+<area shape="poly" id="edge41_Node000038_Node000039" title=" " alt="" coords="282,2561,350,2557,422,2548,495,2531,564,2503,607,2473,644,2435,673,2398,692,2369,696,2372,677,2401,648,2439,611,2477,567,2508,497,2536,423,2553,350,2563,282,2566"/>
+<area shape="rect" id="Node000040" href="$unionSPD4__NVDIMM__REFERENCE__RAW__CARD.html" title=" " alt="" coords="51,2273,255,2313"/>
+<area shape="poly" id="edge42_Node000038_Node000040" title=" " alt="" coords="269,2302,566,2335,619,2342,618,2347,565,2340,268,2307"/>
+<area shape="rect" id="Node000041" href="$unionSPD4__NVDIMM__MODULE__CHARACTERISTICS.html" title=" " alt="" coords="61,2337,245,2377"/>
+<area shape="poly" id="edge43_Node000038_Node000041" title=" " alt="" coords="258,2355,611,2355,611,2360,258,2360"/>
+<area shape="rect" id="Node000042" href="$structSPD4__NVDIMM__HYBRID__MODULE__MEDIA__TYPES.html" title=" " alt="" coords="61,2401,244,2441"/>
+<area shape="poly" id="edge44_Node000038_Node000042" title=" " alt="" coords="258,2409,565,2375,618,2367,619,2373,566,2380,258,2414"/>
+<area shape="rect" id="Node000043" href="$unionSPD4__NVDIMM__FUNCTION__INTERFACE__DESCRIPTOR.html" title=" " alt="" coords="55,2465,251,2505"/>
+<area shape="poly" id="edge45_Node000038_Node000043" title=" " alt="" coords="264,2475,409,2457,488,2442,564,2421,628,2395,679,2368,682,2372,630,2400,566,2427,489,2447,410,2462,265,2481"/>
+</map>

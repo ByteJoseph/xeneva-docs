@@ -1,0 +1,11 @@
+<map id="EFI_VARIABLE_AUTHENTICATION_2" name="EFI_VARIABLE_AUTHENTICATION_2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,181,256,207"/>
+<area shape="rect" id="Node000002" href="$structEFI__TIME.html" title=" " alt="" coords="35,93,117,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,129,110,156,125,179,121,182,106,159,88,132"/>
+<area shape="rect" id="Node000003" href="$structWIN__CERTIFICATE__UEFI__GUID.html" title=" " alt="" coords="141,93,357,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,130,190,160,152,183,149,179,186,155,224,126"/>
+<area shape="rect" id="Node000004" href="$structWIN__CERTIFICATE.html" title=" " alt="" coords="120,5,259,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="208,41,243,91,239,94,203,44"/>
+<area shape="rect" id="Node000005" href="$structGUID.html" title=" " alt="" coords="283,5,339,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="296,44,260,94,256,91,292,41"/>
+</map>

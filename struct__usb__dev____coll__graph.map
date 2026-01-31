@@ -1,0 +1,41 @@
+<map id="_usb_dev_" name="_usb_dev_">
+<area shape="rect" id="Node000001" title=" " alt="" coords="584,412,675,437"/>
+<area shape="poly" id="edge21_Node000001_Node000001" title=" " alt="" coords="606,397,613,389,629,385,643,388,652,394,654,404,650,413,645,411,649,403,647,397,641,393,629,391,616,393,610,401"/>
+<area shape="rect" id="Node000002" href="$struct__au__thread__.html" title=" " alt="" coords="310,143,411,168"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="425,154,460,159,496,168,531,183,562,205,582,229,598,257,619,316,628,372,631,412,625,412,623,372,614,318,593,259,578,233,558,209,529,188,494,173,459,164,425,159"/>
+<area shape="poly" id="edge7_Node000002_Node000002" title=" " alt="" coords="331,128,340,120,361,116,378,118,388,125,391,134,386,144,381,141,386,134,384,128,376,123,361,121,343,124,335,132"/>
+<area shape="rect" id="Node000003" href="$struct__frame__.html" title=" " alt="" coords="33,5,108,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,26,189,45,260,74,310,108,348,140,344,144,307,112,257,79,187,50,121,31"/>
+<area shape="rect" id="Node000004" href="$struct__syscall__param__.html" title=" " alt="" coords="5,55,136,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="127,81,319,140,317,145,126,87"/>
+<area shape="rect" id="Node000005" href="$struct__signal__queue__.html" title=" " alt="" coords="9,143,132,168"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="146,153,310,153,310,158,146,158"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="43,128,51,120,71,116,87,118,97,125,99,134,94,144,90,141,94,134,92,128,85,123,71,121,54,124,47,132"/>
+<area shape="rect" id="Node000006" href="$struct__uentry__.html" title=" " alt="" coords="31,192,110,217"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="124,194,258,173,309,163,310,168,259,178,124,200"/>
+<area shape="rect" id="Node000007" href="$struct__list__.html" title=" " alt="" coords="333,215,389,240"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="403,221,440,222,481,227,524,239,562,261,579,278,592,297,612,339,624,380,629,411,624,412,619,382,607,341,588,300,575,281,558,265,522,244,480,232,439,227,403,227"/>
+<area shape="rect" id="Node000008" href="$struct__data__.html" title=" " alt="" coords="38,295,103,320"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="116,292,332,232,333,237,117,297"/>
+<area shape="poly" id="edge10_Node000008_Node000008" title=" " alt="" coords="43,280,51,272,71,268,87,270,97,277,99,286,94,296,90,293,94,286,92,280,85,275,71,273,54,276,47,284"/>
+<area shape="rect" id="Node000009" href="$struct__xhci__cap__regs__.html" title=" " alt="" coords="297,264,425,289"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="439,277,501,289,533,301,562,317,585,339,604,365,626,411,621,413,599,367,581,342,558,321,530,306,500,294,438,282"/>
+<area shape="rect" id="Node000010" href="$struct__xhci__op__regs__.html" title=" " alt="" coords="300,313,421,339"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="435,331,498,344,561,366,593,387,618,410,614,414,590,392,559,371,497,349,434,336"/>
+<area shape="rect" id="Node000011" href="$struct__xhci__doorbell__.html" title=" " alt="" coords="299,363,422,388"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="436,381,561,402,589,409,588,415,559,407,435,386"/>
+<area shape="rect" id="Node000012" href="$struct__xhci__runtime__regs__.html" title=" " alt="" coords="283,412,439,437"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="452,422,584,422,584,427,452,427"/>
+<area shape="rect" id="Node000013" href="$struct__xhci__intr__reg__.html" title=" " alt="" coords="11,412,131,437"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="145,422,283,422,283,427,145,427"/>
+<area shape="rect" id="Node000014" href="$struct__xhci__ex__cap__.html" title=" " alt="" coords="303,461,419,487"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="432,463,559,442,588,435,589,440,561,447,433,469"/>
+<area shape="rect" id="Node000015" href="$struct__xhci__port__reg__.html" title=" " alt="" coords="299,511,423,536"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="436,513,497,500,559,478,590,458,614,435,618,439,593,462,561,483,499,506,437,518"/>
+<area shape="rect" id="Node000016" href="$struct__xhci__trb__.html" title=" " alt="" coords="317,560,405,585"/>
+<area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="418,569,489,558,525,546,558,528,581,507,599,482,621,436,626,439,604,485,585,511,562,532,527,551,490,563,419,574"/>
+<area shape="rect" id="Node000017" href="$struct__spinlock__.html" title=" " alt="" coords="315,609,406,635"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="420,623,454,621,491,615,526,603,558,584,575,568,588,550,607,508,619,468,624,437,629,438,624,469,612,510,592,552,579,572,562,588,529,608,492,620,455,626,420,628"/>
+<area shape="rect" id="Node000018" href="$struct__usb__desc__.html" title=" " alt="" coords="313,659,409,684"/>
+<area shape="poly" id="edge20_Node000001_Node000018" title=" " alt="" coords="422,675,457,675,493,670,528,659,558,640,579,618,595,591,607,563,615,533,624,477,626,437,631,438,629,478,621,534,612,564,600,594,583,621,562,644,530,664,494,675,457,680,422,681"/>
+</map>

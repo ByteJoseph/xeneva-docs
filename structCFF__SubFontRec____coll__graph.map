@@ -1,0 +1,102 @@
+<map id="CFF_SubFontRec_" name="CFF_SubFontRec_">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1117,536,1255,561"/>
+<area shape="rect" id="Node000006" href="$structCFF__PrivateRec__.html" title=" " alt="" coords="1449,465,1579,491"/>
+<area shape="poly" id="edge6_Node000006_Node000001" title=" " alt="" coords="1268,534,1422,503,1475,488,1476,493,1423,509,1269,539"/>
+<area shape="rect" id="Node000008" href="$structCFF__FontRec__.html" title=" " alt="" coords="1457,765,1571,791"/>
+<area shape="poly" id="edge44_Node000008_Node000001" title=" " alt="" coords="1223,565,1286,594,1325,602,1357,603,1389,607,1424,625,1458,658,1483,697,1501,735,1511,764,1506,766,1496,737,1479,700,1454,662,1421,630,1387,613,1357,609,1324,608,1285,599,1220,570"/>
+<area shape="rect" id="Node000002" href="$structCFF__FontRecDictRec__.html" title=" " alt="" coords="771,536,933,561"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="947,546,1117,546,1117,551,947,551"/>
+<area shape="rect" id="Node000003" href="$structFT__Matrix__.html" title=" " alt="" coords="515,571,609,596"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="623,584,679,584,738,579,779,570,816,559,818,564,780,576,739,585,679,590,623,590"/>
+<area shape="rect" id="Node000004" href="$structFT__Vector__.html" title=" " alt="" coords="242,483,334,508"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="348,498,771,538,770,544,348,504"/>
+<area shape="rect" id="Node000009" href="$structFT__LibraryRec__.html" title=" " alt="" coords="502,176,622,201"/>
+<area shape="poly" id="edge34_Node000009_Node000004" title=" " alt="" coords="290,468,299,425,314,371,339,315,356,289,375,265,404,242,436,223,501,199,503,204,438,228,407,246,379,269,360,292,344,318,319,373,304,427,295,469"/>
+<area shape="rect" id="Node000022" href="$structFT__GlyphRec__.html" title=" " alt="" coords="795,273,909,299"/>
+<area shape="poly" id="edge32_Node000022_Node000004" title=" " alt="" coords="310,471,387,404,438,369,494,340,573,313,655,297,731,288,795,284,795,289,732,293,656,302,574,318,496,344,441,373,390,408,313,475"/>
+<area shape="rect" id="Node000033" href="$structFT__Outline__.html" title=" " alt="" coords="513,620,611,645"/>
+<area shape="poly" id="edge51_Node000033_Node000004" title=" " alt="" coords="315,516,356,563,366,587,370,596,379,605,411,621,445,630,480,634,513,635,512,640,480,640,444,636,409,626,376,610,366,599,361,589,351,566,311,520"/>
+<area shape="rect" id="Node000005" href="$structFT__BBox__.html" title=" " alt="" coords="519,455,605,480"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="619,480,806,533,805,538,617,485"/>
+<area shape="rect" id="Node000018" href="$structFT__Raster__Params__.html" title=" " alt="" coords="778,400,926,425"/>
+<area shape="poly" id="edge28_Node000018_Node000005" title=" " alt="" coords="618,456,738,434,793,423,794,428,739,439,619,461"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1435,475,1362,477,1323,482,1286,491,1240,513,1204,538,1201,534,1238,508,1284,486,1322,477,1361,472,1435,470"/>
+<area shape="rect" id="Node000007" href="$structCFF__BlendRec__.html" title=" " alt="" coords="1752,553,1875,579"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="1738,567,1255,553,1255,548,1738,561"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="1543,755,1793,577,1796,581,1546,759"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="585,210,616,241,655,270,683,285,707,294,763,307,829,321,912,332,1108,354,1206,369,1296,389,1371,415,1401,432,1425,451,1442,478,1446,504,1445,532,1449,565,1483,681,1511,764,1506,766,1478,683,1444,567,1440,533,1441,504,1437,480,1421,454,1398,436,1369,420,1294,394,1205,374,1107,359,912,337,828,326,762,313,705,299,681,290,652,275,613,245,581,214"/>
+<area shape="rect" id="Node000011" href="$structFT__ModuleRec__.html" title=" " alt="" coords="791,91,913,116"/>
+<area shape="poly" id="edge14_Node000011_Node000009" title=" " alt="" coords="589,166,618,146,652,130,723,112,790,103,791,109,724,117,654,135,621,151,592,170"/>
+<area shape="poly" id="edge31_Node000022_Node000009" title=" " alt="" coords="594,207,654,238,727,261,796,275,795,280,726,266,652,243,592,211"/>
+<area shape="rect" id="Node000010" href="$structFT__MemoryRec__.html" title=" " alt="" coords="223,577,353,603"/>
+<area shape="poly" id="edge39_Node000008_Node000010" title=" " alt="" coords="306,614,356,709,371,749,382,789,395,871,409,1022,422,1085,433,1111,447,1134,466,1152,491,1165,522,1174,561,1177,1187,1177,1258,1182,1315,1189,1341,1189,1367,1184,1393,1172,1421,1151,1440,1124,1457,1083,1471,1032,1483,975,1501,866,1509,791,1514,791,1506,866,1489,976,1477,1033,1462,1084,1445,1127,1425,1155,1396,1176,1368,1189,1342,1194,1315,1195,1257,1188,1187,1182,561,1182,521,1179,489,1170,463,1156,443,1137,428,1114,417,1087,404,1023,390,872,377,791,366,750,351,711,302,616"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="310,566,351,518,394,449,422,392,450,334,492,264,546,200,550,203,497,268,454,337,427,394,399,452,355,521,314,569"/>
+<area shape="poly" id="edge15_Node000011_Node000010" title=" " alt="" coords="315,566,335,544,351,518,362,485,366,456,362,403,359,350,363,320,375,286,398,244,423,214,453,189,493,161,534,133,568,115,605,102,653,90,696,86,739,90,790,94,790,99,738,95,696,92,654,95,606,107,570,120,537,138,496,166,456,194,427,218,403,247,380,288,368,321,364,350,368,403,371,456,367,487,356,520,339,547,318,569"/>
+<area shape="rect" id="Node000023" href="$structFT__StreamRec__.html" title=" " alt="" coords="501,723,623,748"/>
+<area shape="poly" id="edge38_Node000023_Node000010" title=" " alt="" coords="316,610,379,654,447,686,530,720,528,725,445,691,376,659,313,614"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="821,126,783,146,740,165,680,179,622,187,622,182,679,174,738,159,781,142,818,121"/>
+<area shape="rect" id="Node000012" href="$structFT__Module__Class__.html" title=" " alt="" coords="1115,81,1257,107"/>
+<area shape="poly" id="edge13_Node000012_Node000011" title=" " alt="" coords="927,104,1004,106,1087,103,1115,101,1115,106,1087,109,1004,111,927,110"/>
+<area shape="rect" id="Node000015" href="$structFT__RendererRec__.html" title=" " alt="" coords="1447,195,1581,220"/>
+<area shape="poly" id="edge20_Node000015_Node000011" title=" " alt="" coords="927,110,1149,142,1423,186,1454,192,1453,197,1422,191,1149,147,926,116"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="1145,78,1086,59,1026,52,966,59,918,74,878,93,875,88,916,69,965,54,1026,46,1087,54,1147,73"/>
+<area shape="rect" id="Node000016" href="$structFT__Renderer__Class__.html" title=" " alt="" coords="1737,200,1889,225"/>
+<area shape="poly" id="edge22_Node000016_Node000012" title=" " alt="" coords="1271,87,1364,87,1476,94,1597,112,1657,125,1714,144,1763,169,1800,198,1796,202,1760,174,1712,148,1655,131,1596,117,1476,99,1364,93,1271,93"/>
+<area shape="rect" id="Node000013" href="$structFT__ListRec__.html" title=" " alt="" coords="239,59,337,84"/>
+<area shape="poly" id="edge16_Node000009_Node000013" title=" " alt="" coords="351,69,411,78,442,86,472,98,511,132,551,174,548,178,508,136,469,103,441,91,410,83,351,75"/>
+<area shape="rect" id="Node000014" href="$structFT__ListNodeRec__.html" title=" " alt="" coords="5,59,137,84"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="151,69,238,69,238,74,151,74"/>
+<area shape="poly" id="edge18_Node000014_Node000014" title=" " alt="" coords="50,44,56,35,71,32,84,34,92,41,94,50,90,60,85,58,89,50,87,44,82,39,71,37,59,40,54,47"/>
+<area shape="poly" id="edge19_Node000009_Node000015" title=" " alt="" coords="1433,208,622,192,622,187,1433,203"/>
+<area shape="poly" id="edge33_Node000015_Node000015" title=" " alt="" coords="1485,180,1494,172,1514,168,1531,170,1541,177,1544,186,1539,196,1534,193,1538,186,1537,180,1529,175,1514,173,1497,176,1489,184"/>
+<area shape="poly" id="edge23_Node000016_Node000015" title=" " alt="" coords="1595,206,1737,209,1737,214,1595,211"/>
+<area shape="poly" id="edge21_Node000015_Node000016" title=" " alt="" coords="1750,231,1714,237,1659,241,1605,237,1549,223,1551,218,1606,231,1659,236,1713,231,1749,226"/>
+<area shape="rect" id="Node000017" href="$structFT__Raster__Funcs__.html" title=" " alt="" coords="1285,304,1423,329"/>
+<area shape="poly" id="edge24_Node000016_Node000017" title=" " alt="" coords="1436,301,1566,276,1713,242,1775,223,1777,228,1714,247,1567,281,1437,306"/>
+<area shape="poly" id="edge25_Node000017_Node000018" title=" " alt="" coords="940,411,1012,407,1086,398,1153,383,1218,364,1320,327,1322,332,1219,369,1154,388,1087,403,1012,413,940,416"/>
+<area shape="rect" id="Node000019" href="$structFT__Bitmap__.html" title=" " alt="" coords="513,404,611,429"/>
+<area shape="poly" id="edge26_Node000018_Node000019" title=" " alt="" coords="625,413,778,411,778,416,625,418"/>
+<area shape="rect" id="Node000020" href="$structFT__Span__.html" title=" " alt="" coords="521,355,603,380"/>
+<area shape="poly" id="edge27_Node000018_Node000020" title=" " alt="" coords="618,373,778,399,777,404,617,378"/>
+<area shape="rect" id="Node000021" href="$structFT__Glyph__Class__.html" title=" " alt="" coords="1121,269,1251,295"/>
+<area shape="poly" id="edge29_Node000015_Node000021" title=" " alt="" coords="1264,269,1341,256,1422,238,1481,218,1483,223,1423,243,1342,262,1265,275"/>
+<area shape="poly" id="edge30_Node000021_Node000022" title=" " alt="" coords="916,299,966,307,1026,312,1086,307,1149,292,1150,297,1087,313,1026,318,965,313,915,304"/>
+<area shape="poly" id="edge35_Node000008_Node000023" title=" " alt="" coords="609,750,680,774,763,793,825,798,907,800,1104,797,1457,779,1457,784,1104,802,907,806,825,803,762,798,679,779,607,755"/>
+<area shape="poly" id="edge37_Node000023_Node000023" title=" " alt="" coords="536,708,544,699,562,696,578,698,587,705,590,714,585,724,580,721,584,714,583,708,576,703,562,701,546,704,539,711"/>
+<area shape="rect" id="Node000025" href="$structCFF__IndexRec__.html" title=" " alt="" coords="791,709,913,735"/>
+<area shape="poly" id="edge41_Node000025_Node000023" title=" " alt="" coords="637,729,791,722,791,727,637,735"/>
+<area shape="rect" id="Node000024" href="$unionFT__StreamDesc__.html" title=" " alt="" coords="223,723,353,748"/>
+<area shape="poly" id="edge36_Node000023_Node000024" title=" " alt="" coords="367,733,501,733,501,738,367,738"/>
+<area shape="poly" id="edge60_Node000001_Node000025" title=" " alt="" coords="925,702,940,695,951,682,964,669,998,657,1027,657,1055,655,1069,650,1085,641,1093,633,1097,624,1101,613,1109,602,1135,578,1162,559,1165,564,1138,582,1113,605,1106,616,1102,626,1098,636,1088,645,1072,655,1056,660,1027,662,999,663,967,674,955,686,943,699,927,707"/>
+<area shape="poly" id="edge40_Node000008_Node000025" title=" " alt="" coords="927,736,943,744,955,755,967,766,984,774,1000,778,1031,779,1060,783,1075,791,1089,804,1104,831,1108,858,1104,884,1098,909,1091,934,1090,958,1095,981,1112,1003,1138,1020,1165,1030,1193,1032,1222,1028,1252,1019,1281,1004,1339,964,1393,916,1440,866,1502,789,1506,792,1444,869,1397,920,1343,969,1284,1009,1254,1024,1224,1034,1194,1038,1164,1035,1136,1025,1109,1007,1090,983,1084,959,1086,933,1093,908,1099,883,1102,858,1099,833,1085,808,1072,795,1058,788,1030,784,999,783,982,779,964,771,952,759,940,748,924,741"/>
+<area shape="rect" id="Node000026" href="$structCFF__EncodingRec__.html" title=" " alt="" coords="1114,665,1258,691"/>
+<area shape="poly" id="edge42_Node000008_Node000026" title=" " alt="" coords="1272,684,1347,698,1424,721,1464,741,1497,763,1494,767,1462,746,1422,726,1345,703,1271,689"/>
+<area shape="rect" id="Node000027" href="$structCFF__CharsetRec__.html" title=" " alt="" coords="1119,715,1253,740"/>
+<area shape="poly" id="edge43_Node000008_Node000027" title=" " alt="" coords="1268,737,1423,761,1457,766,1457,771,1422,766,1267,742"/>
+<area shape="rect" id="Node000028" href="$structCFF__FDSelectRec__.html" title=" " alt="" coords="1115,816,1257,841"/>
+<area shape="poly" id="edge45_Node000008_Node000028" title=" " alt="" coords="1271,826,1345,821,1422,809,1484,788,1485,793,1423,814,1346,826,1271,831"/>
+<area shape="rect" id="Node000029" href="$structPSHinter__Interface__.html" title=" " alt="" coords="1111,616,1261,641"/>
+<area shape="poly" id="edge46_Node000008_Node000029" title=" " alt="" coords="1276,640,1368,656,1424,670,1452,692,1476,717,1508,764,1503,767,1472,721,1449,696,1422,675,1366,661,1275,645"/>
+<area shape="rect" id="Node000030" href="$structPSH__Globals__FuncsRec__.html" title=" " alt="" coords="763,759,941,784"/>
+<area shape="poly" id="edge47_Node000029_Node000030" title=" " alt="" coords="955,764,989,758,1023,747,1056,732,1085,712,1094,698,1096,683,1099,667,1109,651,1126,639,1129,644,1113,655,1104,669,1102,684,1099,700,1089,716,1059,737,1025,752,990,763,956,770"/>
+<area shape="rect" id="Node000031" href="$structPS__PrivateRec__.html" title=" " alt="" coords="501,844,623,869"/>
+<area shape="poly" id="edge48_Node000030_Node000031" title=" " alt="" coords="619,837,807,782,809,787,620,843"/>
+<area shape="rect" id="Node000032" href="$structT1__Hints__FuncsRec__.html" title=" " alt="" coords="775,597,929,623"/>
+<area shape="poly" id="edge49_Node000029_Node000032" title=" " alt="" coords="943,612,1110,622,1110,627,943,618"/>
+<area shape="poly" id="edge50_Node000032_Node000033" title=" " alt="" coords="625,630,738,625,777,620,778,625,739,630,625,635"/>
+<area shape="rect" id="Node000034" href="$structT2__Hints__FuncsRec__.html" title=" " alt="" coords="775,660,929,685"/>
+<area shape="poly" id="edge53_Node000034_Node000033" title=" " alt="" coords="626,645,654,650,775,664,774,670,653,655,625,650"/>
+<area shape="poly" id="edge52_Node000029_Node000034" title=" " alt="" coords="943,684,1026,691,1061,690,1085,684,1093,677,1097,669,1101,660,1109,651,1130,639,1133,644,1112,655,1105,663,1102,671,1097,680,1088,688,1062,695,1026,697,943,690"/>
+<area shape="rect" id="Node000035" href="$structFT__Generic__.html" title=" " alt="" coords="1135,865,1237,891"/>
+<area shape="poly" id="edge54_Node000008_Node000035" title=" " alt="" coords="1251,877,1334,869,1379,860,1422,846,1445,834,1466,819,1499,789,1502,793,1469,823,1447,839,1424,851,1380,866,1335,875,1251,882"/>
+<area shape="rect" id="Node000036" href="$structCFF__VStoreRec__.html" title=" " alt="" coords="1122,1116,1250,1141"/>
+<area shape="poly" id="edge55_Node000008_Node000036" title=" " alt="" coords="1257,1141,1298,1144,1342,1141,1384,1131,1421,1109,1439,1086,1455,1050,1481,955,1499,858,1509,790,1514,791,1504,859,1486,957,1460,1052,1443,1089,1424,1113,1386,1136,1343,1146,1298,1149,1257,1146"/>
+<area shape="rect" id="Node000037" href="$structCFF__VarData__.html" title=" " alt="" coords="795,1115,909,1140"/>
+<area shape="poly" id="edge56_Node000036_Node000037" title=" " alt="" coords="922,1125,1122,1126,1122,1131,922,1130"/>
+<area shape="rect" id="Node000038" href="$structCFF__VarRegion__.html" title=" " alt="" coords="789,1065,915,1091"/>
+<area shape="poly" id="edge57_Node000036_Node000038" title=" " alt="" coords="930,1084,1087,1106,1126,1113,1125,1119,1086,1111,929,1089"/>
+<area shape="rect" id="Node000039" href="$structCFF__AxisCoords__.html" title=" " alt="" coords="495,1065,629,1091"/>
+<area shape="poly" id="edge58_Node000038_Node000039" title=" " alt="" coords="643,1075,789,1075,789,1081,643,1081"/>
+<area shape="rect" id="Node000040" href="$structPS__FontExtraRec__.html" title=" " alt="" coords="1117,1067,1255,1092"/>
+<area shape="poly" id="edge59_Node000008_Node000040" title=" " alt="" coords="1269,1088,1308,1087,1348,1082,1387,1070,1421,1049,1448,1021,1470,987,1485,950,1496,912,1508,840,1510,791,1516,791,1513,841,1502,913,1490,952,1474,989,1453,1024,1424,1053,1389,1075,1349,1087,1308,1092,1269,1093"/>
+</map>

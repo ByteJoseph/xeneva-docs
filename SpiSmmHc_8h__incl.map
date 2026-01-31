@@ -1,0 +1,12 @@
+<map id="XenevaOS/Boot/include/Protocol/SpiSmmHc.h" name="XenevaOS/Boot/include/Protocol/SpiSmmHc.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="67,5,241,45"/>
+<area shape="rect" id="Node000002" href="$SpiHc_8h.html" title=" " alt="" coords="90,93,218,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,46,157,79,151,79,151,46"/>
+<area shape="rect" id="Node000003" href="$SpiConfiguration_8h.html" title=" " alt="" coords="5,240,204,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="151,120,133,168,114,227,109,226,127,166,146,118"/>
+<area shape="rect" id="Node000004" href="$SpiIo_8h.html" title=" " alt="" coords="142,167,265,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="164,117,190,154,185,157,160,121"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="189,194,133,234,130,230,186,190"/>
+<area shape="rect" id="Node000005" href="$LegacySpiController_8h.html" title=" " alt="" coords="228,240,448,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="226,190,305,231,303,236,224,194"/>
+</map>

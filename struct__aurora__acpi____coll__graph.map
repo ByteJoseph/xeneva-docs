@@ -1,0 +1,20 @@
+<map id="_aurora_acpi_" name="_aurora_acpi_">
+<area shape="rect" id="Node000001" title="Standard kernel ACPI header for kernel use only." alt="" coords="201,299,313,324"/>
+<area shape="rect" id="Node000002" href="$structacpiMadt.html" title=" " alt="" coords="111,211,194,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,243,214,273,244,297,241,301,211,277,175,247"/>
+<area shape="rect" id="Node000003" href="$struct__acpiSysDesc.html" title=" " alt="" coords="137,5,248,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="166,41,156,56,145,98,143,142,147,181,152,210,147,211,142,182,138,142,140,97,152,54,162,38"/>
+<area shape="rect" id="Node000004" href="$structacpiFadt.html" title=" " alt="" coords="320,211,396,236"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="203,43,206,54,211,94,212,126,216,155,224,169,236,185,267,197,320,211,319,216,265,202,232,189,219,172,211,157,206,126,206,94,201,55,198,45"/>
+<area shape="rect" id="Node000007" href="$structacpiDsdt.html" title=" " alt="" coords="420,211,499,236"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="262,34,285,53,296,71,300,88,297,122,295,154,300,169,310,184,420,210,419,216,307,189,295,172,290,155,292,122,295,89,291,73,281,56,258,39"/>
+<area shape="rect" id="Node000008" href="$structacpiMcfg.html" title=" " alt="" coords="5,211,87,236"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="125,33,104,42,87,57,73,75,63,95,51,139,47,180,48,210,42,211,42,180,46,138,58,93,69,72,83,53,101,38,123,28"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="335,247,272,300,269,296,332,243"/>
+<area shape="rect" id="Node000005" href="$structacpiGenAddr.html" title="source from Visopsys Operating System" alt="" coords="340,5,445,31"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="391,45,363,211,357,210,386,44"/>
+<area shape="rect" id="Node000006" href="$structacpiFacs.html" title="Firmware ACPI Control structure." alt="" coords="218,211,295,236"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="259,250,259,298,254,298,254,250"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="424,244,350,277,288,301,287,296,348,272,421,240"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="82,240,154,272,221,296,219,301,152,277,79,244"/>
+</map>

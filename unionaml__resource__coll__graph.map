@@ -1,0 +1,67 @@
+<map id="aml_resource" name="aml_resource">
+<area shape="rect" id="Node000001" title=" " alt="" coords="396,886,507,911"/>
+<area shape="rect" id="Node000002" href="$structaml__resource__small__header.html" title=" " alt="" coords="37,16,191,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,18,248,17,294,22,337,37,374,64,385,82,395,113,412,205,425,325,435,461,448,724,452,886,447,886,443,724,430,461,420,326,407,206,390,115,380,85,370,67,335,42,293,28,248,22,204,23"/>
+<area shape="rect" id="Node000003" href="$structaml__resource__large__header.html" title=" " alt="" coords="39,80,189,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,82,247,81,293,86,336,101,356,113,374,128,384,145,394,173,410,257,423,368,433,492,447,735,452,886,447,886,442,735,428,493,418,368,405,258,389,175,380,147,370,131,353,117,334,106,292,92,247,86,203,87"/>
+<area shape="rect" id="Node000004" href="$structaml__resource__irq.html" title=" " alt="" coords="47,145,181,170"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="195,143,241,142,289,148,335,163,355,176,374,192,384,208,392,234,407,310,420,411,431,524,446,746,452,886,447,886,440,746,426,525,415,411,402,311,387,235,379,210,370,195,352,180,332,168,288,153,240,147,195,148"/>
+<area shape="rect" id="Node000005" href="$structaml__resource__dma.html" title=" " alt="" coords="41,194,187,219"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="202,206,303,217,346,228,374,243,383,258,391,282,406,353,429,550,445,755,452,885,447,886,439,755,424,551,400,354,386,284,378,261,370,247,344,232,302,222,201,211"/>
+<area shape="rect" id="Node000006" href="$structaml__resource__start__dependent.html" title=" " alt="" coords="41,244,187,284"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="201,260,303,267,345,276,374,291,382,305,390,327,405,392,428,574,444,764,452,886,447,886,439,764,423,575,399,393,385,329,378,307,370,295,344,281,302,272,201,265"/>
+<area shape="rect" id="Node000007" href="$structaml__resource__end__dependent.html" title=" " alt="" coords="5,309,223,334"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="217,306,258,307,300,314,340,329,374,354,388,372,400,397,420,460,434,538,443,622,452,782,453,886,447,886,446,783,438,622,428,538,415,462,395,399,383,375,370,358,337,334,299,319,257,312,217,311"/>
+<area shape="rect" id="Node000008" href="$structaml__resource__io.html" title=" " alt="" coords="49,358,179,383"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="192,369,298,378,344,389,374,405,387,421,398,443,416,500,430,570,440,645,450,791,453,886,447,886,445,791,435,646,425,571,411,502,393,445,382,424,370,409,342,394,297,384,192,374"/>
+<area shape="rect" id="Node000009" href="$structaml__resource__fixed__io.html" title=" " alt="" coords="31,407,197,433"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="212,420,307,430,347,441,374,455,396,490,413,540,427,602,437,670,448,799,452,886,447,886,443,800,431,670,421,603,408,542,391,492,370,459,345,446,306,436,211,425"/>
+<area shape="rect" id="Node000010" href="$structaml__resource__fixed__dma.html" title=" " alt="" coords="22,457,206,482"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="220,471,311,483,349,493,374,507,394,537,410,581,423,635,433,694,446,808,452,885,447,886,441,809,428,695,418,636,405,583,389,540,370,511,347,498,310,488,219,476"/>
+<area shape="rect" id="Node000011" href="$structaml__resource__vendor__small.html" title=" " alt="" coords="33,507,195,547"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="209,524,306,531,346,540,374,554,392,580,407,618,430,716,445,816,452,885,446,886,440,817,425,717,402,619,387,582,370,558,345,545,305,537,209,529"/>
+<area shape="rect" id="Node000012" href="$structaml__resource__end__tag.html" title=" " alt="" coords="29,571,199,597"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="212,568,253,569,296,575,337,588,374,611,390,632,404,663,426,744,442,827,451,885,446,886,437,828,421,745,399,665,385,635,370,615,335,593,295,580,253,574,212,573"/>
+<area shape="rect" id="Node000013" href="$structaml__resource__memory24.html" title=" " alt="" coords="20,621,208,646"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="222,626,261,631,301,640,339,655,374,678,396,701,414,729,437,789,448,845,452,886,447,886,443,846,432,790,409,731,392,705,370,682,337,660,300,645,260,636,221,632"/>
+<area shape="rect" id="Node000014" href="$structaml__resource__generic__register.html" title=" " alt="" coords="31,671,197,711"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="211,691,252,697,294,708,336,724,374,747,405,780,427,819,442,856,450,885,445,887,436,858,422,821,400,783,370,751,334,729,293,713,251,702,210,696"/>
+<area shape="rect" id="Node000015" href="$structaml__resource__vendor__large.html" title=" " alt="" coords="33,735,195,775"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="210,759,292,776,334,790,373,810,396,827,416,847,444,884,440,887,412,850,393,831,371,814,332,795,290,781,209,764"/>
+<area shape="rect" id="Node000016" href="$structaml__resource__memory32.html" title=" " alt="" coords="20,799,208,825"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="222,824,297,839,373,860,427,884,425,888,371,865,295,845,221,830"/>
+<area shape="rect" id="Node000017" href="$structaml__resource__fixed__memory32.html" title=" " alt="" coords="40,849,188,889"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="202,874,396,891,396,897,202,880"/>
+<area shape="rect" id="Node000018" href="$structaml__resource__address16.html" title=" " alt="" coords="22,914,206,939"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="220,922,372,911,395,907,396,912,372,916,220,927"/>
+<area shape="rect" id="Node000019" href="$structaml__resource__address32.html" title=" " alt="" coords="22,963,206,989"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="220,970,295,960,371,941,404,927,431,909,434,914,406,931,373,947,296,965,220,975"/>
+<area shape="rect" id="Node000020" href="$structaml__resource__address64.html" title=" " alt="" coords="22,1013,206,1038"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="220,1025,296,1015,335,1004,371,988,394,971,414,950,441,910,446,913,418,953,398,975,373,993,337,1009,298,1020,220,1031"/>
+<area shape="rect" id="Node000021" href="$structaml__resource__extended__address64.html" title=" " alt="" coords="25,1063,203,1103"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="217,1087,256,1084,296,1077,335,1064,370,1045,401,1014,423,976,437,940,445,911,450,912,442,941,427,979,405,1017,374,1049,337,1069,297,1082,257,1089,217,1092"/>
+<area shape="rect" id="Node000022" href="$structaml__resource__extended__irq.html" title=" " alt="" coords="13,1127,215,1153"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="229,1148,266,1145,303,1138,339,1125,370,1106,392,1085,408,1060,431,1004,443,951,447,911,452,912,448,951,436,1006,413,1063,396,1088,374,1110,341,1130,305,1143,267,1151,229,1153"/>
+<area shape="rect" id="Node000023" href="$structaml__resource__gpio.html" title=" " alt="" coords="41,1177,187,1202"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="185,1202,230,1206,280,1204,328,1192,350,1182,370,1169,385,1150,398,1122,421,1046,437,968,446,911,451,912,442,969,426,1048,403,1124,389,1153,374,1173,353,1187,330,1197,280,1209,230,1211,184,1207"/>
+<area shape="rect" id="Node000024" href="$structaml__resource__i2c__serialbus.html" title=" " alt="" coords="13,1226,215,1251"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="172,1252,219,1260,272,1261,324,1252,348,1242,370,1227,387,1205,402,1169,425,1075,439,979,446,911,452,912,445,979,430,1076,407,1171,392,1207,374,1231,351,1246,326,1257,273,1266,219,1265,171,1257"/>
+<area shape="rect" id="Node000025" href="$structaml__resource__spi__serialbus.html" title=" " alt="" coords="13,1275,215,1301"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="229,1298,314,1298,348,1293,370,1283,390,1256,406,1214,419,1161,429,1103,442,989,447,912,452,912,447,990,435,1104,425,1162,411,1216,395,1259,374,1287,349,1298,314,1304,229,1303"/>
+<area shape="rect" id="Node000026" href="$structaml__resource__uart__serialbus.html" title=" " alt="" coords="9,1325,219,1350"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="175,1350,223,1357,275,1357,326,1346,349,1336,370,1321,391,1290,408,1243,421,1185,431,1120,443,995,447,911,452,912,448,996,437,1121,427,1186,413,1245,396,1293,374,1325,352,1340,328,1351,275,1362,222,1362,174,1355"/>
+<area shape="rect" id="Node000027" href="$structaml__resource__common__serialbus.html" title=" " alt="" coords="27,1375,201,1415"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="211,1414,253,1416,295,1413,335,1401,370,1379,383,1365,394,1344,412,1290,426,1222,435,1148,445,1005,447,911,453,912,451,1005,441,1149,431,1223,417,1291,399,1346,387,1368,374,1383,337,1406,296,1418,253,1422,211,1419"/>
+<area shape="rect" id="Node000028" href="$structaml__resource__pin__function.html" title=" " alt="" coords="15,1439,213,1465"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="172,1465,220,1473,273,1474,325,1464,349,1453,370,1438,384,1421,396,1398,416,1336,430,1260,439,1176,447,1015,448,912,453,912,453,1015,445,1176,435,1261,421,1338,401,1400,388,1424,374,1442,352,1458,327,1469,273,1480,219,1478,171,1470"/>
+<area shape="rect" id="Node000029" href="$structaml__resource__pin__config.html" title=" " alt="" coords="23,1489,205,1514"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="220,1511,310,1513,347,1507,370,1497,378,1485,386,1464,400,1401,423,1221,439,1032,447,911,452,912,444,1033,429,1221,405,1402,391,1466,383,1488,374,1501,348,1513,310,1518,220,1516"/>
+<area shape="rect" id="Node000030" href="$structaml__resource__pin__group.html" title=" " alt="" coords="23,1538,205,1563"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="172,1564,220,1571,274,1572,326,1562,349,1551,370,1536,378,1523,386,1500,401,1433,424,1240,440,1039,447,911,452,912,445,1040,430,1241,406,1433,391,1502,383,1525,374,1539,352,1556,327,1567,274,1578,220,1577,171,1569"/>
+<area shape="rect" id="Node000031" href="$structaml__resource__pin__group__function.html" title=" " alt="" coords="23,1588,205,1628"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="205,1628,248,1631,292,1629,334,1617,353,1607,370,1594,379,1580,388,1556,403,1481,416,1382,426,1269,441,1050,447,911,452,912,446,1050,432,1270,421,1382,408,1482,393,1557,384,1582,374,1598,356,1612,336,1622,293,1634,248,1637,204,1633"/>
+<area shape="rect" id="Node000032" href="$structaml__resource__pin__group__config.html" title=" " alt="" coords="23,1652,205,1692"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="217,1691,258,1692,299,1688,337,1675,370,1653,380,1637,389,1610,405,1529,418,1421,428,1298,442,1060,447,911,452,911,447,1060,433,1299,423,1421,410,1530,394,1612,384,1640,374,1657,339,1680,300,1693,258,1698,217,1696"/>
+<area shape="rect" id="Node000033" href="$structaml__resource__address.html" title=" " alt="" coords="30,1717,198,1742"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="172,1742,221,1750,274,1751,326,1740,349,1729,370,1713,380,1696,390,1667,407,1578,420,1461,430,1329,443,1071,447,912,452,912,448,1071,435,1329,425,1462,412,1579,395,1668,385,1698,374,1716,352,1733,328,1745,274,1756,220,1755,171,1748"/>
+</map>

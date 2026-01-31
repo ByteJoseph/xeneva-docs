@@ -1,0 +1,17 @@
+<map id="XenevaOS/KernelAA64/Board/board.c" name="XenevaOS/KernelAA64/Board/board.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="167,5,335,45"/>
+<area shape="rect" id="Node000002" href="$rpi3bp_8h.html" title=" " alt="" coords="5,93,172,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,48,126,90,124,85,211,43"/>
+<area shape="rect" id="Node000003" href="$uart_8h.html" title=" " alt="" coords="196,93,307,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="254,46,254,79,249,79,249,46"/>
+<area shape="rect" id="Node000006" href="$aucon_8h.html" title=" " alt="" coords="331,93,404,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="281,43,340,83,337,88,278,48"/>
+<area shape="rect" id="Node000004" href="$aa64hcode_8h.html" title=" " alt="" coords="96,167,201,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="236,121,178,161,175,156,233,116"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="225,167,296,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="256,119,260,153,255,154,250,119"/>
+<area shape="rect" id="Node000007" href="$BaseHdr_2aurora_8h.html" title=" " alt="" coords="329,167,405,192"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="370,119,370,153,365,153,365,119"/>
+<area shape="rect" id="Node000008" href="$BaseHdr_2stdint_8h.html" title=" " alt="" coords="332,240,403,265"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="370,192,370,226,365,226,365,192"/>
+</map>

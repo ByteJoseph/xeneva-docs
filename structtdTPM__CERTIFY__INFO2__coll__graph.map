@@ -1,0 +1,9 @@
+<map id="tdTPM_CERTIFY_INFO2" name="tdTPM_CERTIFY_INFO2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="151,93,321,119"/>
+<area shape="rect" id="Node000002" href="$structtdTPM__KEY__PARMS.html" title=" " alt="" coords="5,5,152,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,40,124,67,151,81,179,91,178,96,149,86,121,72,93,44"/>
+<area shape="rect" id="Node000003" href="$structtdTPM__DIGEST.html" title=" " alt="" coords="177,5,295,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,45,239,93,233,93,233,45"/>
+<area shape="rect" id="Node000004" href="$structtdTPM__NONCE.html" title=" " alt="" coords="319,5,436,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="364,44,336,71,311,86,284,96,282,91,308,81,333,67,360,40"/>
+</map>

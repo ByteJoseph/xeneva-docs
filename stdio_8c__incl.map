@@ -1,0 +1,21 @@
+<map id="XenevaOS/KernelAA64/stdio.c" name="XenevaOS/KernelAA64/stdio.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="244,5,412,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,72,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,48,86,95,84,90,258,43"/>
+<area shape="rect" id="Node000003" href="$aucon_8h.html" title=" " alt="" coords="97,93,170,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="282,48,176,91,174,86,280,43"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="194,93,265,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="306,48,256,87,253,82,302,43"/>
+<area shape="rect" id="Node000007" href="$va__list_8h.html" title=" " alt="" coords="289,93,367,119"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="331,46,331,79,325,79,325,46"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="391,93,462,119"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="354,43,403,82,400,87,350,48"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="486,93,557,119"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="375,43,481,86,479,91,373,48"/>
+<area shape="rect" id="Node000010" href="$__null_8h.html" title=" " alt="" coords="581,93,646,119"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="397,43,568,90,567,95,396,48"/>
+<area shape="rect" id="Node000004" href="$BaseHdr_2aurora_8h.html" title=" " alt="" coords="95,167,171,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="136,119,136,153,131,153,131,119"/>
+<area shape="rect" id="Node000005" href="$BaseHdr_2stdint_8h.html" title=" " alt="" coords="98,240,169,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="136,192,136,226,131,226,131,192"/>
+</map>

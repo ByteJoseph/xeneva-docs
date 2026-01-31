@@ -1,0 +1,9 @@
+<map id="CFF_FontRecDictRec_" name="CFF_FontRecDictRec_">
+<area shape="rect" id="Node000001" title=" " alt="" coords="88,93,251,119"/>
+<area shape="rect" id="Node000002" href="$structFT__Matrix__.html" title=" " alt="" coords="5,5,99,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,42,84,67,105,81,127,91,125,96,102,86,81,71,60,45"/>
+<area shape="rect" id="Node000003" href="$structFT__Vector__.html" title=" " alt="" coords="123,5,215,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,45,172,93,167,93,167,45"/>
+<area shape="rect" id="Node000004" href="$structFT__BBox__.html" title=" " alt="" coords="240,5,325,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="273,45,251,71,230,85,208,96,205,91,227,81,248,67,268,42"/>
+</map>

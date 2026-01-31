@@ -1,0 +1,11 @@
+<map id="DXE_SERVICES" name="DXE_SERVICES">
+<area shape="rect" id="Node000001" title=" " alt="" coords="333,123,452,148"/>
+<area shape="rect" id="Node000002" href="$structEFI__TABLE__HEADER.html" title=" " alt="" coords="5,13,156,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,42,177,69,247,96,336,120,335,125,245,101,175,74,115,47"/>
+<area shape="rect" id="Node000003" href="$structEFI__GCD__MEMORY__SPACE__DESCRIPTOR.html" title=" " alt="" coords="180,5,371,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="280,58,285,79,296,97,313,111,334,120,332,125,310,115,292,100,280,81,275,60"/>
+<area shape="rect" id="Node000004" href="$structEFI__GCD__IO__SPACE__DESCRIPTOR.html" title=" " alt="" coords="395,13,633,38"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="511,53,501,77,484,101,464,115,442,125,440,120,461,110,480,97,496,75,506,51"/>
+<area shape="rect" id="Node000005" href="$structGUID.html" title=" " alt="" coords="659,13,715,38"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="684,52,673,78,653,101,617,115,565,125,453,135,452,130,565,120,616,110,650,96,668,75,679,50"/>
+</map>
