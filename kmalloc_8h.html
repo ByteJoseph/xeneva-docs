@@ -74,9 +74,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">kmalloc.h File Reference</div></div>
 </div><!--header-->
@@ -98,23 +95,6 @@ Include dependency graph for kmalloc.h:</div>
 </div>
 <p><a href="kmalloc_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__meta__data__.html">_meta_data_</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a36a81837560edc6d7afb28ae037f5f63" id="r_a36a81837560edc6d7afb28ae037f5f63"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kmalloc_8h.html#a36a81837560edc6d7afb28ae037f5f63">MAGIC_USED</a>&#160;&#160;&#160;0x16062002</td></tr>
-<tr class="separator:a36a81837560edc6d7afb28ae037f5f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0734d44f75519a989d3b4e5b95aad6a1" id="r_a0734d44f75519a989d3b4e5b95aad6a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kmalloc_8h.html#a0734d44f75519a989d3b4e5b95aad6a1">MAGIC_FREE</a>&#160;&#160;&#160;0x05212023   /* the year to remember */</td></tr>
-<tr class="separator:a0734d44f75519a989d3b4e5b95aad6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ad122a77d2fdf71e74c70721e9d06efb7" id="r_ad122a77d2fdf71e74c70721e9d06efb7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct__meta__data__.html">_meta_data_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kmalloc_8h.html#ad122a77d2fdf71e74c70721e9d06efb7">meta_data_t</a></td></tr>
-<tr class="separator:ad122a77d2fdf71e74c70721e9d06efb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ab1953c9c2e6e6e1437811d6f9f167df9" id="r_ab1953c9c2e6e6e1437811d6f9f167df9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kmalloc_8h.html#ab1953c9c2e6e6e1437811d6f9f167df9">AuHeapInitialize</a> ()</td></tr>
@@ -132,58 +112,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a4247beac40cdd65c3bd2d5d24b38f6e6" id="r_a4247beac40cdd65c3bd2d5d24b38f6e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kmalloc_8h.html#a4247beac40cdd65c3bd2d5d24b38f6e6">kmalloc_debug_on</a> (<a class="el" href="BaseHdr_2stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> bit)</td></tr>
 <tr class="separator:a4247beac40cdd65c3bd2d5d24b38f6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a0734d44f75519a989d3b4e5b95aad6a1" name="a0734d44f75519a989d3b4e5b95aad6a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0734d44f75519a989d3b4e5b95aad6a1">&#9670;&#160;</a></span>MAGIC_FREE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAGIC_FREE&#160;&#160;&#160;0x05212023   /* the year to remember */</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a36a81837560edc6d7afb28ae037f5f63" name="a36a81837560edc6d7afb28ae037f5f63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36a81837560edc6d7afb28ae037f5f63">&#9670;&#160;</a></span>MAGIC_USED</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAGIC_USED&#160;&#160;&#160;0x16062002</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>BSD 2-Clause License</p>
-<p>Copyright (c) 2022-2023, Manas Kamal Choudhury All rights reserved.</p>
-<p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
-<ol type="1">
-<li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
-<li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
-</ol>
-<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="ad122a77d2fdf71e74c70721e9d06efb7" name="ad122a77d2fdf71e74c70721e9d06efb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad122a77d2fdf71e74c70721e9d06efb7">&#9670;&#160;</a></span>meta_data_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="struct__meta__data__.html">_meta_data_</a> <a class="el" href="kmalloc_8h.html#ad122a77d2fdf71e74c70721e9d06efb7">meta_data_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ab1953c9c2e6e6e1437811d6f9f167df9" name="ab1953c9c2e6e6e1437811d6f9f167df9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab1953c9c2e6e6e1437811d6f9f167df9">&#9670;&#160;</a></span>AuHeapInitialize()</h2>
@@ -199,6 +127,14 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>BSD 2-Clause License</p>
+<p>Copyright (c) 2022-2023, Manas Kamal Choudhury All rights reserved.</p>
+<p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
+<ol type="1">
+<li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
+<li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
+</ol>
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </p>
 
 </div>
 </div>

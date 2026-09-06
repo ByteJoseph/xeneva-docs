@@ -103,9 +103,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:abc92c42ea97b1b2c1575405c209dbc66" id="r_abc92c42ea97b1b2c1575405c209dbc66"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8h.html#abc92c42ea97b1b2c1575405c209dbc66">MP3_MAX_SAMPLES_PER_FRAME</a>&#160;&#160;&#160;(1152*2)</td></tr>
+<tr class="memitem:abc92c42ea97b1b2c1575405c209dbc66" id="r_abc92c42ea97b1b2c1575405c209dbc66"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8h.html#abc92c42ea97b1b2c1575405c209dbc66">MP3_MAX_SAMPLES_PER_FRAME</a>&#160;&#160;&#160;(1152 * 2)</td></tr>
 <tr class="separator:abc92c42ea97b1b2c1575405c209dbc66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02cdb4b6fbd20d9cb08cf674f9dc0857" id="r_a02cdb4b6fbd20d9cb08cf674f9dc0857"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8h.html#a02cdb4b6fbd20d9cb08cf674f9dc0857">mp3_free</a>(dec)&#160;&#160;&#160;do { <a class="el" href="minimp3_8cpp.html#a58a02336690a9c0eca15d1ede96fee4c">mp3_done</a>(dec); dec = <a class="el" href="actypes_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; } while(0)</td></tr>
+<tr class="memitem:a02cdb4b6fbd20d9cb08cf674f9dc0857" id="r_a02cdb4b6fbd20d9cb08cf674f9dc0857"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8h.html#a02cdb4b6fbd20d9cb08cf674f9dc0857">mp3_free</a>(dec)</td></tr>
 <tr class="separator:a02cdb4b6fbd20d9cb08cf674f9dc0857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -136,11 +136,16 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">dec</td><td>)</td>
-          <td>&#160;&#160;&#160;do { <a class="el" href="minimp3_8cpp.html#a58a02336690a9c0eca15d1ede96fee4c">mp3_done</a>(dec); dec = <a class="el" href="actypes_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; } while(0)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                           \</div>
+<div class="line">        mp3_done(dec);                                                                             \</div>
+<div class="line">        dec = <a class="code hl_define" href="actypes_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;                                                                                \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+<div class="ttc" id="aactypes_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="actypes_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition</b> actypes.h:561</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abc92c42ea97b1b2c1575405c209dbc66" name="abc92c42ea97b1b2c1575405c209dbc66"></a>
@@ -150,7 +155,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MP3_MAX_SAMPLES_PER_FRAME&#160;&#160;&#160;(1152*2)</td>
+          <td class="memname">#define MP3_MAX_SAMPLES_PER_FRAME&#160;&#160;&#160;(1152 * 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -2,7 +2,7 @@ var searchData=
 [
   ['x64_5fhandoff_5fstatus_0',['X64_HANDOFF_STATUS',['../SecPlatformInformation_8h.html#a465528bf50bdc012469c0212e93d20dc',1,'SecPlatformInformation.h']]],
   ['x86_5f64_5fcpu_5fregs_5ft_1',['x86_64_cpu_regs_t',['../x86__64__cpu_8h.html#a28edc8da13713f2fef570c421dfbb682',1,'x86_64_cpu.h']]],
-  ['xebootinfo_2',['xebootinfo',['../BootAA64_2xnldr_8h.html#a110c0d863952ca0b47156b0e8521de9b',1,'XEBootInfo:&#160;xnldr.h'],['../Boot_2xnldr_8h.html#a110c0d863952ca0b47156b0e8521de9b',1,'XEBootInfo:&#160;xnldr.h']]],
+  ['xebootinfo_2',['xebootinfo',['../BootAA64_2xnldr_8h.html#ab454116c98a6447006471c7047787be5',1,'XEBootInfo:&#160;xnldr.h'],['../Boot_2xnldr_8h.html#a110c0d863952ca0b47156b0e8521de9b',1,'XEBootInfo:&#160;xnldr.h']]],
   ['xedirectoryentry_3',['XEDirectoryEntry',['../__kefile_8h.html#a85bd96b3d5f4d0f06e6ca79388f679c2',1,'_kefile.h']]],
   ['xednsentry_4',['XEDNSEntry',['../Libs_2XEClib_2includes_2sys_2socket_8h.html#a9c717ae3b4835ca59bd7a387b3b1133f',1,'socket.h']]],
   ['xefile_5',['xefile',['../Boot_2file_8h.html#a5a2318fbe7916980221130264b2db16a',1,'XEFile:&#160;file.h'],['../BootAA64_2file_8h.html#a5a2318fbe7916980221130264b2db16a',1,'XEFile:&#160;file.h']]],
@@ -11,7 +11,7 @@ var searchData=
   ['xeimageentry_8',['xeimageentry',['../Boot_2xnldr_8h.html#ac185d020a518df3f14065ba696c72fe0',1,'XEImageEntry:&#160;xnldr.h'],['../BootAA64_2xnldr_8h.html#ac185d020a518df3f14065ba696c72fe0',1,'XEImageEntry:&#160;xnldr.h']]],
   ['xeloaderobject_9',['XELoaderObject',['../XELdrObject_8h.html#a225f2648820345eae5d8759c824be9ce',1,'XELdrObject.h']]],
   ['xepagebutton_10',['XEPageButton',['../pagebutton_8h.html#a0fd076dda0d6ff940bffdaca596d853a',1,'pagebutton.h']]],
-  ['xepbootinfo_11',['xepbootinfo',['../Boot_2xnldr_8h.html#a0549e5d3de10d5dc33ea6f6e4f8041b3',1,'XEPBootInfo:&#160;xnldr.h'],['../BootAA64_2xnldr_8h.html#a0549e5d3de10d5dc33ea6f6e4f8041b3',1,'XEPBootInfo:&#160;xnldr.h']]],
+  ['xepbootinfo_11',['xepbootinfo',['../Boot_2xnldr_8h.html#a0549e5d3de10d5dc33ea6f6e4f8041b3',1,'XEPBootInfo:&#160;xnldr.h'],['../BootAA64_2xnldr_8h.html#ad12ab1a5eeed4731ab538d7633a89cd1',1,'XEPBootInfo:&#160;xnldr.h']]],
   ['xeprocesslist_12',['XEProcessList',['../__keproc_8h.html#ac5bd3387f24ccc81a0705f9f60e66560',1,'_keproc.h']]],
   ['xerouteentry_13',['XERouteEntry',['../Libs_2XEClib_2includes_2sys_2socket_8h.html#a09aa21bcafe8ba3e596b2cd2584196fb',1,'socket.h']]],
   ['xerouteentryinfo_14',['XERouteEntryInfo',['../Libs_2XEClib_2includes_2sys_2socket_8h.html#a2b8d8837e1e9b9f4ba22adafa817a712',1,'socket.h']]],

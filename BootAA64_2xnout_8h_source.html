@@ -120,21 +120,20 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment"> */</span></div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">extern</span> <a class="code hl_typedef" href="UefiBaseType_8h.html#a5f446f35c9f907a4f1cf22e794ba338d">EFI_STATUS</a> <a class="code hl_function" href="Boot_2xnout_8h.html#af2110185cc370ea0e1a986a3542fd71d">XESetTextAttribute</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> Back, <span class="keyword">const</span> <span class="keywordtype">int</span> Fore);</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment"> * XEPrintf -- print function that will</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment"> * show output to the screen</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment"> * @param fmt -- format to print</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_function" href="Boot_2xnout_8h.html#a880b8934746fde6b2dcf4e56ca6c93a3">XEPrintf</a>(<span class="keywordtype">wchar_t</span>* fmt, ...);</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="comment"> * XEGuiPrint -- print formated text using graphics</span></div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="comment"> * @param format -- formated string</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="Boot_2xnout_8h.html#aeea60faf1717c303de813c1cfedb33ea">XEGuiPrint</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* format, ...);</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="comment"> * XEPrintf -- print function that will</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment"> * show output to the screen</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment"> * @param fmt -- format to print</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code hl_function" href="Boot_2xnout_8h.html#a880b8934746fde6b2dcf4e56ca6c93a3">XEPrintf</a>(<span class="keywordtype">wchar_t</span>* fmt, ...);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment"> * XEGuiPrint -- print formated text using graphics</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="comment"> * @param format -- formated string</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code hl_function" href="Boot_2xnout_8h.html#aeea60faf1717c303de813c1cfedb33ea">XEGuiPrint</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* format, ...);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aBoot_2xnout_8h_html_a45176b50b30f97a45ae28d0968e55eb2"><div class="ttname"><a href="Boot_2xnout_8h.html#a45176b50b30f97a45ae28d0968e55eb2">XESetCursor</a></div><div class="ttdeci">EFI_STATUS XESetCursor(const unsigned char on)</div><div class="ttdef"><b>Definition</b> xnout.cpp:47</div></div>
 <div class="ttc" id="aBoot_2xnout_8h_html_a5e28369465c50c03c67bd8fcdf6367b0"><div class="ttname"><a href="Boot_2xnout_8h.html#a5e28369465c50c03c67bd8fcdf6367b0">XEClearScreen</a></div><div class="ttdeci">void XEClearScreen()</div><div class="ttdef"><b>Definition</b> xnout.cpp:39</div></div>
 <div class="ttc" id="aBoot_2xnout_8h_html_a82833a75d981571edf34ea31c642cc90"><div class="ttname"><a href="Boot_2xnout_8h.html#a82833a75d981571edf34ea31c642cc90">XEGetCurrentCursorPos</a></div><div class="ttdeci">void XEGetCurrentCursorPos(int *Col, int *Row)</div><div class="ttdef"><b>Definition</b> xnout.cpp:57</div></div>

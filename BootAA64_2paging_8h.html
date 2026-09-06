@@ -125,9 +125,9 @@ Macros</h2></td></tr>
 <tr class="separator:a25925feb3f95982fbb484a676c45e780"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bdc21ca3e88d93f8f3daf9352181da8" id="r_a7bdc21ca3e88d93f8f3daf9352181da8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2paging_8h.html#a7bdc21ca3e88d93f8f3daf9352181da8">PAGE_TABLE_ENTRY_MEMATTR</a>&#160;&#160;&#160;(1UL &lt;&lt; 2)</td></tr>
 <tr class="separator:a7bdc21ca3e88d93f8f3daf9352181da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44c5e0ee9791101d1ea3b52ac77fc4c6" id="r_a44c5e0ee9791101d1ea3b52ac77fc4c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2paging_8h.html#a44c5e0ee9791101d1ea3b52ac77fc4c6">PAGE_TABLE_ENTRY_PXN</a>&#160;&#160;&#160;(1UL &lt;&lt; 53)</td></tr>
+<tr class="memitem:a44c5e0ee9791101d1ea3b52ac77fc4c6" id="r_a44c5e0ee9791101d1ea3b52ac77fc4c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2paging_8h.html#a44c5e0ee9791101d1ea3b52ac77fc4c6">PAGE_TABLE_ENTRY_PXN</a>&#160;&#160;&#160;(1ULL &lt;&lt; 53)</td></tr>
 <tr class="separator:a44c5e0ee9791101d1ea3b52ac77fc4c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0e2f59f3b08e7cecfcb3fc4309ca2b1" id="r_aa0e2f59f3b08e7cecfcb3fc4309ca2b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2paging_8h.html#aa0e2f59f3b08e7cecfcb3fc4309ca2b1">PAGE_TABLE_ENTRY_UXN</a>&#160;&#160;&#160;(1UL &lt;&lt; 54)</td></tr>
+<tr class="memitem:aa0e2f59f3b08e7cecfcb3fc4309ca2b1" id="r_aa0e2f59f3b08e7cecfcb3fc4309ca2b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2paging_8h.html#aa0e2f59f3b08e7cecfcb3fc4309ca2b1">PAGE_TABLE_ENTRY_UXN</a>&#160;&#160;&#160;(1ULL &lt;&lt; 54)</td></tr>
 <tr class="separator:aa0e2f59f3b08e7cecfcb3fc4309ca2b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a651b9382bf2925dae64c16da4b245341" id="r_a651b9382bf2925dae64c16da4b245341"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2paging_8h.html#a651b9382bf2925dae64c16da4b245341">PAGE_TABLE_ENTRY_DEVICE</a>&#160;&#160;&#160;(0ULL &lt;&lt; 2)</td></tr>
 <tr class="separator:a651b9382bf2925dae64c16da4b245341"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,6 +140,8 @@ Functions</h2></td></tr>
 <tr class="separator:a00271891cece14cf06df57f9cf4b933d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8e028dc5157f0566f449fff2289e7eb" id="r_aa8e028dc5157f0566f449fff2289e7eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2paging_8h.html#aa8e028dc5157f0566f449fff2289e7eb">XEPagingMap</a> (<a class="el" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a> virtualAddr, <a class="el" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a> physAddr)</td></tr>
 <tr class="separator:aa8e028dc5157f0566f449fff2289e7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19aa7a38e0043055790e44a8306ecad7" id="r_a19aa7a38e0043055790e44a8306ecad7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2paging_8h.html#a19aa7a38e0043055790e44a8306ecad7">XEPagingInstallPhysicalDirectMap</a> ()</td></tr>
+<tr class="separator:a19aa7a38e0043055790e44a8306ecad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a812748eea056f9c56a16e58eecb9cf55" id="r_a812748eea056f9c56a16e58eecb9cf55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="BaseHdr_2stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2paging_8h.html#a812748eea056f9c56a16e58eecb9cf55">XEPagingIsMapped</a> (<a class="el" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a> virtualAddr)</td></tr>
 <tr class="separator:a812748eea056f9c56a16e58eecb9cf55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0abfdac011b0b6f38a022f42df8d3118" id="r_a0abfdac011b0b6f38a022f42df8d3118"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2paging_8h.html#a0abfdac011b0b6f38a022f42df8d3118">XEMapMMIO</a> (<a class="el" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a> *l1_table, <a class="el" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a> va, <a class="el" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a> pa)</td></tr>
@@ -159,8 +161,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">(<a class="code hl_define" href="BootAA64_2paging_8h.html#af249e241db4b2b15bd487fca81a20e39">PAGE_TABLE_ENTRY_PRESENT</a> | <a class="code hl_define" href="BootAA64_2paging_8h.html#ad3cc24a6f6e70999050d6d2a92b1c2be">PAGE_TABLE_ENTRY_PAGE</a> | <a class="code hl_define" href="BootAA64_2paging_8h.html#a809a5b839df93938ee942d5ecebd9ba1">PAGE_TABLE_ENTRY_AF</a> | \</div>
-<div class="line"><a class="code hl_define" href="BootAA64_2paging_8h.html#a365cb449df8c8db1d855698108a0a35b">PAGE_TABLE_ENTRY_SH</a> | <a class="code hl_define" href="BootAA64_2paging_8h.html#a25925feb3f95982fbb484a676c45e780">PAGE_TABLE_ENTRY_AP_RW</a> | <a class="code hl_define" href="BootAA64_2paging_8h.html#a7bdc21ca3e88d93f8f3daf9352181da8">PAGE_TABLE_ENTRY_MEMATTR</a>);</div>
+<b>Value:</b><div class="fragment"><div class="line">    (<a class="code hl_define" href="BootAA64_2paging_8h.html#af249e241db4b2b15bd487fca81a20e39">PAGE_TABLE_ENTRY_PRESENT</a> | <a class="code hl_define" href="BootAA64_2paging_8h.html#ad3cc24a6f6e70999050d6d2a92b1c2be">PAGE_TABLE_ENTRY_PAGE</a> | <a class="code hl_define" href="BootAA64_2paging_8h.html#a809a5b839df93938ee942d5ecebd9ba1">PAGE_TABLE_ENTRY_AF</a> |                      \</div>
+<div class="line">     <a class="code hl_define" href="BootAA64_2paging_8h.html#a365cb449df8c8db1d855698108a0a35b">PAGE_TABLE_ENTRY_SH</a> | <a class="code hl_define" href="BootAA64_2paging_8h.html#a25925feb3f95982fbb484a676c45e780">PAGE_TABLE_ENTRY_AP_RW</a> | <a class="code hl_define" href="BootAA64_2paging_8h.html#a7bdc21ca3e88d93f8f3daf9352181da8">PAGE_TABLE_ENTRY_MEMATTR</a>);</div>
 <div class="ttc" id="aBootAA64_2paging_8h_html_a25925feb3f95982fbb484a676c45e780"><div class="ttname"><a href="BootAA64_2paging_8h.html#a25925feb3f95982fbb484a676c45e780">PAGE_TABLE_ENTRY_AP_RW</a></div><div class="ttdeci">#define PAGE_TABLE_ENTRY_AP_RW</div><div class="ttdef"><b>Definition</b> paging.h:42</div></div>
 <div class="ttc" id="aBootAA64_2paging_8h_html_a365cb449df8c8db1d855698108a0a35b"><div class="ttname"><a href="BootAA64_2paging_8h.html#a365cb449df8c8db1d855698108a0a35b">PAGE_TABLE_ENTRY_SH</a></div><div class="ttdeci">#define PAGE_TABLE_ENTRY_SH</div><div class="ttdef"><b>Definition</b> paging.h:40</div></div>
 <div class="ttc" id="aBootAA64_2paging_8h_html_a7bdc21ca3e88d93f8f3daf9352181da8"><div class="ttname"><a href="BootAA64_2paging_8h.html#a7bdc21ca3e88d93f8f3daf9352181da8">PAGE_TABLE_ENTRY_MEMATTR</a></div><div class="ttdeci">#define PAGE_TABLE_ENTRY_MEMATTR</div><div class="ttdef"><b>Definition</b> paging.h:43</div></div>
@@ -283,7 +285,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PAGE_TABLE_ENTRY_PXN&#160;&#160;&#160;(1UL &lt;&lt; 53)</td>
+          <td class="memname">#define PAGE_TABLE_ENTRY_PXN&#160;&#160;&#160;(1ULL &lt;&lt; 53)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -325,7 +327,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PAGE_TABLE_ENTRY_UXN&#160;&#160;&#160;(1UL &lt;&lt; 54)</td>
+          <td class="memname">#define PAGE_TABLE_ENTRY_UXN&#160;&#160;&#160;(1ULL &lt;&lt; 54)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -411,6 +413,31 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void XEPagingInitialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19aa7a38e0043055790e44a8306ecad7" name="a19aa7a38e0043055790e44a8306ecad7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19aa7a38e0043055790e44a8306ecad7">&#9670;&#160;</a></span>XEPagingInstallPhysicalDirectMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void XEPagingInstallPhysicalDirectMap </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>

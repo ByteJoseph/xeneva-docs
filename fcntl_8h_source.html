@@ -87,13 +87,13 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#include &lt;<a class="code" href="Libs_2XEClib_2includes_2sys_2types_8h.html">sys/types.h</a>&gt;</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="fcntl_8h.html#ab93a8621587aba90181efd7d3aeea67e">   35</a></span><span class="preprocessor">#define F_DUPFD 0x01</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="fcntl_8h.html#abc11141031604fb22b8e3a201155cbb3">   36</a></span><span class="preprocessor">#define F_GETFD 0x02</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="fcntl_8h.html#ad27227e8d87b844648f07d66da38bb3f">   37</a></span><span class="preprocessor">#define F_SETFD 0x04</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a025fad21a889c79f02ec53abe3526c32">   38</a></span><span class="preprocessor">#define F_GETFL 0x08</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="fcntl_8h.html#af2939853c650561d3495ed40f68f6249">   39</a></span><span class="preprocessor">#define F_SETFL 0x10</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a2c3005e07f9aedb5d77856d13c3e40c4">   40</a></span><span class="preprocessor">#define F_GETLK 0x11</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a68a7fc570f2fc271acc5358a6418504e">   41</a></span><span class="preprocessor">#define F_SETLK 0x12</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="fcntl_8h.html#ab93a8621587aba90181efd7d3aeea67e">   35</a></span><span class="preprocessor">#define F_DUPFD  0x01</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="fcntl_8h.html#abc11141031604fb22b8e3a201155cbb3">   36</a></span><span class="preprocessor">#define F_GETFD  0x02</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="fcntl_8h.html#ad27227e8d87b844648f07d66da38bb3f">   37</a></span><span class="preprocessor">#define F_SETFD  0x04</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a025fad21a889c79f02ec53abe3526c32">   38</a></span><span class="preprocessor">#define F_GETFL  0x08</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="fcntl_8h.html#af2939853c650561d3495ed40f68f6249">   39</a></span><span class="preprocessor">#define F_SETFL  0x10</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a2c3005e07f9aedb5d77856d13c3e40c4">   40</a></span><span class="preprocessor">#define F_GETLK  0x11</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a68a7fc570f2fc271acc5358a6418504e">   41</a></span><span class="preprocessor">#define F_SETLK  0x12</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="fcntl_8h.html#aabb866cd0cf7ed3544dfc335e0e360fd">   42</a></span><span class="preprocessor">#define F_SETLKW 0x14</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a7e7a00c884ea124bb9f687b16cb5db9b">   44</a></span><span class="preprocessor">#define FD_CLOEXEC 0x01</span></div>
@@ -102,22 +102,22 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a2ace36798dbaef59cf9c99a4bf14fb96">   47</a></span><span class="preprocessor">#define F_UNLCK 0x02</span></div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a708b81093fd9c80a2adc260b3e9ca623">   48</a></span><span class="preprocessor">#define F_WRLCK 0x04</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a1cf6b1de1fffedaa1d26b189e9a8d2cc">   50</a></span><span class="preprocessor">#define O_CREAT 0x0001</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a9f5acfe79fafe14b6694447bd0e9f10b">   51</a></span><span class="preprocessor">#define O_EXCL  0x0002</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a2e375ab32c7ef4581b026be28e4cc116">   52</a></span><span class="preprocessor">#define O_NOCTTY 0x0004</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="fcntl_8h.html#ad1d67e453fb3031f40f8cd3403773813">   53</a></span><span class="preprocessor">#define O_TRUNC  0x0008</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a1cf6b1de1fffedaa1d26b189e9a8d2cc">   50</a></span><span class="preprocessor">#define O_CREAT     0x0001</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a9f5acfe79fafe14b6694447bd0e9f10b">   51</a></span><span class="preprocessor">#define O_EXCL      0x0002</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a2e375ab32c7ef4581b026be28e4cc116">   52</a></span><span class="preprocessor">#define O_NOCTTY    0x0004</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="fcntl_8h.html#ad1d67e453fb3031f40f8cd3403773813">   53</a></span><span class="preprocessor">#define O_TRUNC     0x0008</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a6afd3dd2f570069804b40e6aa24fc966">   54</a></span><span class="preprocessor">#define O_DIRECTORY 0x0010</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="fcntl_8h.html#ae036f789407d21f07b211552d67b3214">   56</a></span><span class="preprocessor">#define O_APPEND  0x0020</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="fcntl_8h.html#af63e33218e573b9461b5f17d0ea79f2a">   57</a></span><span class="preprocessor">#define O_DSYNC 0x0040</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="fcntl_8h.html#ae036f789407d21f07b211552d67b3214">   56</a></span><span class="preprocessor">#define O_APPEND 0x0020</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="fcntl_8h.html#af63e33218e573b9461b5f17d0ea79f2a">   57</a></span><span class="preprocessor">#define O_DSYNC  0x0040</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a39d33ce33804efd4d52606d59071c6d8">   59</a></span><span class="preprocessor">#define O_NONBLOCK 0x0080</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="fcntl_8h.html#ac9cf617d7c8fba45a5062f1f7322e6f8">   60</a></span><span class="preprocessor">#define O_RSYNC 0x0100</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="fcntl_8h.html#aae85139bfa94236d126bb1e3b772998f">   61</a></span><span class="preprocessor">#define O_SYNC 0x0200</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="fcntl_8h.html#ac9cf617d7c8fba45a5062f1f7322e6f8">   60</a></span><span class="preprocessor">#define O_RSYNC    0x0100</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="fcntl_8h.html#aae85139bfa94236d126bb1e3b772998f">   61</a></span><span class="preprocessor">#define O_SYNC     0x0200</span></div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a7a68c9ffaac7dbcd652225dd7c06a54b">   63</a></span><span class="preprocessor">#define O_RDONLY 0x0400</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="fcntl_8h.html#abb0586253488ee61072b73557eeb873b">   64</a></span><span class="preprocessor">#define O_RDWR 0x0800</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a11b644a8526139c4cc1850dac1271ced">   65</a></span><span class="preprocessor">#define O_WRONLY 0x1000</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a7a68c9ffaac7dbcd652225dd7c06a54b">   63</a></span><span class="preprocessor">#define O_RDONLY  0x0400</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="fcntl_8h.html#abb0586253488ee61072b73557eeb873b">   64</a></span><span class="preprocessor">#define O_RDWR    0x0800</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a11b644a8526139c4cc1850dac1271ced">   65</a></span><span class="preprocessor">#define O_WRONLY  0x1000</span></div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="fcntl_8h.html#a4dc4d45e07d2abc899bcaf04b2846a87">   66</a></span><span class="preprocessor">#define O_ACCMODE 0x1C00</span></div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
 <div class="foldopen" id="foldopen00068" data-start="{" data-end="};">
@@ -127,7 +127,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="structflock.html#a692ebc7782fe6a11c9de67d7fd20cc8f">   71</a></span>    <a class="code hl_typedef" href="Libs_2XEClib_2includes_2sys_2types_8h.html#ac64d30faa2f5c3056c009631aa114f53">off_t</a> <a class="code hl_variable" href="structflock.html#a692ebc7782fe6a11c9de67d7fd20cc8f">l_start</a>;</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="structflock.html#af5dc2da04cf2af6e5b77018f9cdce489">   72</a></span>    <a class="code hl_typedef" href="Libs_2XEClib_2includes_2sys_2types_8h.html#ac64d30faa2f5c3056c009631aa114f53">off_t</a> <a class="code hl_variable" href="structflock.html#af5dc2da04cf2af6e5b77018f9cdce489">l_len</a>;</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="structflock.html#a5e84556aa660bd41cc8b8d862a547887">   73</a></span>    <a class="code hl_typedef" href="Libs_2XEClib_2includes_2sys_2types_8h.html#a288e13e815d43b06e75819f8939524df">pid_t</a> <a class="code hl_variable" href="structflock.html#a5e84556aa660bd41cc8b8d862a547887">l_pid</a>;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>}<a class="code hl_struct" href="structflock.html">flock</a>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>} <a class="code hl_struct" href="structflock.html">flock</a>;</div>
 </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#endif</span></div>

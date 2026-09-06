@@ -298,11 +298,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> { \</div>
-<div class="line">    stack -= <span class="keyword">sizeof</span>(type); \</div>
-<div class="line">    while (stack &amp; (<span class="keyword">sizeof</span>(type)-1))stack--; \</div>
-<div class="line">    *((type*)(stack)) = (item); \</div>
-<div class="line">}while (0);</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                           \</div>
+<div class="line">        stack -= <span class="keyword">sizeof</span>(type);                                                                     \</div>
+<div class="line">        while (stack &amp; (<span class="keyword">sizeof</span>(type) - 1))                                                         \</div>
+<div class="line">            stack--;                                                                               \</div>
+<div class="line">        *((type*)(stack)) = (item);                                                                \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0);</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -331,9 +332,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">   <span class="keywordflow">do</span> {\</div>
-<div class="line">   stack &amp;= ~((align)-1); \</div>
-<div class="line">}<span class="keywordflow">while</span>(0)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                           \</div>
+<div class="line">        stack &amp;= ~((align) - 1);                                                                   \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -362,13 +363,13 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> { \</div>
-<div class="line">    <span class="keywordtype">size_t</span> l = <a class="code hl_function" href="acclib_8h.html#a81bf03e7aa5c8eae478600026facc485">strlen</a>(s) - 1; \</div>
-<div class="line">    <span class="keywordflow">do</span> {\</div>
-<div class="line">       PUSH2(stack, <span class="keywordtype">char</span>, s[l]); \</div>
-<div class="line">       l--; \</div>
-<div class="line">    } <span class="keywordflow">while</span> (l &gt;= 0); \</div>
-<div class="line">}<span class="keywordflow">while</span> (0)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                           \</div>
+<div class="line">        <span class="keywordtype">size_t</span> l = <a class="code hl_function" href="acclib_8h.html#a81bf03e7aa5c8eae478600026facc485">strlen</a>(s) - 1;                                                                  \</div>
+<div class="line">        <span class="keywordflow">do</span> {                                                                                       \</div>
+<div class="line">            PUSH2(stack, <span class="keywordtype">char</span>, s[l]);                                                              \</div>
+<div class="line">            l--;                                                                                   \</div>
+<div class="line">        } <span class="keywordflow">while</span> (l &gt;= 0);                                                                          \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
 <div class="ttc" id="aacclib_8h_html_a81bf03e7aa5c8eae478600026facc485"><div class="ttname"><a href="acclib_8h.html#a81bf03e7aa5c8eae478600026facc485">strlen</a></div><div class="ttdeci">ACPI_SIZE strlen(const char *String)</div><div class="ttdef"><b>Definition</b> utclib.c:379</div></div>
 </div><!-- fragment -->
 </div>

@@ -192,21 +192,21 @@ Macros</h2></td></tr>
 <tr class="separator:a26021509d60780ae9a9876fdee78fa89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dbb467668027906626d8b7a44c640ee" id="r_a1dbb467668027906626d8b7a44c640ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a1dbb467668027906626d8b7a44c640ee">GIC_VERSION_4</a>&#160;&#160;&#160;0x4</td></tr>
 <tr class="separator:a1dbb467668027906626d8b7a44c640ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66c7036ba8075a0897b245fd823dda36" id="r_a66c7036ba8075a0897b245fd823dda36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a66c7036ba8075a0897b245fd823dda36">GICD_ISENABLER</a>(n)&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x100 + 4*(n)))</td></tr>
+<tr class="memitem:a66c7036ba8075a0897b245fd823dda36" id="r_a66c7036ba8075a0897b245fd823dda36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a66c7036ba8075a0897b245fd823dda36">GICD_ISENABLER</a>(n)&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x100 + 4 * (n)))</td></tr>
 <tr class="separator:a66c7036ba8075a0897b245fd823dda36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbf4fca6d370589138030478c244fddc" id="r_acbf4fca6d370589138030478c244fddc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#acbf4fca6d370589138030478c244fddc">GICD_IPRIORITYR</a>(n)&#160;&#160;&#160;(0x400 + (n))</td></tr>
 <tr class="separator:acbf4fca6d370589138030478c244fddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a753ea449040d8b5ef0f9d5fc1602f1b0" id="r_a753ea449040d8b5ef0f9d5fc1602f1b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a753ea449040d8b5ef0f9d5fc1602f1b0">GICD_IGROUPR</a>(n)&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x080 + 4*(n)))</td></tr>
+<tr class="memitem:a753ea449040d8b5ef0f9d5fc1602f1b0" id="r_a753ea449040d8b5ef0f9d5fc1602f1b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a753ea449040d8b5ef0f9d5fc1602f1b0">GICD_IGROUPR</a>(n)&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x080 + 4 * (n)))</td></tr>
 <tr class="separator:a753ea449040d8b5ef0f9d5fc1602f1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3d1c35684b07f97dce5541f838560ec" id="r_ad3d1c35684b07f97dce5541f838560ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#ad3d1c35684b07f97dce5541f838560ec">GICD_ICENABLE</a>(n)&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x180 + (n*4)))</td></tr>
+<tr class="memitem:ad3d1c35684b07f97dce5541f838560ec" id="r_ad3d1c35684b07f97dce5541f838560ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#ad3d1c35684b07f97dce5541f838560ec">GICD_ICENABLE</a>(n)&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x180 + (n * 4)))</td></tr>
 <tr class="separator:ad3d1c35684b07f97dce5541f838560ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a365fb303875751d978dd7ca961ae5eb7" id="r_a365fb303875751d978dd7ca961ae5eb7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a365fb303875751d978dd7ca961ae5eb7">GICD_ICFGR</a>(n)&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x0C00 + (n*4)))</td></tr>
+<tr class="memitem:a365fb303875751d978dd7ca961ae5eb7" id="r_a365fb303875751d978dd7ca961ae5eb7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a365fb303875751d978dd7ca961ae5eb7">GICD_ICFGR</a>(n)&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x0C00 + (n * 4)))</td></tr>
 <tr class="separator:a365fb303875751d978dd7ca961ae5eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5eceac887c3aac5e1bc78cee7551a1cc" id="r_a5eceac887c3aac5e1bc78cee7551a1cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a5eceac887c3aac5e1bc78cee7551a1cc">GICD_ITARGETSR</a>(n)&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x0800 + (n*4)))</td></tr>
+<tr class="memitem:a5eceac887c3aac5e1bc78cee7551a1cc" id="r_a5eceac887c3aac5e1bc78cee7551a1cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a5eceac887c3aac5e1bc78cee7551a1cc">GICD_ITARGETSR</a>(n)&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x0800 + (n * 4)))</td></tr>
 <tr class="separator:a5eceac887c3aac5e1bc78cee7551a1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dfd35c4d138d2598660b56c6acf3fac" id="r_a3dfd35c4d138d2598660b56c6acf3fac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a3dfd35c4d138d2598660b56c6acf3fac">GICD_IROUTER</a>(n)&#160;&#160;&#160;(0x6000 + 8*(n))</td></tr>
+<tr class="memitem:a3dfd35c4d138d2598660b56c6acf3fac" id="r_a3dfd35c4d138d2598660b56c6acf3fac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a3dfd35c4d138d2598660b56c6acf3fac">GICD_IROUTER</a>(n)&#160;&#160;&#160;(0x6000 + 8 * (n))</td></tr>
 <tr class="separator:a3dfd35c4d138d2598660b56c6acf3fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d57152cb1b7bd8d81658a8202640b85" id="r_a3d57152cb1b7bd8d81658a8202640b85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a3d57152cb1b7bd8d81658a8202640b85">GICD_ICPENDR</a>(n)&#160;&#160;&#160;(0x280 + (n/32)*4)</td></tr>
+<tr class="memitem:a3d57152cb1b7bd8d81658a8202640b85" id="r_a3d57152cb1b7bd8d81658a8202640b85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a3d57152cb1b7bd8d81658a8202640b85">GICD_ICPENDR</a>(n)&#160;&#160;&#160;(0x280 + (n / 32) * 4)</td></tr>
 <tr class="separator:a3d57152cb1b7bd8d81658a8202640b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8c11757103e08dc3e62630a2a8f41f6" id="r_af8c11757103e08dc3e62630a2a8f41f6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#af8c11757103e08dc3e62630a2a8f41f6">ISPENDING0</a>&#160;&#160;&#160;0x200</td></tr>
 <tr class="separator:af8c11757103e08dc3e62630a2a8f41f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,7 +244,7 @@ Macros</h2></td></tr>
 <tr class="separator:a740d01d87cdee0c63d23c5ca4879005e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1a9392f7225fdc5f8cc79307d83aa44" id="r_aa1a9392f7225fdc5f8cc79307d83aa44"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#aa1a9392f7225fdc5f8cc79307d83aa44">GICR_ICENABLER0</a>&#160;&#160;&#160;0x10180</td></tr>
 <tr class="separator:aa1a9392f7225fdc5f8cc79307d83aa44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bf5d6353ca37b05d9d4f2b1ba2c6e9b" id="r_a1bf5d6353ca37b05d9d4f2b1ba2c6e9b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a1bf5d6353ca37b05d9d4f2b1ba2c6e9b">GICR_IPRIORITYR</a>(n)&#160;&#160;&#160;(0x10400 + (n)*4)</td></tr>
+<tr class="memitem:a1bf5d6353ca37b05d9d4f2b1ba2c6e9b" id="r_a1bf5d6353ca37b05d9d4f2b1ba2c6e9b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a1bf5d6353ca37b05d9d4f2b1ba2c6e9b">GICR_IPRIORITYR</a>(n)&#160;&#160;&#160;(0x10400 + (n) * 4)</td></tr>
 <tr class="separator:a1bf5d6353ca37b05d9d4f2b1ba2c6e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a91895aaa3282ce57e3768e6b751539" id="r_a8a91895aaa3282ce57e3768e6b751539"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gic_8c.html#a8a91895aaa3282ce57e3768e6b751539">GICR_SGI_BASE</a>&#160;&#160;&#160;0x10000</td></tr>
 <tr class="separator:a8a91895aaa3282ce57e3768e6b751539"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -615,7 +615,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x180 + (n*4)))</td>
+          <td>&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x180 + (n * 4)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -633,7 +633,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x0C00 + (n*4)))</td>
+          <td>&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x0C00 + (n * 4)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -651,7 +651,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;(0x280 + (n/32)*4)</td>
+          <td>&#160;&#160;&#160;(0x280 + (n / 32) * 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -669,7 +669,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x080 + 4*(n)))</td>
+          <td>&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x080 + 4 * (n)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -719,7 +719,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;(0x6000 + 8*(n))</td>
+          <td>&#160;&#160;&#160;(0x6000 + 8 * (n))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -737,7 +737,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x100 + 4*(n)))</td>
+          <td>&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x100 + 4 * (n)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -755,7 +755,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x0800 + (n*4)))</td>
+          <td>&#160;&#160;&#160;(*(volatile <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)(<a class="el" href="gic_8c.html#a357a25d474d200b9987aad0556f1f153">GICD</a>(<a class="el" href="gic_8c.html#a8a6dad009b763de1ddb7fb96b598f880">__gic</a>) + 0x0800 + (n * 4)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -921,7 +921,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">n</td><td>)</td>
-          <td>&#160;&#160;&#160;(0x10400 + (n)*4)</td>
+          <td>&#160;&#160;&#160;(0x10400 + (n) * 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">

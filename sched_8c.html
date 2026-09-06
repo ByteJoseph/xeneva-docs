@@ -201,6 +201,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3e85413bf221fcb2463b33960776efa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ab0267d05b5896246a040165874b5cd" id="r_a6ab0267d05b5896246a040165874b5cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sched_8c.html#a6ab0267d05b5896246a040165874b5cd">ret_from_syscall</a> (AA64Thread *thr)</td></tr>
 <tr class="separator:a6ab0267d05b5896246a040165874b5cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9f28435a2838e61e017eea9cb67374d" id="r_ac9f28435a2838e61e017eea9cb67374d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sched_8c.html#ac9f28435a2838e61e017eea9cb67374d">aa64_resume_exception_frame</a> (<a class="el" href="aa64cpu_8h.html#ab59286a81f0d9f9a7ceda49d421e0e90">AA64Registers</a> *regs, <a class="el" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a> elr_el1, <a class="el" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a> spsr_el1) <a class="el" href="LittleBoot_2pe_8h.html#a720173e80c53ae6b5fa163fd6e81ad27">__attribute__</a>((noreturn))</td></tr>
+<tr class="separator:ac9f28435a2838e61e017eea9cb67374d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa13926508c983eec914c01daa15c58b0" id="r_aa13926508c983eec914c01daa15c58b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sched_8c.html#aa13926508c983eec914c01daa15c58b0">first_time_sex</a> (AA64Thread *thr)</td></tr>
 <tr class="separator:aa13926508c983eec914c01daa15c58b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea29763ab547f3c9cb554d294a704a46" id="r_aea29763ab547f3c9cb554d294a704a46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sched_8c.html#aea29763ab547f3c9cb554d294a704a46">first_time_sex2</a> (AA64Thread *thr)</td></tr>
@@ -397,6 +399,48 @@ Variables</h2></td></tr>
           <td class="paramtype">AA64Thread *&#160;</td>
           <td class="paramname"><em>thr</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9f28435a2838e61e017eea9cb67374d" name="ac9f28435a2838e61e017eea9cb67374d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9f28435a2838e61e017eea9cb67374d">&#9670;&#160;</a></span>aa64_resume_exception_frame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void aa64_resume_exception_frame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="aa64cpu_8h.html#ab59286a81f0d9f9a7ceda49d421e0e90">AA64Registers</a> *&#160;</td>
+          <td class="paramname"><em>regs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a>&#160;</td>
+          <td class="paramname"><em>elr_el1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a>&#160;</td>
+          <td class="paramname"><em>spsr_el1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>

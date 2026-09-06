@@ -145,11 +145,13 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{ \</div>
-<div class="line">if (!expression) { \</div>
-<div class="line"><span class="comment">/*  vfprintf(stderr, &quot;ASSERT failed: %s line %d: %s \n&quot;, __FILE__, \</span></div>
-<div class="line"><span class="comment">    __LINE__, (#expression)); */</span>\</div>
-<div class="line">    abort(); }}</div>
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        if (!expression) {                                                                         \</div>
+<div class="line">            <span class="comment">/*  vfprintf(stderr, &quot;ASSERT failed: %s line %d: %s \n&quot;, __FILE__, \</span></div>
+<div class="line"><span class="comment">    __LINE__, (#expression)); */</span>                    \</div>
+<div class="line">            abort();                                                                               \</div>
+<div class="line">        }                                                                                          \</div>
+<div class="line">    }</div>
 </div><!-- fragment -->
 </div>
 </div>

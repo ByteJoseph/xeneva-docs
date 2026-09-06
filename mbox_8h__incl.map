@@ -1,13 +1,17 @@
 <map id="XenevaOS/BootAA64/rpi3b/mbox.h" name="XenevaOS/BootAA64/rpi3b/mbox.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="513,5,707,45"/>
-<area shape="rect" id="Node000002" href="$BootAA64_2xnldr_8h.html" title=" " alt="" coords="571,93,649,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="613,46,613,79,607,79,607,46"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="663,5,858,45"/>
+<area shape="rect" id="Node000002" href="$BootAA64_2xnldr_8h.html" title=" " alt="" coords="721,93,800,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="763,46,763,79,758,79,758,46"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="485,167,556,192"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="597,121,548,160,544,156,594,117"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="723,121,570,166,569,161,721,116"/>
 <area shape="rect" id="Node000004" href="$Uefi_8h.html" title=" " alt="" coords="580,167,640,192"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="613,119,613,153,607,153,607,119"/>
-<area shape="rect" id="Node000029" title=" " alt="" coords="665,167,739,192"/>
-<area shape="poly" id="edge29_Node000002_Node000029" title=" " alt="" coords="626,117,678,156,675,160,623,121"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="738,121,648,163,646,158,735,116"/>
+<area shape="rect" id="Node000029" href="$GraphicsOutput_8h.html" title=" " alt="" coords="665,167,857,192"/>
+<area shape="poly" id="edge29_Node000002_Node000029" title=" " alt="" coords="763,119,763,153,758,153,758,119"/>
+<area shape="rect" id="Node000030" title=" " alt="" coords="881,167,955,192"/>
+<area shape="poly" id="edge30_Node000002_Node000030" title=" " alt="" coords="787,116,881,159,879,163,785,121"/>
+<area shape="rect" id="Node000031" title=" " alt="" coords="980,167,1056,192"/>
+<area shape="poly" id="edge31_Node000002_Node000031" title=" " alt="" coords="801,116,968,161,966,167,800,121"/>
 <area shape="rect" id="Node000005" href="$UefiBaseType_8h.html" title=" " alt="" coords="310,240,462,265"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="581,193,436,238,434,233,579,188"/>
 <area shape="rect" id="Node000008" href="$UefiSpec_8h.html" title=" " alt="" coords="775,240,896,265"/>

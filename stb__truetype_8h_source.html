@@ -1213,7 +1213,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l01147" name="l01147"></a><span class="lineno"> 1147</span> </div>
 <div class="line"><a id="l01148" name="l01148"></a><span class="lineno"> 1148</span><span class="keyword">static</span> <span class="keywordtype">void</span> stbtt__buf_seek(<a class="code hl_struct" href="structstbtt____buf.html">stbtt__buf</a>* b, <span class="keywordtype">int</span> o)</div>
 <div class="line"><a id="l01149" name="l01149"></a><span class="lineno"> 1149</span>{</div>
-<div class="line"><a id="l01150" name="l01150"></a><span class="lineno"> 1150</span>    STBTT_assert(!(o &gt; b-&gt;<a class="code hl_variable" href="structstbtt____buf.html#a0f6f2d06981ab4a5697233bbd0cafb5b">size</a> || o &lt; 0));</div>
+<div class="line"><a id="l01150" name="l01150"></a><span class="lineno"> 1150</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(!(o &gt; b-&gt;<a class="code hl_variable" href="structstbtt____buf.html#a0f6f2d06981ab4a5697233bbd0cafb5b">size</a> || o &lt; 0));</div>
 <div class="line"><a id="l01151" name="l01151"></a><span class="lineno"> 1151</span>    b-&gt;<a class="code hl_variable" href="structstbtt____buf.html#ac047fda650726920531272c28aa354fb">cursor</a> = (o &gt; b-&gt;<a class="code hl_variable" href="structstbtt____buf.html#a0f6f2d06981ab4a5697233bbd0cafb5b">size</a> || o &lt; 0) ? b-&gt;<a class="code hl_variable" href="structstbtt____buf.html#a0f6f2d06981ab4a5697233bbd0cafb5b">size</a> : o;</div>
 <div class="line"><a id="l01152" name="l01152"></a><span class="lineno"> 1152</span>}</div>
 <div class="line"><a id="l01153" name="l01153"></a><span class="lineno"> 1153</span> </div>
@@ -1226,7 +1226,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l01160" name="l01160"></a><span class="lineno"> 1160</span>{</div>
 <div class="line"><a id="l01161" name="l01161"></a><span class="lineno"> 1161</span>    stbtt_uint32 v = 0;</div>
 <div class="line"><a id="l01162" name="l01162"></a><span class="lineno"> 1162</span>    <span class="keywordtype">int</span> i;</div>
-<div class="line"><a id="l01163" name="l01163"></a><span class="lineno"> 1163</span>    STBTT_assert(n &gt;= 1 &amp;&amp; n &lt;= 4);</div>
+<div class="line"><a id="l01163" name="l01163"></a><span class="lineno"> 1163</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(n &gt;= 1 &amp;&amp; n &lt;= 4);</div>
 <div class="line"><a id="l01164" name="l01164"></a><span class="lineno"> 1164</span>    <span class="keywordflow">for</span> (i = 0; i &lt; n; i++)</div>
 <div class="line"><a id="l01165" name="l01165"></a><span class="lineno"> 1165</span>        v = (v &lt;&lt; 8) | stbtt__buf_get8(b);</div>
 <div class="line"><a id="l01166" name="l01166"></a><span class="lineno"> 1166</span>    <span class="keywordflow">return</span> v;</div>
@@ -1235,7 +1235,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l01169" name="l01169"></a><span class="lineno"> 1169</span><span class="keyword">static</span> <a class="code hl_struct" href="structstbtt____buf.html">stbtt__buf</a> stbtt__new_buf(<span class="keyword">const</span> <span class="keywordtype">void</span>* p, <span class="keywordtype">size_t</span> size)</div>
 <div class="line"><a id="l01170" name="l01170"></a><span class="lineno"> 1170</span>{</div>
 <div class="line"><a id="l01171" name="l01171"></a><span class="lineno"> 1171</span>    <a class="code hl_struct" href="structstbtt____buf.html">stbtt__buf</a> r;</div>
-<div class="line"><a id="l01172" name="l01172"></a><span class="lineno"> 1172</span>    STBTT_assert(size &lt; 0x40000000);</div>
+<div class="line"><a id="l01172" name="l01172"></a><span class="lineno"> 1172</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(size &lt; 0x40000000);</div>
 <div class="line"><a id="l01173" name="l01173"></a><span class="lineno"> 1173</span>    r.<a class="code hl_variable" href="structstbtt____buf.html#a376d8cdacbc8295a7e88567ad52a0ac4">data</a> = (stbtt_uint8*)p;</div>
 <div class="line"><a id="l01174" name="l01174"></a><span class="lineno"> 1174</span>    r.<a class="code hl_variable" href="structstbtt____buf.html#a0f6f2d06981ab4a5697233bbd0cafb5b">size</a> = (int)size;</div>
 <div class="line"><a id="l01175" name="l01175"></a><span class="lineno"> 1175</span>    r.<a class="code hl_variable" href="structstbtt____buf.html#ac047fda650726920531272c28aa354fb">cursor</a> = 0;</div>
@@ -1261,7 +1261,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l01195" name="l01195"></a><span class="lineno"> 1195</span>    count = stbtt__buf_get16(b);</div>
 <div class="line"><a id="l01196" name="l01196"></a><span class="lineno"> 1196</span>    <span class="keywordflow">if</span> (count) {</div>
 <div class="line"><a id="l01197" name="l01197"></a><span class="lineno"> 1197</span>        offsize = stbtt__buf_get8(b);</div>
-<div class="line"><a id="l01198" name="l01198"></a><span class="lineno"> 1198</span>        STBTT_assert(offsize &gt;= 1 &amp;&amp; offsize &lt;= 4);</div>
+<div class="line"><a id="l01198" name="l01198"></a><span class="lineno"> 1198</span>        <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(offsize &gt;= 1 &amp;&amp; offsize &lt;= 4);</div>
 <div class="line"><a id="l01199" name="l01199"></a><span class="lineno"> 1199</span>        stbtt__buf_skip(b, offsize * count);</div>
 <div class="line"><a id="l01200" name="l01200"></a><span class="lineno"> 1200</span>        stbtt__buf_skip(b, stbtt__buf_get(b, offsize) - 1);</div>
 <div class="line"><a id="l01201" name="l01201"></a><span class="lineno"> 1201</span>    }</div>
@@ -1276,13 +1276,13 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l01210" name="l01210"></a><span class="lineno"> 1210</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (b0 &gt;= 251 &amp;&amp; b0 &lt;= 254) <span class="keywordflow">return</span> -(b0 - 251) * 256 - stbtt__buf_get8(b) - 108;</div>
 <div class="line"><a id="l01211" name="l01211"></a><span class="lineno"> 1211</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (b0 == 28)               <span class="keywordflow">return</span> stbtt__buf_get16(b);</div>
 <div class="line"><a id="l01212" name="l01212"></a><span class="lineno"> 1212</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (b0 == 29)               <span class="keywordflow">return</span> stbtt__buf_get32(b);</div>
-<div class="line"><a id="l01213" name="l01213"></a><span class="lineno"> 1213</span>    STBTT_assert(0);</div>
+<div class="line"><a id="l01213" name="l01213"></a><span class="lineno"> 1213</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(0);</div>
 <div class="line"><a id="l01214" name="l01214"></a><span class="lineno"> 1214</span>    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l01215" name="l01215"></a><span class="lineno"> 1215</span>}</div>
 <div class="line"><a id="l01216" name="l01216"></a><span class="lineno"> 1216</span> </div>
 <div class="line"><a id="l01217" name="l01217"></a><span class="lineno"> 1217</span><span class="keyword">static</span> <span class="keywordtype">void</span> stbtt__cff_skip_operand(<a class="code hl_struct" href="structstbtt____buf.html">stbtt__buf</a>* b) {</div>
 <div class="line"><a id="l01218" name="l01218"></a><span class="lineno"> 1218</span>    <span class="keywordtype">int</span> v, b0 = stbtt__buf_peek8(b);</div>
-<div class="line"><a id="l01219" name="l01219"></a><span class="lineno"> 1219</span>    STBTT_assert(b0 &gt;= 28);</div>
+<div class="line"><a id="l01219" name="l01219"></a><span class="lineno"> 1219</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(b0 &gt;= 28);</div>
 <div class="line"><a id="l01220" name="l01220"></a><span class="lineno"> 1220</span>    <span class="keywordflow">if</span> (b0 == 30) {</div>
 <div class="line"><a id="l01221" name="l01221"></a><span class="lineno"> 1221</span>        stbtt__buf_skip(b, 1);</div>
 <div class="line"><a id="l01222" name="l01222"></a><span class="lineno"> 1222</span>        <span class="keywordflow">while</span> (b-&gt;<a class="code hl_variable" href="structstbtt____buf.html#ac047fda650726920531272c28aa354fb">cursor</a> &lt; b-&gt;<a class="code hl_variable" href="structstbtt____buf.html#a0f6f2d06981ab4a5697233bbd0cafb5b">size</a>) {</div>
@@ -1331,8 +1331,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l01265" name="l01265"></a><span class="lineno"> 1265</span>    stbtt__buf_seek(&amp;b, 0);</div>
 <div class="line"><a id="l01266" name="l01266"></a><span class="lineno"> 1266</span>    count = stbtt__buf_get16(&amp;b);</div>
 <div class="line"><a id="l01267" name="l01267"></a><span class="lineno"> 1267</span>    offsize = stbtt__buf_get8(&amp;b);</div>
-<div class="line"><a id="l01268" name="l01268"></a><span class="lineno"> 1268</span>    STBTT_assert(i &gt;= 0 &amp;&amp; i &lt; count);</div>
-<div class="line"><a id="l01269" name="l01269"></a><span class="lineno"> 1269</span>    STBTT_assert(offsize &gt;= 1 &amp;&amp; offsize &lt;= 4);</div>
+<div class="line"><a id="l01268" name="l01268"></a><span class="lineno"> 1268</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(i &gt;= 0 &amp;&amp; i &lt; count);</div>
+<div class="line"><a id="l01269" name="l01269"></a><span class="lineno"> 1269</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(offsize &gt;= 1 &amp;&amp; offsize &lt;= 4);</div>
 <div class="line"><a id="l01270" name="l01270"></a><span class="lineno"> 1270</span>    stbtt__buf_skip(&amp;b, i * offsize);</div>
 <div class="line"><a id="l01271" name="l01271"></a><span class="lineno"> 1271</span>    start = stbtt__buf_get(&amp;b, offsize);</div>
 <div class="line"><a id="l01272" name="l01272"></a><span class="lineno"> 1272</span>    <a class="code hl_variable" href="littleboot_8c.html#af4f810c521bcfd87215d3007005a8325">end</a> = stbtt__buf_get(&amp;b, offsize);</div>
@@ -1582,7 +1582,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l01517" name="l01517"></a><span class="lineno"> 1517</span>        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l01518" name="l01518"></a><span class="lineno"> 1518</span>    }</div>
 <div class="line"><a id="l01519" name="l01519"></a><span class="lineno"> 1519</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (format == 2) {</div>
-<div class="line"><a id="l01520" name="l01520"></a><span class="lineno"> 1520</span>        STBTT_assert(0); <span class="comment">// @TODO: high-byte mapping for japanese/chinese/korean</span></div>
+<div class="line"><a id="l01520" name="l01520"></a><span class="lineno"> 1520</span>        <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(0); <span class="comment">// @TODO: high-byte mapping for japanese/chinese/korean</span></div>
 <div class="line"><a id="l01521" name="l01521"></a><span class="lineno"> 1521</span>        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l01522" name="l01522"></a><span class="lineno"> 1522</span>    }</div>
 <div class="line"><a id="l01523" name="l01523"></a><span class="lineno"> 1523</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (format == 4) { <span class="comment">// standard mapping for windows fonts: binary search collection of ranges</span></div>
@@ -1655,7 +1655,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l01590" name="l01590"></a><span class="lineno"> 1590</span>        <span class="keywordflow">return</span> 0; <span class="comment">// not found</span></div>
 <div class="line"><a id="l01591" name="l01591"></a><span class="lineno"> 1591</span>    }</div>
 <div class="line"><a id="l01592" name="l01592"></a><span class="lineno"> 1592</span>    <span class="comment">// @TODO</span></div>
-<div class="line"><a id="l01593" name="l01593"></a><span class="lineno"> 1593</span>    STBTT_assert(0);</div>
+<div class="line"><a id="l01593" name="l01593"></a><span class="lineno"> 1593</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(0);</div>
 <div class="line"><a id="l01594" name="l01594"></a><span class="lineno"> 1594</span>    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l01595" name="l01595"></a><span class="lineno"> 1595</span>}</div>
 <div class="line"><a id="l01596" name="l01596"></a><span class="lineno"> 1596</span> </div>
@@ -1677,7 +1677,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l01612" name="l01612"></a><span class="lineno"> 1612</span>{</div>
 <div class="line"><a id="l01613" name="l01613"></a><span class="lineno"> 1613</span>    <span class="keywordtype">int</span> g1, g2;</div>
 <div class="line"><a id="l01614" name="l01614"></a><span class="lineno"> 1614</span> </div>
-<div class="line"><a id="l01615" name="l01615"></a><span class="lineno"> 1615</span>    STBTT_assert(!info-&gt;<a class="code hl_variable" href="structstbtt__fontinfo.html#a6031b4bda94aa2b5ff07ef5d626a15a4">cff</a>.<a class="code hl_variable" href="structstbtt____buf.html#a0f6f2d06981ab4a5697233bbd0cafb5b">size</a>);</div>
+<div class="line"><a id="l01615" name="l01615"></a><span class="lineno"> 1615</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(!info-&gt;<a class="code hl_variable" href="structstbtt__fontinfo.html#a6031b4bda94aa2b5ff07ef5d626a15a4">cff</a>.<a class="code hl_variable" href="structstbtt____buf.html#a0f6f2d06981ab4a5697233bbd0cafb5b">size</a>);</div>
 <div class="line"><a id="l01616" name="l01616"></a><span class="lineno"> 1616</span> </div>
 <div class="line"><a id="l01617" name="l01617"></a><span class="lineno"> 1617</span>    <span class="keywordflow">if</span> (glyph_index &gt;= info-&gt;<a class="code hl_variable" href="structstbtt__fontinfo.html#a60ad8301a98eb7cd91472ce846d9080d">numGlyphs</a>) <span class="keywordflow">return</span> -1; <span class="comment">// glyph index out of range</span></div>
 <div class="line"><a id="l01618" name="l01618"></a><span class="lineno"> 1618</span>    <span class="keywordflow">if</span> (info-&gt;<a class="code hl_variable" href="structstbtt__fontinfo.html#a5fa117a7ef058111a70a5b0b87d220f4">indexToLocFormat</a> &gt;= 2)    <span class="keywordflow">return</span> -1; <span class="comment">// unknown index-&gt;glyph map format</span></div>
@@ -1920,7 +1920,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l01855" name="l01855"></a><span class="lineno"> 1855</span>            }</div>
 <div class="line"><a id="l01856" name="l01856"></a><span class="lineno"> 1856</span>            <span class="keywordflow">else</span> {</div>
 <div class="line"><a id="l01857" name="l01857"></a><span class="lineno"> 1857</span>                <span class="comment">// @TODO handle matching point</span></div>
-<div class="line"><a id="l01858" name="l01858"></a><span class="lineno"> 1858</span>                STBTT_assert(0);</div>
+<div class="line"><a id="l01858" name="l01858"></a><span class="lineno"> 1858</span>                <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(0);</div>
 <div class="line"><a id="l01859" name="l01859"></a><span class="lineno"> 1859</span>            }</div>
 <div class="line"><a id="l01860" name="l01860"></a><span class="lineno"> 1860</span>            <span class="keywordflow">if</span> (flags &amp; (1 &lt;&lt; 3)) { <span class="comment">// WE_HAVE_A_SCALE</span></div>
 <div class="line"><a id="l01861" name="l01861"></a><span class="lineno"> 1861</span>                mtx[0] = mtx[3] = ttSHORT(comp) / 16384.0f; comp += 2;</div>
@@ -2366,7 +2366,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l02301" name="l02301"></a><span class="lineno"> 2301</span>        *pvertices = (<a class="code hl_struct" href="structstbtt__vertex.html">stbtt_vertex</a>*)STBTT_malloc(count_ctx.num_vertices * <span class="keyword">sizeof</span>(<a class="code hl_struct" href="structstbtt__vertex.html">stbtt_vertex</a>), info-&gt;<a class="code hl_variable" href="structstbtt__fontinfo.html#a9c81078df96a7a3f730137151efab285">userdata</a>);</div>
 <div class="line"><a id="l02302" name="l02302"></a><span class="lineno"> 2302</span>        output_ctx.pvertices = *pvertices;</div>
 <div class="line"><a id="l02303" name="l02303"></a><span class="lineno"> 2303</span>        <span class="keywordflow">if</span> (stbtt__run_charstring(info, glyph_index, &amp;output_ctx)) {</div>
-<div class="line"><a id="l02304" name="l02304"></a><span class="lineno"> 2304</span>            STBTT_assert(output_ctx.num_vertices == count_ctx.num_vertices);</div>
+<div class="line"><a id="l02304" name="l02304"></a><span class="lineno"> 2304</span>            <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(output_ctx.num_vertices == count_ctx.num_vertices);</div>
 <div class="line"><a id="l02305" name="l02305"></a><span class="lineno"> 2305</span>            <span class="keywordflow">return</span> output_ctx.num_vertices;</div>
 <div class="line"><a id="l02306" name="l02306"></a><span class="lineno"> 2306</span>        }</div>
 <div class="line"><a id="l02307" name="l02307"></a><span class="lineno"> 2307</span>    }</div>
@@ -2931,7 +2931,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l02868" name="l02868"></a><span class="lineno"> 2868</span>{</div>
 <div class="line"><a id="l02869" name="l02869"></a><span class="lineno"> 2869</span>    stbtt__active_edge* z = (stbtt__active_edge*)stbtt__hheap_alloc(hh, <span class="keyword">sizeof</span>(*z), userdata);</div>
 <div class="line"><a id="l02870" name="l02870"></a><span class="lineno"> 2870</span>    <span class="keywordtype">float</span> dxdy = (e-&gt;x1 - e-&gt;x0) / (e-&gt;y1 - e-&gt;y0);</div>
-<div class="line"><a id="l02871" name="l02871"></a><span class="lineno"> 2871</span>    STBTT_assert(z != <a class="code hl_define" href="actypes_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a id="l02871" name="l02871"></a><span class="lineno"> 2871</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(z != <a class="code hl_define" href="actypes_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a id="l02872" name="l02872"></a><span class="lineno"> 2872</span>    <span class="keywordflow">if</span> (!z) <span class="keywordflow">return</span> z;</div>
 <div class="line"><a id="l02873" name="l02873"></a><span class="lineno"> 2873</span> </div>
 <div class="line"><a id="l02874" name="l02874"></a><span class="lineno"> 2874</span>    <span class="comment">// round dx down to avoid overshooting</span></div>
@@ -2953,7 +2953,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l02890" name="l02890"></a><span class="lineno"> 2890</span>{</div>
 <div class="line"><a id="l02891" name="l02891"></a><span class="lineno"> 2891</span>    stbtt__active_edge* z = (stbtt__active_edge*)stbtt__hheap_alloc(hh, <span class="keyword">sizeof</span>(*z), userdata);</div>
 <div class="line"><a id="l02892" name="l02892"></a><span class="lineno"> 2892</span>    <span class="keywordtype">float</span> dxdy = (e-&gt;x1 - e-&gt;x0) / (e-&gt;y1 - e-&gt;y0);</div>
-<div class="line"><a id="l02893" name="l02893"></a><span class="lineno"> 2893</span>    STBTT_assert(z != <a class="code hl_define" href="actypes_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a id="l02893" name="l02893"></a><span class="lineno"> 2893</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(z != <a class="code hl_define" href="actypes_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a id="l02894" name="l02894"></a><span class="lineno"> 2894</span>    <span class="comment">//STBTT_assert(e-&gt;y0 &lt;= start_point);</span></div>
 <div class="line"><a id="l02895" name="l02895"></a><span class="lineno"> 2895</span>    <span class="keywordflow">if</span> (!z) <span class="keywordflow">return</span> z;</div>
 <div class="line"><a id="l02896" name="l02896"></a><span class="lineno"> 2896</span>    z-&gt;fdx = dxdy;</div>
@@ -3048,7 +3048,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l02985" name="l02985"></a><span class="lineno"> 2985</span>                stbtt__active_edge* z = *step;</div>
 <div class="line"><a id="l02986" name="l02986"></a><span class="lineno"> 2986</span>                <span class="keywordflow">if</span> (z-&gt;ey &lt;= scan_y) {</div>
 <div class="line"><a id="l02987" name="l02987"></a><span class="lineno"> 2987</span>                    *step = z-&gt;next; <span class="comment">// delete from list</span></div>
-<div class="line"><a id="l02988" name="l02988"></a><span class="lineno"> 2988</span>                    STBTT_assert(z-&gt;direction);</div>
+<div class="line"><a id="l02988" name="l02988"></a><span class="lineno"> 2988</span>                    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(z-&gt;direction);</div>
 <div class="line"><a id="l02989" name="l02989"></a><span class="lineno"> 2989</span>                    z-&gt;direction = 0;</div>
 <div class="line"><a id="l02990" name="l02990"></a><span class="lineno"> 2990</span>                    stbtt__hheap_free(&amp;hh, z);</div>
 <div class="line"><a id="l02991" name="l02991"></a><span class="lineno"> 2991</span>                }</div>
@@ -3127,8 +3127,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l03064" name="l03064"></a><span class="lineno"> 3064</span><span class="keyword">static</span> <span class="keywordtype">void</span> stbtt__handle_clipped_edge(<span class="keywordtype">float</span>* scanline, <span class="keywordtype">int</span> x, stbtt__active_edge* e, <span class="keywordtype">float</span> x0, <span class="keywordtype">float</span> y0, <span class="keywordtype">float</span> x1, <span class="keywordtype">float</span> y1)</div>
 <div class="line"><a id="l03065" name="l03065"></a><span class="lineno"> 3065</span>{</div>
 <div class="line"><a id="l03066" name="l03066"></a><span class="lineno"> 3066</span>    <span class="keywordflow">if</span> (y0 == y1) <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l03067" name="l03067"></a><span class="lineno"> 3067</span>    STBTT_assert(y0 &lt; y1);</div>
-<div class="line"><a id="l03068" name="l03068"></a><span class="lineno"> 3068</span>    STBTT_assert(e-&gt;sy &lt;= e-&gt;ey);</div>
+<div class="line"><a id="l03067" name="l03067"></a><span class="lineno"> 3067</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(y0 &lt; y1);</div>
+<div class="line"><a id="l03068" name="l03068"></a><span class="lineno"> 3068</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(e-&gt;sy &lt;= e-&gt;ey);</div>
 <div class="line"><a id="l03069" name="l03069"></a><span class="lineno"> 3069</span>    <span class="keywordflow">if</span> (y0 &gt; e-&gt;ey) <span class="keywordflow">return</span>;</div>
 <div class="line"><a id="l03070" name="l03070"></a><span class="lineno"> 3070</span>    <span class="keywordflow">if</span> (y1 &lt; e-&gt;sy) <span class="keywordflow">return</span>;</div>
 <div class="line"><a id="l03071" name="l03071"></a><span class="lineno"> 3071</span>    <span class="keywordflow">if</span> (y0 &lt; e-&gt;sy) {</div>
@@ -3141,30 +3141,30 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l03078" name="l03078"></a><span class="lineno"> 3078</span>    }</div>
 <div class="line"><a id="l03079" name="l03079"></a><span class="lineno"> 3079</span> </div>
 <div class="line"><a id="l03080" name="l03080"></a><span class="lineno"> 3080</span>    <span class="keywordflow">if</span> (x0 == x)</div>
-<div class="line"><a id="l03081" name="l03081"></a><span class="lineno"> 3081</span>        STBTT_assert(x1 &lt;= x + 1);</div>
+<div class="line"><a id="l03081" name="l03081"></a><span class="lineno"> 3081</span>        <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(x1 &lt;= x + 1);</div>
 <div class="line"><a id="l03082" name="l03082"></a><span class="lineno"> 3082</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (x0 == x + 1)</div>
-<div class="line"><a id="l03083" name="l03083"></a><span class="lineno"> 3083</span>        STBTT_assert(x1 &gt;= x);</div>
+<div class="line"><a id="l03083" name="l03083"></a><span class="lineno"> 3083</span>        <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(x1 &gt;= x);</div>
 <div class="line"><a id="l03084" name="l03084"></a><span class="lineno"> 3084</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (x0 &lt;= x)</div>
-<div class="line"><a id="l03085" name="l03085"></a><span class="lineno"> 3085</span>        STBTT_assert(x1 &lt;= x);</div>
+<div class="line"><a id="l03085" name="l03085"></a><span class="lineno"> 3085</span>        <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(x1 &lt;= x);</div>
 <div class="line"><a id="l03086" name="l03086"></a><span class="lineno"> 3086</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (x0 &gt;= x + 1)</div>
-<div class="line"><a id="l03087" name="l03087"></a><span class="lineno"> 3087</span>        STBTT_assert(x1 &gt;= x + 1);</div>
+<div class="line"><a id="l03087" name="l03087"></a><span class="lineno"> 3087</span>        <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(x1 &gt;= x + 1);</div>
 <div class="line"><a id="l03088" name="l03088"></a><span class="lineno"> 3088</span>    <span class="keywordflow">else</span></div>
-<div class="line"><a id="l03089" name="l03089"></a><span class="lineno"> 3089</span>        STBTT_assert(x1 &gt;= x &amp;&amp; x1 &lt;= x + 1);</div>
+<div class="line"><a id="l03089" name="l03089"></a><span class="lineno"> 3089</span>        <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(x1 &gt;= x &amp;&amp; x1 &lt;= x + 1);</div>
 <div class="line"><a id="l03090" name="l03090"></a><span class="lineno"> 3090</span> </div>
 <div class="line"><a id="l03091" name="l03091"></a><span class="lineno"> 3091</span>    <span class="keywordflow">if</span> (x0 &lt;= x &amp;&amp; x1 &lt;= x)</div>
 <div class="line"><a id="l03092" name="l03092"></a><span class="lineno"> 3092</span>        scanline[x] += e-&gt;direction * (y1 - y0);</div>
 <div class="line"><a id="l03093" name="l03093"></a><span class="lineno"> 3093</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (x0 &gt;= x + 1 &amp;&amp; x1 &gt;= x + 1)</div>
 <div class="line"><a id="l03094" name="l03094"></a><span class="lineno"> 3094</span>        ;</div>
 <div class="line"><a id="l03095" name="l03095"></a><span class="lineno"> 3095</span>    <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l03096" name="l03096"></a><span class="lineno"> 3096</span>        STBTT_assert(x0 &gt;= x &amp;&amp; x0 &lt;= x + 1 &amp;&amp; x1 &gt;= x &amp;&amp; x1 &lt;= x + 1);</div>
+<div class="line"><a id="l03096" name="l03096"></a><span class="lineno"> 3096</span>        <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(x0 &gt;= x &amp;&amp; x0 &lt;= x + 1 &amp;&amp; x1 &gt;= x &amp;&amp; x1 &lt;= x + 1);</div>
 <div class="line"><a id="l03097" name="l03097"></a><span class="lineno"> 3097</span>        scanline[x] += e-&gt;direction * (y1 - y0) * (1 - ((x0 - x) + (x1 - x)) / 2); <span class="comment">// coverage = 1 - average x position</span></div>
 <div class="line"><a id="l03098" name="l03098"></a><span class="lineno"> 3098</span>    }</div>
 <div class="line"><a id="l03099" name="l03099"></a><span class="lineno"> 3099</span>}</div>
 <div class="line"><a id="l03100" name="l03100"></a><span class="lineno"> 3100</span> </div>
 <div class="line"><a id="l03101" name="l03101"></a><span class="lineno"> 3101</span><span class="keyword">static</span> <span class="keywordtype">float</span> stbtt__sized_trapezoid_area(<span class="keywordtype">float</span> height, <span class="keywordtype">float</span> top_width, <span class="keywordtype">float</span> bottom_width)</div>
 <div class="line"><a id="l03102" name="l03102"></a><span class="lineno"> 3102</span>{</div>
-<div class="line"><a id="l03103" name="l03103"></a><span class="lineno"> 3103</span>    STBTT_assert(top_width &gt;= 0);</div>
-<div class="line"><a id="l03104" name="l03104"></a><span class="lineno"> 3104</span>    STBTT_assert(bottom_width &gt;= 0);</div>
+<div class="line"><a id="l03103" name="l03103"></a><span class="lineno"> 3103</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(top_width &gt;= 0);</div>
+<div class="line"><a id="l03104" name="l03104"></a><span class="lineno"> 3104</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(bottom_width &gt;= 0);</div>
 <div class="line"><a id="l03105" name="l03105"></a><span class="lineno"> 3105</span>    <span class="keywordflow">return</span> (top_width + bottom_width) / 2.0f * height;</div>
 <div class="line"><a id="l03106" name="l03106"></a><span class="lineno"> 3106</span>}</div>
 <div class="line"><a id="l03107" name="l03107"></a><span class="lineno"> 3107</span> </div>
@@ -3186,7 +3186,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l03123" name="l03123"></a><span class="lineno"> 3123</span>        <span class="comment">// brute force every pixel</span></div>
 <div class="line"><a id="l03124" name="l03124"></a><span class="lineno"> 3124</span> </div>
 <div class="line"><a id="l03125" name="l03125"></a><span class="lineno"> 3125</span>        <span class="comment">// compute intersection points with top &amp; bottom</span></div>
-<div class="line"><a id="l03126" name="l03126"></a><span class="lineno"> 3126</span>        STBTT_assert(e-&gt;ey &gt;= y_top);</div>
+<div class="line"><a id="l03126" name="l03126"></a><span class="lineno"> 3126</span>        <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(e-&gt;ey &gt;= y_top);</div>
 <div class="line"><a id="l03127" name="l03127"></a><span class="lineno"> 3127</span> </div>
 <div class="line"><a id="l03128" name="l03128"></a><span class="lineno"> 3128</span>        <span class="keywordflow">if</span> (e-&gt;fdx == 0) {</div>
 <div class="line"><a id="l03129" name="l03129"></a><span class="lineno"> 3129</span>            <span class="keywordtype">float</span> x0 = e-&gt;fx;</div>
@@ -3207,7 +3207,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l03144" name="l03144"></a><span class="lineno"> 3144</span>            <span class="keywordtype">float</span> x_top, x_bottom;</div>
 <div class="line"><a id="l03145" name="l03145"></a><span class="lineno"> 3145</span>            <span class="keywordtype">float</span> sy0, sy1;</div>
 <div class="line"><a id="l03146" name="l03146"></a><span class="lineno"> 3146</span>            <span class="keywordtype">float</span> dy = e-&gt;fdy;</div>
-<div class="line"><a id="l03147" name="l03147"></a><span class="lineno"> 3147</span>            STBTT_assert(e-&gt;sy &lt;= y_bottom &amp;&amp; e-&gt;ey &gt;= y_top);</div>
+<div class="line"><a id="l03147" name="l03147"></a><span class="lineno"> 3147</span>            <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(e-&gt;sy &lt;= y_bottom &amp;&amp; e-&gt;ey &gt;= y_top);</div>
 <div class="line"><a id="l03148" name="l03148"></a><span class="lineno"> 3148</span> </div>
 <div class="line"><a id="l03149" name="l03149"></a><span class="lineno"> 3149</span>            <span class="comment">// compute endpoints of line segment clipped to this scanline (if the</span></div>
 <div class="line"><a id="l03150" name="l03150"></a><span class="lineno"> 3150</span>            <span class="comment">// line segment starts on this scanline. x0 is the intersection of the</span></div>
@@ -3237,7 +3237,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l03174" name="l03174"></a><span class="lineno"> 3174</span>                    <span class="comment">// simple case, only spans one pixel</span></div>
 <div class="line"><a id="l03175" name="l03175"></a><span class="lineno"> 3175</span>                    <span class="keywordtype">int</span> x = (int)x_top;</div>
 <div class="line"><a id="l03176" name="l03176"></a><span class="lineno"> 3176</span>                    height = (sy1 - sy0) * e-&gt;direction;</div>
-<div class="line"><a id="l03177" name="l03177"></a><span class="lineno"> 3177</span>                    STBTT_assert(x &gt;= 0 &amp;&amp; x &lt; len);</div>
+<div class="line"><a id="l03177" name="l03177"></a><span class="lineno"> 3177</span>                    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(x &gt;= 0 &amp;&amp; x &lt; len);</div>
 <div class="line"><a id="l03178" name="l03178"></a><span class="lineno"> 3178</span>                    scanline[x] += stbtt__position_trapezoid_area(height, x_top, x + 1.0f, x_bottom, x + 1.0f);</div>
 <div class="line"><a id="l03179" name="l03179"></a><span class="lineno"> 3179</span>                    scanline_fill[x] += height; <span class="comment">// everything right of this pixel is filled</span></div>
 <div class="line"><a id="l03180" name="l03180"></a><span class="lineno"> 3180</span>                }</div>
@@ -3256,8 +3256,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l03193" name="l03193"></a><span class="lineno"> 3193</span>                        dy = -dy;</div>
 <div class="line"><a id="l03194" name="l03194"></a><span class="lineno"> 3194</span>                        <a class="code hl_variable" href="Process_2Calender_2main_8cpp.html#a5b9f2c8eed2b49ee91dd608d9a0ec4bd">t</a> = x0, x0 = xb, xb = <a class="code hl_variable" href="Process_2Calender_2main_8cpp.html#a5b9f2c8eed2b49ee91dd608d9a0ec4bd">t</a>;</div>
 <div class="line"><a id="l03195" name="l03195"></a><span class="lineno"> 3195</span>                    }</div>
-<div class="line"><a id="l03196" name="l03196"></a><span class="lineno"> 3196</span>                    STBTT_assert(dy &gt;= 0);</div>
-<div class="line"><a id="l03197" name="l03197"></a><span class="lineno"> 3197</span>                    STBTT_assert(dx &gt;= 0);</div>
+<div class="line"><a id="l03196" name="l03196"></a><span class="lineno"> 3196</span>                    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(dy &gt;= 0);</div>
+<div class="line"><a id="l03197" name="l03197"></a><span class="lineno"> 3197</span>                    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(dx &gt;= 0);</div>
 <div class="line"><a id="l03198" name="l03198"></a><span class="lineno"> 3198</span> </div>
 <div class="line"><a id="l03199" name="l03199"></a><span class="lineno"> 3199</span>                    x1 = (int)x_top;</div>
 <div class="line"><a id="l03200" name="l03200"></a><span class="lineno"> 3200</span>                    x2 = (int)x_bottom;</div>
@@ -3321,8 +3321,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l03258" name="l03258"></a><span class="lineno"> 3258</span>                        scanline[x] += area + step / 2; <span class="comment">// area of trapezoid is 1*step/2</span></div>
 <div class="line"><a id="l03259" name="l03259"></a><span class="lineno"> 3259</span>                        area += step;</div>
 <div class="line"><a id="l03260" name="l03260"></a><span class="lineno"> 3260</span>                    }</div>
-<div class="line"><a id="l03261" name="l03261"></a><span class="lineno"> 3261</span>                    STBTT_assert(STBTT_fabs(area) &lt;= 1.01f); <span class="comment">// accumulated error from area += step unless we round step down</span></div>
-<div class="line"><a id="l03262" name="l03262"></a><span class="lineno"> 3262</span>                    STBTT_assert(sy1 &gt; y_final - 0.01f);</div>
+<div class="line"><a id="l03261" name="l03261"></a><span class="lineno"> 3261</span>                    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(STBTT_fabs(area) &lt;= 1.01f); <span class="comment">// accumulated error from area += step unless we round step down</span></div>
+<div class="line"><a id="l03262" name="l03262"></a><span class="lineno"> 3262</span>                    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(sy1 &gt; y_final - 0.01f);</div>
 <div class="line"><a id="l03263" name="l03263"></a><span class="lineno"> 3263</span> </div>
 <div class="line"><a id="l03264" name="l03264"></a><span class="lineno"> 3264</span>                    <span class="comment">// area covered in the last pixel is the rectangle from all the pixels to the left,</span></div>
 <div class="line"><a id="l03265" name="l03265"></a><span class="lineno"> 3265</span>                    <span class="comment">// plus the trapezoid filled by the line segment in this pixel all the way to the right edge</span></div>
@@ -3439,7 +3439,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l03376" name="l03376"></a><span class="lineno"> 3376</span>            stbtt__active_edge* z = *step;</div>
 <div class="line"><a id="l03377" name="l03377"></a><span class="lineno"> 3377</span>            <span class="keywordflow">if</span> (z-&gt;ey &lt;= scan_y_top) {</div>
 <div class="line"><a id="l03378" name="l03378"></a><span class="lineno"> 3378</span>                *step = z-&gt;next; <span class="comment">// delete from list</span></div>
-<div class="line"><a id="l03379" name="l03379"></a><span class="lineno"> 3379</span>                STBTT_assert(z-&gt;direction);</div>
+<div class="line"><a id="l03379" name="l03379"></a><span class="lineno"> 3379</span>                <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(z-&gt;direction);</div>
 <div class="line"><a id="l03380" name="l03380"></a><span class="lineno"> 3380</span>                z-&gt;direction = 0;</div>
 <div class="line"><a id="l03381" name="l03381"></a><span class="lineno"> 3381</span>                stbtt__hheap_free(&amp;hh, z);</div>
 <div class="line"><a id="l03382" name="l03382"></a><span class="lineno"> 3382</span>            }</div>
@@ -3459,7 +3459,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l03396" name="l03396"></a><span class="lineno"> 3396</span>                            z-&gt;ey = scan_y_top;</div>
 <div class="line"><a id="l03397" name="l03397"></a><span class="lineno"> 3397</span>                        }</div>
 <div class="line"><a id="l03398" name="l03398"></a><span class="lineno"> 3398</span>                    }</div>
-<div class="line"><a id="l03399" name="l03399"></a><span class="lineno"> 3399</span>                    STBTT_assert(z-&gt;ey &gt;= scan_y_top); <span class="comment">// if we get really unlucky a tiny bit of an edge can be out of bounds</span></div>
+<div class="line"><a id="l03399" name="l03399"></a><span class="lineno"> 3399</span>                    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(z-&gt;ey &gt;= scan_y_top); <span class="comment">// if we get really unlucky a tiny bit of an edge can be out of bounds</span></div>
 <div class="line"><a id="l03400" name="l03400"></a><span class="lineno"> 3400</span>                    <span class="comment">// insert at front</span></div>
 <div class="line"><a id="l03401" name="l03401"></a><span class="lineno"> 3401</span>                    z-&gt;next = active;</div>
 <div class="line"><a id="l03402" name="l03402"></a><span class="lineno"> 3402</span>                    active = z;</div>
@@ -3953,8 +3953,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l03891" name="l03891"></a><span class="lineno"> 3891</span>            y = bottom_y, x = 1; <span class="comment">// advance to next row</span></div>
 <div class="line"><a id="l03892" name="l03892"></a><span class="lineno"> 3892</span>        <span class="keywordflow">if</span> (y + gh + 1 &gt;= ph) <span class="comment">// check if it fits vertically AFTER potentially moving to next row</span></div>
 <div class="line"><a id="l03893" name="l03893"></a><span class="lineno"> 3893</span>            <span class="keywordflow">return</span> -i;</div>
-<div class="line"><a id="l03894" name="l03894"></a><span class="lineno"> 3894</span>        STBTT_assert(x + gw &lt; pw);</div>
-<div class="line"><a id="l03895" name="l03895"></a><span class="lineno"> 3895</span>        STBTT_assert(y + gh &lt; ph);</div>
+<div class="line"><a id="l03894" name="l03894"></a><span class="lineno"> 3894</span>        <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(x + gw &lt; pw);</div>
+<div class="line"><a id="l03895" name="l03895"></a><span class="lineno"> 3895</span>        <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(y + gh &lt; ph);</div>
 <div class="line"><a id="l03896" name="l03896"></a><span class="lineno"> 3896</span>        <a class="code hl_function" href="stb__truetype_8h.html#a915acab7676b20098f4d480376c5b589">stbtt_MakeGlyphBitmap</a>(&amp;f, pixels + x + y * pw, gw, gh, pw, scale, scale, g);</div>
 <div class="line"><a id="l03897" name="l03897"></a><span class="lineno"> 3897</span>        chardata[i].<a class="code hl_variable" href="structstbtt__bakedchar.html#a8011a0ed0410de9fa405c9cb1ab43da2">x0</a> = (stbtt_int16)x;</div>
 <div class="line"><a id="l03898" name="l03898"></a><span class="lineno"> 3898</span>        chardata[i].<a class="code hl_variable" href="structstbtt__bakedchar.html#aec4def12c086e0038ba32ff33ee78644">y0</a> = (stbtt_int16)y;</div>
@@ -4104,8 +4104,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l04046" name="l04046"></a><span class="lineno"> 4046</span> </div>
 <div class="line"><a id="l04047" name="l04047"></a><span class="lineno"> 4047</span><a class="code hl_define" href="stb__truetype_8h.html#ab459250c5579b1d942e0d8eb23936827">STBTT_DEF</a> <span class="keywordtype">void</span> <a class="code hl_function" href="stb__truetype_8h.html#a4c55e174efbacaf82a8ddb9d1956717e">stbtt_PackSetOversampling</a>(<a class="code hl_struct" href="structstbtt__pack__context.html">stbtt_pack_context</a>* spc, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> h_oversample, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> v_oversample)</div>
 <div class="line"><a id="l04048" name="l04048"></a><span class="lineno"> 4048</span>{</div>
-<div class="line"><a id="l04049" name="l04049"></a><span class="lineno"> 4049</span>    STBTT_assert(h_oversample &lt;= STBTT_MAX_OVERSAMPLE);</div>
-<div class="line"><a id="l04050" name="l04050"></a><span class="lineno"> 4050</span>    STBTT_assert(v_oversample &lt;= STBTT_MAX_OVERSAMPLE);</div>
+<div class="line"><a id="l04049" name="l04049"></a><span class="lineno"> 4049</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(h_oversample &lt;= STBTT_MAX_OVERSAMPLE);</div>
+<div class="line"><a id="l04050" name="l04050"></a><span class="lineno"> 4050</span>    <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(v_oversample &lt;= STBTT_MAX_OVERSAMPLE);</div>
 <div class="line"><a id="l04051" name="l04051"></a><span class="lineno"> 4051</span>    <span class="keywordflow">if</span> (h_oversample &lt;= STBTT_MAX_OVERSAMPLE)</div>
 <div class="line"><a id="l04052" name="l04052"></a><span class="lineno"> 4052</span>        spc-&gt;<a class="code hl_variable" href="structstbtt__pack__context.html#aee1019f9634cad49fa07e8e1f897d6b7">h_oversample</a> = h_oversample;</div>
 <div class="line"><a id="l04053" name="l04053"></a><span class="lineno"> 4053</span>    <span class="keywordflow">if</span> (v_oversample &lt;= STBTT_MAX_OVERSAMPLE)</div>
@@ -4172,7 +4172,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l04114" name="l04114"></a><span class="lineno"> 4114</span>        }</div>
 <div class="line"><a id="l04115" name="l04115"></a><span class="lineno"> 4115</span> </div>
 <div class="line"><a id="l04116" name="l04116"></a><span class="lineno"> 4116</span>        <span class="keywordflow">for</span> (; i &lt; w; ++i) {</div>
-<div class="line"><a id="l04117" name="l04117"></a><span class="lineno"> 4117</span>            STBTT_assert(pixels[i] == 0);</div>
+<div class="line"><a id="l04117" name="l04117"></a><span class="lineno"> 4117</span>            <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(pixels[i] == 0);</div>
 <div class="line"><a id="l04118" name="l04118"></a><span class="lineno"> 4118</span>            total -= buffer[i &amp; STBTT__OVER_MASK];</div>
 <div class="line"><a id="l04119" name="l04119"></a><span class="lineno"> 4119</span>            pixels[i] = (<span class="keywordtype">unsigned</span> char)(total / kernel_width);</div>
 <div class="line"><a id="l04120" name="l04120"></a><span class="lineno"> 4120</span>        }</div>
@@ -4234,7 +4234,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l04176" name="l04176"></a><span class="lineno"> 4176</span>        }</div>
 <div class="line"><a id="l04177" name="l04177"></a><span class="lineno"> 4177</span> </div>
 <div class="line"><a id="l04178" name="l04178"></a><span class="lineno"> 4178</span>        <span class="keywordflow">for</span> (; i &lt; h; ++i) {</div>
-<div class="line"><a id="l04179" name="l04179"></a><span class="lineno"> 4179</span>            STBTT_assert(pixels[i * stride_in_bytes] == 0);</div>
+<div class="line"><a id="l04179" name="l04179"></a><span class="lineno"> 4179</span>            <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(pixels[i * stride_in_bytes] == 0);</div>
 <div class="line"><a id="l04180" name="l04180"></a><span class="lineno"> 4180</span>            total -= buffer[i &amp; STBTT__OVER_MASK];</div>
 <div class="line"><a id="l04181" name="l04181"></a><span class="lineno"> 4181</span>            pixels[i * stride_in_bytes] = (<span class="keywordtype">unsigned</span> char)(total / kernel_width);</div>
 <div class="line"><a id="l04182" name="l04182"></a><span class="lineno"> 4182</span>        }</div>
@@ -4676,9 +4676,9 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l04619" name="l04619"></a><span class="lineno"> 4619</span>    }</div>
 <div class="line"><a id="l04620" name="l04620"></a><span class="lineno"> 4620</span>    <span class="keywordflow">else</span> {</div>
 <div class="line"><a id="l04621" name="l04621"></a><span class="lineno"> 4621</span>        <span class="keywordtype">float</span> u = (float)STBTT_sqrt(-p / 3);</div>
-<div class="line"><a id="l04622" name="l04622"></a><span class="lineno"> 4622</span>        <span class="keywordtype">float</span> v = (float)STBTT_acos(-STBTT_sqrt(-27 / p3) * q / 2) / 3; <span class="comment">// p3 must be negative, since d is negative</span></div>
-<div class="line"><a id="l04623" name="l04623"></a><span class="lineno"> 4623</span>        <span class="keywordtype">float</span> m = (float)STBTT_cos(v);</div>
-<div class="line"><a id="l04624" name="l04624"></a><span class="lineno"> 4624</span>        <span class="keywordtype">float</span> n = (float)STBTT_cos(v - 3.141592 / 2) * 1.732050808f;</div>
+<div class="line"><a id="l04622" name="l04622"></a><span class="lineno"> 4622</span>        <span class="keywordtype">float</span> v = (float)<a class="code hl_define" href="font_8cpp.html#a7ef8901a90e53bd5e7bf0cf099a5406d">STBTT_acos</a>(-STBTT_sqrt(-27 / p3) * q / 2) / 3; <span class="comment">// p3 must be negative, since d is negative</span></div>
+<div class="line"><a id="l04623" name="l04623"></a><span class="lineno"> 4623</span>        <span class="keywordtype">float</span> m = (float)<a class="code hl_define" href="font_8cpp.html#abb7f7daebc5b09b55562812fc16f93f2">STBTT_cos</a>(v);</div>
+<div class="line"><a id="l04624" name="l04624"></a><span class="lineno"> 4624</span>        <span class="keywordtype">float</span> n = (float)<a class="code hl_define" href="font_8cpp.html#abb7f7daebc5b09b55562812fc16f93f2">STBTT_cos</a>(v - 3.141592 / 2) * 1.732050808f;</div>
 <div class="line"><a id="l04625" name="l04625"></a><span class="lineno"> 4625</span>        r[0] = s + u * 2 * m;</div>
 <div class="line"><a id="l04626" name="l04626"></a><span class="lineno"> 4626</span>        r[1] = s - u * (m + n);</div>
 <div class="line"><a id="l04627" name="l04627"></a><span class="lineno"> 4627</span>        r[2] = s - u * (m - n);</div>
@@ -4778,7 +4778,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l04721" name="l04721"></a><span class="lineno"> 4721</span>                        <span class="comment">//if (sx &gt; STBTT_min(x0,x1)-min_dist &amp;&amp; sx &lt; STBTT_max(x0,x1)+min_dist &amp;&amp;</span></div>
 <div class="line"><a id="l04722" name="l04722"></a><span class="lineno"> 4722</span>                        <span class="comment">//    sy &gt; STBTT_min(y0,y1)-min_dist &amp;&amp; sy &lt; STBTT_max(y0,y1)+min_dist)</span></div>
 <div class="line"><a id="l04723" name="l04723"></a><span class="lineno"> 4723</span>                        dist = (float)STBTT_fabs((x1 - x0) * (y0 - sy) - (y1 - y0) * (x0 - sx)) * precompute[i];</div>
-<div class="line"><a id="l04724" name="l04724"></a><span class="lineno"> 4724</span>                        STBTT_assert(i != 0);</div>
+<div class="line"><a id="l04724" name="l04724"></a><span class="lineno"> 4724</span>                        <a class="code hl_define" href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a>(i != 0);</div>
 <div class="line"><a id="l04725" name="l04725"></a><span class="lineno"> 4725</span>                        <span class="keywordflow">if</span> (dist &lt; min_dist) {</div>
 <div class="line"><a id="l04726" name="l04726"></a><span class="lineno"> 4726</span>                            <span class="comment">// check position along line</span></div>
 <div class="line"><a id="l04727" name="l04727"></a><span class="lineno"> 4727</span>                            <span class="comment">// x&#39; = x0 + t*(x1-x0), y&#39; = y0 + t*(y1-y0)</span></div>
@@ -5206,7 +5206,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l05150" name="l05150"></a><span class="lineno"> 5150</span><span class="comment">WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</span></div>
 <div class="line"><a id="l05151" name="l05151"></a><span class="lineno"> 5151</span><span class="comment">------------------------------------------------------------------------------</span></div>
 <div class="line"><a id="l05152" name="l05152"></a><span class="lineno"> 5152</span><span class="comment">*/</span></div>
-<div class="ttc" id="aBaseHdr_2stdio_8h_html_a11545ba0d66ca201aab1652e1031ee02"><div class="ttname"><a href="BaseHdr_2stdio_8h.html#a11545ba0d66ca201aab1652e1031ee02">putchar</a></div><div class="ttdeci">int putchar(int)</div><div class="ttdef"><b>Definition</b> stdio.cpp:244</div></div>
+<div class="ttc" id="aBaseHdr_2stdio_8h_html_a11545ba0d66ca201aab1652e1031ee02"><div class="ttname"><a href="BaseHdr_2stdio_8h.html#a11545ba0d66ca201aab1652e1031ee02">putchar</a></div><div class="ttdeci">int putchar(int)</div><div class="ttdef"><b>Definition</b> stdio.cpp:240</div></div>
 <div class="ttc" id="aBaseHdr_2stdio_8h_html_a30670a60464f77af17dfb353353d6df8"><div class="ttname"><a href="BaseHdr_2stdio_8h.html#a30670a60464f77af17dfb353353d6df8">atoi</a></div><div class="ttdeci">int atoi(const char *s)</div><div class="ttdef"><b>Definition</b> stdio.cpp:107</div></div>
 <div class="ttc" id="aBoot_2video_8cpp_html_a621342e0ba9c6a93588b7c4d883bf8d2"><div class="ttname"><a href="Boot_2video_8cpp.html#a621342e0ba9c6a93588b7c4d883bf8d2">xpos</a></div><div class="ttdeci">size_t xpos</div><div class="ttdef"><b>Definition</b> video.cpp:34</div></div>
 <div class="ttc" id="aBoot_2video_8cpp_html_af4c6d87baab5b8aaf21862743ec93491"><div class="ttname"><a href="Boot_2video_8cpp.html#af4c6d87baab5b8aaf21862743ec93491">ypos</a></div><div class="ttdeci">size_t ypos</div><div class="ttdef"><b>Definition</b> video.cpp:35</div></div>
@@ -5214,12 +5214,15 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aLibs_2XEClib_2includes_2stdio_8h_html_a9c74294ce5fef3087a638cfcce8c7443"><div class="ttname"><a href="Libs_2XEClib_2includes_2stdio_8h.html#a9c74294ce5fef3087a638cfcce8c7443">fread</a></div><div class="ttdeci">XE_LIB size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream)</div><div class="ttdef"><b>Definition</b> stdio.cpp:95</div></div>
 <div class="ttc" id="aLibs_2XEClib_2includes_2string_8h_html_a48b8e98743833e6ce735f3d9f2fb240f"><div class="ttname"><a href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a></div><div class="ttdeci">#define index(str, chr)</div><div class="ttdef"><b>Definition</b> string.h:66</div></div>
 <div class="ttc" id="aProcess_2Calender_2main_8cpp_html_a5b9f2c8eed2b49ee91dd608d9a0ec4bd"><div class="ttname"><a href="Process_2Calender_2main_8cpp.html#a5b9f2c8eed2b49ee91dd608d9a0ec4bd">t</a></div><div class="ttdeci">XETime t</div><div class="ttdef"><b>Definition</b> main.cpp:53</div></div>
-<div class="ttc" id="aProcess_2monitor_2main_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="Process_2monitor_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> main.cpp:116</div></div>
+<div class="ttc" id="aProcess_2monitor_2main_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="Process_2monitor_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> main.cpp:117</div></div>
 <div class="ttc" id="aactypes_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="actypes_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition</b> actypes.h:561</div></div>
 <div class="ttc" id="adraw_8cpp_html_ac740756f75e53153605d2702b30d2a9d"><div class="ttname"><a href="draw_8cpp.html#ac740756f75e53153605d2702b30d2a9d">sign</a></div><div class="ttdeci">#define sign(x)</div><div class="ttdef"><b>Definition</b> draw.cpp:36</div></div>
+<div class="ttc" id="afont_8cpp_html_a1123d905f512c19c8d796a6d294a3a84"><div class="ttname"><a href="font_8cpp.html#a1123d905f512c19c8d796a6d294a3a84">STBTT_assert</a></div><div class="ttdeci">#define STBTT_assert(x)</div><div class="ttdef"><b>Definition</b> font.cpp:48</div></div>
+<div class="ttc" id="afont_8cpp_html_a7ef8901a90e53bd5e7bf0cf099a5406d"><div class="ttname"><a href="font_8cpp.html#a7ef8901a90e53bd5e7bf0cf099a5406d">STBTT_acos</a></div><div class="ttdeci">#define STBTT_acos(x)</div><div class="ttdef"><b>Definition</b> font.cpp:47</div></div>
+<div class="ttc" id="afont_8cpp_html_abb7f7daebc5b09b55562812fc16f93f2"><div class="ttname"><a href="font_8cpp.html#abb7f7daebc5b09b55562812fc16f93f2">STBTT_cos</a></div><div class="ttdeci">#define STBTT_cos(x)</div><div class="ttdef"><b>Definition</b> font.cpp:46</div></div>
 <div class="ttc" id="alittleboot_8c_html_af4f810c521bcfd87215d3007005a8325"><div class="ttname"><a href="littleboot_8c.html#af4f810c521bcfd87215d3007005a8325">end</a></div><div class="ttdeci">char end[]</div></div>
 <div class="ttc" id="amath_8h_html"><div class="ttname"><a href="math_8h.html">math.h</a></div></div>
-<div class="ttc" id="amath_8h_html_a4d64fbfd3e54c4b69484061dd7f9a1d0"><div class="ttname"><a href="math_8h.html#a4d64fbfd3e54c4b69484061dd7f9a1d0">floor</a></div><div class="ttdeci">XE_LIB double floor(double)</div><div class="ttdef"><b>Definition</b> math.cpp:134</div></div>
+<div class="ttc" id="amath_8h_html_a4d64fbfd3e54c4b69484061dd7f9a1d0"><div class="ttname"><a href="math_8h.html#a4d64fbfd3e54c4b69484061dd7f9a1d0">floor</a></div><div class="ttdeci">XE_LIB double floor(double)</div><div class="ttdef"><b>Definition</b> math.cpp:140</div></div>
 <div class="ttc" id="astb__truetype_8h_html"><div class="ttname"><a href="stb__truetype_8h.html">stb_truetype.h</a></div></div>
 <div class="ttc" id="astb__truetype_8h_html_a006159e27c5c733ea11c688211e47c25"><div class="ttname"><a href="stb__truetype_8h.html#a006159e27c5c733ea11c688211e47c25">stbtt_MakeGlyphBitmapSubpixelPrefilter</a></div><div class="ttdeci">STBTT_DEF void stbtt_MakeGlyphBitmapSubpixelPrefilter(const stbtt_fontinfo *info, unsigned char *output, int out_w, int out_h, int out_stride, float scale_x, float scale_y, float shift_x, float shift_y, int oversample_x, int oversample_y, float *sub_x, float *sub_y, int glyph)</div></div>
 <div class="ttc" id="astb__truetype_8h_html_a015fbd6e96df8ee58bd41bb4211b64e7"><div class="ttname"><a href="stb__truetype_8h.html#a015fbd6e96df8ee58bd41bb4211b64e7">stbtt_GetCodepointHMetrics</a></div><div class="ttdeci">STBTT_DEF void stbtt_GetCodepointHMetrics(const stbtt_fontinfo *info, int codepoint, int *advanceWidth, int *leftSideBearing)</div></div>

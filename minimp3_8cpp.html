@@ -158,7 +158,7 @@ Macros</h2></td></tr>
 <tr class="separator:ae7729d0825d57ce0ecb46fa7dfb49e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd34bd999a43b99f4f03b6a06306e811" id="r_afd34bd999a43b99f4f03b6a06306e811"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#afd34bd999a43b99f4f03b6a06306e811">MP3_MONO</a>&#160;&#160;&#160;3</td></tr>
 <tr class="separator:afd34bd999a43b99f4f03b6a06306e811"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bb2d7ffb7f980fa7537e3f9e1e69c16" id="r_a2bb2d7ffb7f980fa7537e3f9e1e69c16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a2bb2d7ffb7f980fa7537e3f9e1e69c16">SAME_HEADER_MASK</a>&#160;&#160;&#160;	(0xffe00000 | (3 &lt;&lt; 17) | (0xf &lt;&lt; 12) | (3 &lt;&lt; 10) | (3 &lt;&lt; 19))</td></tr>
+<tr class="memitem:a2bb2d7ffb7f980fa7537e3f9e1e69c16" id="r_a2bb2d7ffb7f980fa7537e3f9e1e69c16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a2bb2d7ffb7f980fa7537e3f9e1e69c16">SAME_HEADER_MASK</a>&#160;&#160;&#160;(0xffe00000 | (3 &lt;&lt; 17) | (0xf &lt;&lt; 12) | (3 &lt;&lt; 10) | (3 &lt;&lt; 19))</td></tr>
 <tr class="separator:a2bb2d7ffb7f980fa7537e3f9e1e69c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ac65b37442b7b10d74dedeb7d25e737" id="r_a0ac65b37442b7b10d74dedeb7d25e737"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a0ac65b37442b7b10d74dedeb7d25e737">FRAC_BITS</a>&#160;&#160;&#160;15</td></tr>
 <tr class="separator:a0ac65b37442b7b10d74dedeb7d25e737"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,9 +180,9 @@ Macros</h2></td></tr>
 <tr class="separator:a945c773d2c3b4260653bd00684c0d677"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10d5622f680bea0f7192a8ebd8f701f1" id="r_a10d5622f680bea0f7192a8ebd8f701f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a10d5622f680bea0f7192a8ebd8f701f1">FIXR</a>(a)&#160;&#160;&#160;((int)((a) * <a class="el" href="minimp3_8cpp.html#a58bf38924819d3cb38facc24eb4bf799">FRAC_ONE</a> + 0.5))</td></tr>
 <tr class="separator:a10d5622f680bea0f7192a8ebd8f701f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af320c5c48a5dc24d4be72eb5d3085717" id="r_af320c5c48a5dc24d4be72eb5d3085717"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#af320c5c48a5dc24d4be72eb5d3085717">FRAC_RND</a>(a)&#160;&#160;&#160;(((a) + (<a class="el" href="minimp3_8cpp.html#a58bf38924819d3cb38facc24eb4bf799">FRAC_ONE</a>/2)) &gt;&gt; <a class="el" href="minimp3_8cpp.html#a0ac65b37442b7b10d74dedeb7d25e737">FRAC_BITS</a>)</td></tr>
+<tr class="memitem:af320c5c48a5dc24d4be72eb5d3085717" id="r_af320c5c48a5dc24d4be72eb5d3085717"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#af320c5c48a5dc24d4be72eb5d3085717">FRAC_RND</a>(a)&#160;&#160;&#160;(((a) + (<a class="el" href="minimp3_8cpp.html#a58bf38924819d3cb38facc24eb4bf799">FRAC_ONE</a> / 2)) &gt;&gt; <a class="el" href="minimp3_8cpp.html#a0ac65b37442b7b10d74dedeb7d25e737">FRAC_BITS</a>)</td></tr>
 <tr class="separator:af320c5c48a5dc24d4be72eb5d3085717"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ef9002d22aa9d96f531b59f618fee16" id="r_a7ef9002d22aa9d96f531b59f618fee16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(a)&#160;&#160;&#160;((int)((a) * (1LL&lt;&lt;32) + 0.5))</td></tr>
+<tr class="memitem:a7ef9002d22aa9d96f531b59f618fee16" id="r_a7ef9002d22aa9d96f531b59f618fee16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(a)&#160;&#160;&#160;((int)((a) * (1LL &lt;&lt; 32) + 0.5))</td></tr>
 <tr class="separator:a7ef9002d22aa9d96f531b59f618fee16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b441407adf716949297d9fd8cfded54" id="r_a4b441407adf716949297d9fd8cfded54"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a4b441407adf716949297d9fd8cfded54">MULL</a>(a,  b)&#160;&#160;&#160;(((<a class="el" href="acefiex_8h.html#a5364f98f8223d7185accc99cf9c8f712">int64_t</a>)(a) * (<a class="el" href="acefiex_8h.html#a5364f98f8223d7185accc99cf9c8f712">int64_t</a>)(b)) &gt;&gt; <a class="el" href="minimp3_8cpp.html#a0ac65b37442b7b10d74dedeb7d25e737">FRAC_BITS</a>)</td></tr>
 <tr class="separator:a4b441407adf716949297d9fd8cfded54"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,51 +200,51 @@ Macros</h2></td></tr>
 <tr class="separator:a57aa8c12d2c78263b12175b3c4dd9546"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e70876676d0b52ff7cf93cadf7e24fa" id="r_a7e70876676d0b52ff7cf93cadf7e24fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a7e70876676d0b52ff7cf93cadf7e24fa">VLC_TYPE</a>&#160;&#160;&#160;<a class="el" href="acefiex_8h.html#a66634143db08bebe9b46ab4cb1fc6fd3">int16_t</a></td></tr>
 <tr class="separator:a7e70876676d0b52ff7cf93cadf7e24fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a286c9ecb29f865ea6e5f4dfa153d783b" id="r_a286c9ecb29f865ea6e5f4dfa153d783b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a286c9ecb29f865ea6e5f4dfa153d783b">TABLE_4_3_SIZE</a>&#160;&#160;&#160;(8191 + 16)*4</td></tr>
+<tr class="memitem:a286c9ecb29f865ea6e5f4dfa153d783b" id="r_a286c9ecb29f865ea6e5f4dfa153d783b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a286c9ecb29f865ea6e5f4dfa153d783b">TABLE_4_3_SIZE</a>&#160;&#160;&#160;(8191 + 16) * 4</td></tr>
 <tr class="separator:a286c9ecb29f865ea6e5f4dfa153d783b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44779f18d87e71c78fc9fbf9dc88537d" id="r_a44779f18d87e71c78fc9fbf9dc88537d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a44779f18d87e71c78fc9fbf9dc88537d">C1</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.98480775301220805936/2)</td></tr>
+<tr class="memitem:a44779f18d87e71c78fc9fbf9dc88537d" id="r_a44779f18d87e71c78fc9fbf9dc88537d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a44779f18d87e71c78fc9fbf9dc88537d">C1</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.98480775301220805936 / 2)</td></tr>
 <tr class="separator:a44779f18d87e71c78fc9fbf9dc88537d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6fc13322a4f1c314332ff34aa8b3fa0" id="r_ad6fc13322a4f1c314332ff34aa8b3fa0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ad6fc13322a4f1c314332ff34aa8b3fa0">C2</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.93969262078590838405/2)</td></tr>
+<tr class="memitem:ad6fc13322a4f1c314332ff34aa8b3fa0" id="r_ad6fc13322a4f1c314332ff34aa8b3fa0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ad6fc13322a4f1c314332ff34aa8b3fa0">C2</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.93969262078590838405 / 2)</td></tr>
 <tr class="separator:ad6fc13322a4f1c314332ff34aa8b3fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58aba30d6a33889c81827a54620dd5d9" id="r_a58aba30d6a33889c81827a54620dd5d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a58aba30d6a33889c81827a54620dd5d9">C3</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.86602540378443864676/2)</td></tr>
+<tr class="memitem:a58aba30d6a33889c81827a54620dd5d9" id="r_a58aba30d6a33889c81827a54620dd5d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a58aba30d6a33889c81827a54620dd5d9">C3</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.86602540378443864676 / 2)</td></tr>
 <tr class="separator:a58aba30d6a33889c81827a54620dd5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc39015f57b2efb8810b603f188bdf15" id="r_acc39015f57b2efb8810b603f188bdf15"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#acc39015f57b2efb8810b603f188bdf15">C4</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.76604444311897803520/2)</td></tr>
+<tr class="memitem:acc39015f57b2efb8810b603f188bdf15" id="r_acc39015f57b2efb8810b603f188bdf15"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#acc39015f57b2efb8810b603f188bdf15">C4</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.76604444311897803520 / 2)</td></tr>
 <tr class="separator:acc39015f57b2efb8810b603f188bdf15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b69b61d9deb37b13911faf2cf5cf1d5" id="r_a3b69b61d9deb37b13911faf2cf5cf1d5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a3b69b61d9deb37b13911faf2cf5cf1d5">C5</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.64278760968653932632/2)</td></tr>
+<tr class="memitem:a3b69b61d9deb37b13911faf2cf5cf1d5" id="r_a3b69b61d9deb37b13911faf2cf5cf1d5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a3b69b61d9deb37b13911faf2cf5cf1d5">C5</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.64278760968653932632 / 2)</td></tr>
 <tr class="separator:a3b69b61d9deb37b13911faf2cf5cf1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cc680a71aa57979316e647352cb4e35" id="r_a3cc680a71aa57979316e647352cb4e35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a3cc680a71aa57979316e647352cb4e35">C6</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.5/2)</td></tr>
+<tr class="memitem:a3cc680a71aa57979316e647352cb4e35" id="r_a3cc680a71aa57979316e647352cb4e35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a3cc680a71aa57979316e647352cb4e35">C6</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.5 / 2)</td></tr>
 <tr class="separator:a3cc680a71aa57979316e647352cb4e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3ac175d83deeabef85aef40a30a21ee" id="r_af3ac175d83deeabef85aef40a30a21ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#af3ac175d83deeabef85aef40a30a21ee">C7</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.34202014332566873304/2)</td></tr>
+<tr class="memitem:af3ac175d83deeabef85aef40a30a21ee" id="r_af3ac175d83deeabef85aef40a30a21ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#af3ac175d83deeabef85aef40a30a21ee">C7</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.34202014332566873304 / 2)</td></tr>
 <tr class="separator:af3ac175d83deeabef85aef40a30a21ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a783ffd54c433250e4b595d115f410e9a" id="r_a783ffd54c433250e4b595d115f410e9a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a783ffd54c433250e4b595d115f410e9a">C8</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.17364817766693034885/2)</td></tr>
+<tr class="memitem:a783ffd54c433250e4b595d115f410e9a" id="r_a783ffd54c433250e4b595d115f410e9a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a783ffd54c433250e4b595d115f410e9a">C8</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.17364817766693034885 / 2)</td></tr>
 <tr class="separator:a783ffd54c433250e4b595d115f410e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96d17aa8759e914e357785d46bbe3675" id="r_a96d17aa8759e914e357785d46bbe3675"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a96d17aa8759e914e357785d46bbe3675">MIN_CACHE_BITS</a>&#160;&#160;&#160;25</td></tr>
 <tr class="separator:a96d17aa8759e914e357785d46bbe3675"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9778b38d326d97840b97dc6f7093a4f1" id="r_a9778b38d326d97840b97dc6f7093a4f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a9778b38d326d97840b97dc6f7093a4f1">NEG_SSR32</a>(a,  s)&#160;&#160;&#160;((( <a class="el" href="acefiex_8h.html#a32f2e37ee053cf2ce8ca28d1f74630e5">int32_t</a>)(a))&gt;&gt;(32-(s)))</td></tr>
+<tr class="memitem:a9778b38d326d97840b97dc6f7093a4f1" id="r_a9778b38d326d97840b97dc6f7093a4f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a9778b38d326d97840b97dc6f7093a4f1">NEG_SSR32</a>(a,  s)&#160;&#160;&#160;(((<a class="el" href="acefiex_8h.html#a32f2e37ee053cf2ce8ca28d1f74630e5">int32_t</a>)(a)) &gt;&gt; (32 - (s)))</td></tr>
 <tr class="separator:a9778b38d326d97840b97dc6f7093a4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae335575a7b75916318476c02daeff6a5" id="r_ae335575a7b75916318476c02daeff6a5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ae335575a7b75916318476c02daeff6a5">NEG_USR32</a>(a,  s)&#160;&#160;&#160;(((<a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)(a))&gt;&gt;(32-(s)))</td></tr>
+<tr class="memitem:ae335575a7b75916318476c02daeff6a5" id="r_ae335575a7b75916318476c02daeff6a5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ae335575a7b75916318476c02daeff6a5">NEG_USR32</a>(a,  s)&#160;&#160;&#160;(((<a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)(a)) &gt;&gt; (32 - (s)))</td></tr>
 <tr class="separator:ae335575a7b75916318476c02daeff6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e35137d6a961c3a91c29b9f3c1705a3" id="r_a5e35137d6a961c3a91c29b9f3c1705a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a5e35137d6a961c3a91c29b9f3c1705a3">OPEN_READER</a>(name,  gb)</td></tr>
 <tr class="separator:a5e35137d6a961c3a91c29b9f3c1705a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40567ab5dc596078bd4d122e1ef1d057" id="r_a40567ab5dc596078bd4d122e1ef1d057"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a40567ab5dc596078bd4d122e1ef1d057">CLOSE_READER</a>(name,  gb)&#160;&#160;&#160;	(gb)-&gt;<a class="el" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a> = name##_index; \</td></tr>
+<tr class="memitem:a40567ab5dc596078bd4d122e1ef1d057" id="r_a40567ab5dc596078bd4d122e1ef1d057"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a40567ab5dc596078bd4d122e1ef1d057">CLOSE_READER</a>(name,  gb)&#160;&#160;&#160;(gb)-&gt;<a class="el" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a> = name##_index;</td></tr>
 <tr class="separator:a40567ab5dc596078bd4d122e1ef1d057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a757e9fd1245a692628b2bb0c699be27c" id="r_a757e9fd1245a692628b2bb0c699be27c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a757e9fd1245a692628b2bb0c699be27c">UPDATE_CACHE</a>(name,  gb)&#160;&#160;&#160;	name##_cache = unaligned32_be(&amp;((gb)-&gt;buffer[name##_index &gt;&gt; 3])) &lt;&lt; (name##_index &amp; 0x07); \</td></tr>
+<tr class="memitem:a757e9fd1245a692628b2bb0c699be27c" id="r_a757e9fd1245a692628b2bb0c699be27c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a757e9fd1245a692628b2bb0c699be27c">UPDATE_CACHE</a>(name,  gb)&#160;&#160;&#160;	name##_cache = unaligned32_be(&amp;((gb)-&gt;buffer[name##_index &gt;&gt; 3])) &lt;&lt; (name##_index &amp; 0x07);</td></tr>
 <tr class="separator:a757e9fd1245a692628b2bb0c699be27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3383e4ed8ec358f65176c49e53488922" id="r_a3383e4ed8ec358f65176c49e53488922"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a3383e4ed8ec358f65176c49e53488922">SKIP_CACHE</a>(name,  gb,  num)&#160;&#160;&#160;	name##_cache &lt;&lt;= (num);</td></tr>
+<tr class="memitem:a3383e4ed8ec358f65176c49e53488922" id="r_a3383e4ed8ec358f65176c49e53488922"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a3383e4ed8ec358f65176c49e53488922">SKIP_CACHE</a>(name,  gb,  num)&#160;&#160;&#160;name##_cache &lt;&lt;= (num);</td></tr>
 <tr class="separator:a3383e4ed8ec358f65176c49e53488922"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5635d3f42aa9eb98ccdae1d2fd13000" id="r_ac5635d3f42aa9eb98ccdae1d2fd13000"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ac5635d3f42aa9eb98ccdae1d2fd13000">SKIP_COUNTER</a>(name,  gb,  num)&#160;&#160;&#160;	name##_index += (num); \</td></tr>
+<tr class="memitem:ac5635d3f42aa9eb98ccdae1d2fd13000" id="r_ac5635d3f42aa9eb98ccdae1d2fd13000"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ac5635d3f42aa9eb98ccdae1d2fd13000">SKIP_COUNTER</a>(name,  gb,  num)&#160;&#160;&#160;name##_index += (num);</td></tr>
 <tr class="separator:ac5635d3f42aa9eb98ccdae1d2fd13000"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7418c19702b25b0e27522746e22e7b8d" id="r_a7418c19702b25b0e27522746e22e7b8d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a7418c19702b25b0e27522746e22e7b8d">SKIP_BITS</a>(name,  gb,  num)</td></tr>
+<tr class="memitem:a7418c19702b25b0e27522746e22e7b8d" id="r_a7418c19702b25b0e27522746e22e7b8d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a7418c19702b25b0e27522746e22e7b8d">SKIP_BITS</a>(name,  gb,  num)&#160;&#160;&#160;{<a class="el" href="minimp3_8cpp.html#a3383e4ed8ec358f65176c49e53488922">SKIP_CACHE</a>(name, gb, num) <a class="el" href="minimp3_8cpp.html#ac5635d3f42aa9eb98ccdae1d2fd13000">SKIP_COUNTER</a>(name, gb, num)}</td></tr>
 <tr class="separator:a7418c19702b25b0e27522746e22e7b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0812a4b49d1655382604bb231ee5893" id="r_aa0812a4b49d1655382604bb231ee5893"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#aa0812a4b49d1655382604bb231ee5893">LAST_SKIP_BITS</a>(name,  gb,  num)&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#ac5635d3f42aa9eb98ccdae1d2fd13000">SKIP_COUNTER</a>(name, gb, num)</td></tr>
 <tr class="separator:aa0812a4b49d1655382604bb231ee5893"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2f903561f687a1f47e40e9d593588ae" id="r_ae2f903561f687a1f47e40e9d593588ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ae2f903561f687a1f47e40e9d593588ae">LAST_SKIP_CACHE</a>(name,  gb,  num)&#160;&#160;&#160;;</td></tr>
 <tr class="separator:ae2f903561f687a1f47e40e9d593588ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e11e2c007540a289872ed149593167e" id="r_a4e11e2c007540a289872ed149593167e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a4e11e2c007540a289872ed149593167e">SHOW_UBITS</a>(name,  gb,  num)&#160;&#160;&#160;	<a class="el" href="minimp3_8cpp.html#ae335575a7b75916318476c02daeff6a5">NEG_USR32</a>(name##_cache, num)</td></tr>
+<tr class="memitem:a4e11e2c007540a289872ed149593167e" id="r_a4e11e2c007540a289872ed149593167e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a4e11e2c007540a289872ed149593167e">SHOW_UBITS</a>(name,  gb,  num)&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#ae335575a7b75916318476c02daeff6a5">NEG_USR32</a>(name##_cache, num)</td></tr>
 <tr class="separator:a4e11e2c007540a289872ed149593167e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56e1113a1a2581ba4bc0115eda920b69" id="r_a56e1113a1a2581ba4bc0115eda920b69"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a56e1113a1a2581ba4bc0115eda920b69">SHOW_SBITS</a>(name,  gb,  num)&#160;&#160;&#160;	<a class="el" href="minimp3_8cpp.html#a9778b38d326d97840b97dc6f7093a4f1">NEG_SSR32</a>(name##_cache, num)</td></tr>
+<tr class="memitem:a56e1113a1a2581ba4bc0115eda920b69" id="r_a56e1113a1a2581ba4bc0115eda920b69"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a56e1113a1a2581ba4bc0115eda920b69">SHOW_SBITS</a>(name,  gb,  num)&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a9778b38d326d97840b97dc6f7093a4f1">NEG_SSR32</a>(name##_cache, num)</td></tr>
 <tr class="separator:a56e1113a1a2581ba4bc0115eda920b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a273cb6b1f292c7c8eed282a9ec44cd21" id="r_a273cb6b1f292c7c8eed282a9ec44cd21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a273cb6b1f292c7c8eed282a9ec44cd21">GET_CACHE</a>(name,  gb)&#160;&#160;&#160;	((<a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)name##_cache)</td></tr>
+<tr class="memitem:a273cb6b1f292c7c8eed282a9ec44cd21" id="r_a273cb6b1f292c7c8eed282a9ec44cd21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a273cb6b1f292c7c8eed282a9ec44cd21">GET_CACHE</a>(name,  gb)&#160;&#160;&#160;((<a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)name##_cache)</td></tr>
 <tr class="separator:a273cb6b1f292c7c8eed282a9ec44cd21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac266989e93beaad352082b15d6d88fe7" id="r_ac266989e93beaad352082b15d6d88fe7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ac266989e93beaad352082b15d6d88fe7">skip_bits</a>&#160;&#160;&#160;skip_bits_long</td></tr>
 <tr class="separator:ac266989e93beaad352082b15d6d88fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,67 +258,67 @@ Macros</h2></td></tr>
 <tr class="separator:a2862fac73b23794771a42a227312740c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a575626a997c0d8380fe3cbb6293f6d2f" id="r_a575626a997c0d8380fe3cbb6293f6d2f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a575626a997c0d8380fe3cbb6293f6d2f">SUM8P2</a>(sum1,  op1,  sum2,  op2,  w1,  w2,  p)</td></tr>
 <tr class="separator:a575626a997c0d8380fe3cbb6293f6d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c7f14ddeed4db84b6a04a44defc0ef8" id="r_a3c7f14ddeed4db84b6a04a44defc0ef8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a3c7f14ddeed4db84b6a04a44defc0ef8">COS0_0</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50060299823519630134/2)</td></tr>
+<tr class="memitem:a3c7f14ddeed4db84b6a04a44defc0ef8" id="r_a3c7f14ddeed4db84b6a04a44defc0ef8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a3c7f14ddeed4db84b6a04a44defc0ef8">COS0_0</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50060299823519630134 / 2)</td></tr>
 <tr class="separator:a3c7f14ddeed4db84b6a04a44defc0ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a04514f1c1ce5656a66ac27881ba183" id="r_a6a04514f1c1ce5656a66ac27881ba183"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a6a04514f1c1ce5656a66ac27881ba183">COS0_1</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50547095989754365998/2)</td></tr>
+<tr class="memitem:a6a04514f1c1ce5656a66ac27881ba183" id="r_a6a04514f1c1ce5656a66ac27881ba183"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a6a04514f1c1ce5656a66ac27881ba183">COS0_1</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50547095989754365998 / 2)</td></tr>
 <tr class="separator:a6a04514f1c1ce5656a66ac27881ba183"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbc0d0a758ec52e79b8d740fa45bd040" id="r_abbc0d0a758ec52e79b8d740fa45bd040"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#abbc0d0a758ec52e79b8d740fa45bd040">COS0_2</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.51544730992262454697/2)</td></tr>
+<tr class="memitem:abbc0d0a758ec52e79b8d740fa45bd040" id="r_abbc0d0a758ec52e79b8d740fa45bd040"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#abbc0d0a758ec52e79b8d740fa45bd040">COS0_2</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.51544730992262454697 / 2)</td></tr>
 <tr class="separator:abbc0d0a758ec52e79b8d740fa45bd040"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0026f39414e802034982b1b4cc3e3e82" id="r_a0026f39414e802034982b1b4cc3e3e82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a0026f39414e802034982b1b4cc3e3e82">COS0_3</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.53104259108978417447/2)</td></tr>
+<tr class="memitem:a0026f39414e802034982b1b4cc3e3e82" id="r_a0026f39414e802034982b1b4cc3e3e82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a0026f39414e802034982b1b4cc3e3e82">COS0_3</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.53104259108978417447 / 2)</td></tr>
 <tr class="separator:a0026f39414e802034982b1b4cc3e3e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06b6de5ad74b06b623f32fe6e8f22fa9" id="r_a06b6de5ad74b06b623f32fe6e8f22fa9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a06b6de5ad74b06b623f32fe6e8f22fa9">COS0_4</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.55310389603444452782/2)</td></tr>
+<tr class="memitem:a06b6de5ad74b06b623f32fe6e8f22fa9" id="r_a06b6de5ad74b06b623f32fe6e8f22fa9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a06b6de5ad74b06b623f32fe6e8f22fa9">COS0_4</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.55310389603444452782 / 2)</td></tr>
 <tr class="separator:a06b6de5ad74b06b623f32fe6e8f22fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a542bd94c69a783504ac305f27d48cd07" id="r_a542bd94c69a783504ac305f27d48cd07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a542bd94c69a783504ac305f27d48cd07">COS0_5</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.58293496820613387367/2)</td></tr>
+<tr class="memitem:a542bd94c69a783504ac305f27d48cd07" id="r_a542bd94c69a783504ac305f27d48cd07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a542bd94c69a783504ac305f27d48cd07">COS0_5</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.58293496820613387367 / 2)</td></tr>
 <tr class="separator:a542bd94c69a783504ac305f27d48cd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4a6061d734c76e32dc2cd4455e5f9b9" id="r_ae4a6061d734c76e32dc2cd4455e5f9b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ae4a6061d734c76e32dc2cd4455e5f9b9">COS0_6</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.62250412303566481615/2)</td></tr>
+<tr class="memitem:ae4a6061d734c76e32dc2cd4455e5f9b9" id="r_ae4a6061d734c76e32dc2cd4455e5f9b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ae4a6061d734c76e32dc2cd4455e5f9b9">COS0_6</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.62250412303566481615 / 2)</td></tr>
 <tr class="separator:ae4a6061d734c76e32dc2cd4455e5f9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8f634c2c0b2b132dc5102b665e82f7e" id="r_ac8f634c2c0b2b132dc5102b665e82f7e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ac8f634c2c0b2b132dc5102b665e82f7e">COS0_7</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.67480834145500574602/2)</td></tr>
+<tr class="memitem:ac8f634c2c0b2b132dc5102b665e82f7e" id="r_ac8f634c2c0b2b132dc5102b665e82f7e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ac8f634c2c0b2b132dc5102b665e82f7e">COS0_7</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.67480834145500574602 / 2)</td></tr>
 <tr class="separator:ac8f634c2c0b2b132dc5102b665e82f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2dfea6e209510cb1419d17e053f49ba8" id="r_a2dfea6e209510cb1419d17e053f49ba8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a2dfea6e209510cb1419d17e053f49ba8">COS0_8</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.74453627100229844977/2)</td></tr>
+<tr class="memitem:a2dfea6e209510cb1419d17e053f49ba8" id="r_a2dfea6e209510cb1419d17e053f49ba8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a2dfea6e209510cb1419d17e053f49ba8">COS0_8</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.74453627100229844977 / 2)</td></tr>
 <tr class="separator:a2dfea6e209510cb1419d17e053f49ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a711428429f446493a4ea55d7995af3ff" id="r_a711428429f446493a4ea55d7995af3ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a711428429f446493a4ea55d7995af3ff">COS0_9</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.83934964541552703873/2)</td></tr>
+<tr class="memitem:a711428429f446493a4ea55d7995af3ff" id="r_a711428429f446493a4ea55d7995af3ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a711428429f446493a4ea55d7995af3ff">COS0_9</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.83934964541552703873 / 2)</td></tr>
 <tr class="separator:a711428429f446493a4ea55d7995af3ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ee87149ee2c0377e029e2202f879539" id="r_a2ee87149ee2c0377e029e2202f879539"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a2ee87149ee2c0377e029e2202f879539">COS0_10</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.97256823786196069369/2)</td></tr>
+<tr class="memitem:a2ee87149ee2c0377e029e2202f879539" id="r_a2ee87149ee2c0377e029e2202f879539"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a2ee87149ee2c0377e029e2202f879539">COS0_10</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.97256823786196069369 / 2)</td></tr>
 <tr class="separator:a2ee87149ee2c0377e029e2202f879539"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3752e7b42fadb8272368ab18def573c" id="r_ad3752e7b42fadb8272368ab18def573c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ad3752e7b42fadb8272368ab18def573c">COS0_11</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.16943993343288495515/4)</td></tr>
+<tr class="memitem:ad3752e7b42fadb8272368ab18def573c" id="r_ad3752e7b42fadb8272368ab18def573c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ad3752e7b42fadb8272368ab18def573c">COS0_11</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.16943993343288495515 / 4)</td></tr>
 <tr class="separator:ad3752e7b42fadb8272368ab18def573c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accef694fc0f3ed4ee4a1ba4eb1e39daa" id="r_accef694fc0f3ed4ee4a1ba4eb1e39daa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#accef694fc0f3ed4ee4a1ba4eb1e39daa">COS0_12</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.48416461631416627724/4)</td></tr>
+<tr class="memitem:accef694fc0f3ed4ee4a1ba4eb1e39daa" id="r_accef694fc0f3ed4ee4a1ba4eb1e39daa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#accef694fc0f3ed4ee4a1ba4eb1e39daa">COS0_12</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.48416461631416627724 / 4)</td></tr>
 <tr class="separator:accef694fc0f3ed4ee4a1ba4eb1e39daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4b0adbb8f7a66ad724b87787af91660" id="r_af4b0adbb8f7a66ad724b87787af91660"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#af4b0adbb8f7a66ad724b87787af91660">COS0_13</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(2.05778100995341155085/8)</td></tr>
+<tr class="memitem:af4b0adbb8f7a66ad724b87787af91660" id="r_af4b0adbb8f7a66ad724b87787af91660"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#af4b0adbb8f7a66ad724b87787af91660">COS0_13</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(2.05778100995341155085 / 8)</td></tr>
 <tr class="separator:af4b0adbb8f7a66ad724b87787af91660"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace35139f22692892a1b6eab6056a0acb" id="r_ace35139f22692892a1b6eab6056a0acb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ace35139f22692892a1b6eab6056a0acb">COS0_14</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(3.40760841846871878570/8)</td></tr>
+<tr class="memitem:ace35139f22692892a1b6eab6056a0acb" id="r_ace35139f22692892a1b6eab6056a0acb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ace35139f22692892a1b6eab6056a0acb">COS0_14</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(3.40760841846871878570 / 8)</td></tr>
 <tr class="separator:ace35139f22692892a1b6eab6056a0acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada802c9dcd935c89dd685c1e4c5ea39a" id="r_ada802c9dcd935c89dd685c1e4c5ea39a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ada802c9dcd935c89dd685c1e4c5ea39a">COS0_15</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(10.19000812354805681150/32)</td></tr>
+<tr class="memitem:ada802c9dcd935c89dd685c1e4c5ea39a" id="r_ada802c9dcd935c89dd685c1e4c5ea39a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#ada802c9dcd935c89dd685c1e4c5ea39a">COS0_15</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(10.19000812354805681150 / 32)</td></tr>
 <tr class="separator:ada802c9dcd935c89dd685c1e4c5ea39a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80fe7c3bc55400ac33d20162946bfbeb" id="r_a80fe7c3bc55400ac33d20162946bfbeb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a80fe7c3bc55400ac33d20162946bfbeb">COS1_0</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50241928618815570551/2)</td></tr>
+<tr class="memitem:a80fe7c3bc55400ac33d20162946bfbeb" id="r_a80fe7c3bc55400ac33d20162946bfbeb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a80fe7c3bc55400ac33d20162946bfbeb">COS1_0</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50241928618815570551 / 2)</td></tr>
 <tr class="separator:a80fe7c3bc55400ac33d20162946bfbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a968b7cd171308bd5a8669789b2bc5f24" id="r_a968b7cd171308bd5a8669789b2bc5f24"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a968b7cd171308bd5a8669789b2bc5f24">COS1_1</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.52249861493968888062/2)</td></tr>
+<tr class="memitem:a968b7cd171308bd5a8669789b2bc5f24" id="r_a968b7cd171308bd5a8669789b2bc5f24"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a968b7cd171308bd5a8669789b2bc5f24">COS1_1</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.52249861493968888062 / 2)</td></tr>
 <tr class="separator:a968b7cd171308bd5a8669789b2bc5f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60e6e20a6a7f8450fc260de0ef7cbae3" id="r_a60e6e20a6a7f8450fc260de0ef7cbae3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a60e6e20a6a7f8450fc260de0ef7cbae3">COS1_2</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.56694403481635770368/2)</td></tr>
+<tr class="memitem:a60e6e20a6a7f8450fc260de0ef7cbae3" id="r_a60e6e20a6a7f8450fc260de0ef7cbae3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a60e6e20a6a7f8450fc260de0ef7cbae3">COS1_2</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.56694403481635770368 / 2)</td></tr>
 <tr class="separator:a60e6e20a6a7f8450fc260de0ef7cbae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb19e87b4b82935d05eaef77dc9e0418" id="r_acb19e87b4b82935d05eaef77dc9e0418"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#acb19e87b4b82935d05eaef77dc9e0418">COS1_3</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.64682178335999012954/2)</td></tr>
+<tr class="memitem:acb19e87b4b82935d05eaef77dc9e0418" id="r_acb19e87b4b82935d05eaef77dc9e0418"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#acb19e87b4b82935d05eaef77dc9e0418">COS1_3</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.64682178335999012954 / 2)</td></tr>
 <tr class="separator:acb19e87b4b82935d05eaef77dc9e0418"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a936b019be7a7354d11cb8aaaf9a7d46d" id="r_a936b019be7a7354d11cb8aaaf9a7d46d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a936b019be7a7354d11cb8aaaf9a7d46d">COS1_4</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.78815462345125022473/2)</td></tr>
+<tr class="memitem:a936b019be7a7354d11cb8aaaf9a7d46d" id="r_a936b019be7a7354d11cb8aaaf9a7d46d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a936b019be7a7354d11cb8aaaf9a7d46d">COS1_4</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.78815462345125022473 / 2)</td></tr>
 <tr class="separator:a936b019be7a7354d11cb8aaaf9a7d46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90c8fd99f2746e413c06b558d9363f6a" id="r_a90c8fd99f2746e413c06b558d9363f6a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a90c8fd99f2746e413c06b558d9363f6a">COS1_5</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.06067768599034747134/4)</td></tr>
+<tr class="memitem:a90c8fd99f2746e413c06b558d9363f6a" id="r_a90c8fd99f2746e413c06b558d9363f6a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a90c8fd99f2746e413c06b558d9363f6a">COS1_5</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.06067768599034747134 / 4)</td></tr>
 <tr class="separator:a90c8fd99f2746e413c06b558d9363f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12669a29f2c1b308d3f2a25a8891aadb" id="r_a12669a29f2c1b308d3f2a25a8891aadb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a12669a29f2c1b308d3f2a25a8891aadb">COS1_6</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.72244709823833392782/4)</td></tr>
+<tr class="memitem:a12669a29f2c1b308d3f2a25a8891aadb" id="r_a12669a29f2c1b308d3f2a25a8891aadb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a12669a29f2c1b308d3f2a25a8891aadb">COS1_6</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.72244709823833392782 / 4)</td></tr>
 <tr class="separator:a12669a29f2c1b308d3f2a25a8891aadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a434031c1963b120c1d92fa745c5ca3b1" id="r_a434031c1963b120c1d92fa745c5ca3b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a434031c1963b120c1d92fa745c5ca3b1">COS1_7</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(5.10114861868916385802/16)</td></tr>
+<tr class="memitem:a434031c1963b120c1d92fa745c5ca3b1" id="r_a434031c1963b120c1d92fa745c5ca3b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a434031c1963b120c1d92fa745c5ca3b1">COS1_7</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(5.10114861868916385802 / 16)</td></tr>
 <tr class="separator:a434031c1963b120c1d92fa745c5ca3b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a663d9b3d5615c943ef7440398ff4fcac" id="r_a663d9b3d5615c943ef7440398ff4fcac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a663d9b3d5615c943ef7440398ff4fcac">COS2_0</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50979557910415916894/2)</td></tr>
+<tr class="memitem:a663d9b3d5615c943ef7440398ff4fcac" id="r_a663d9b3d5615c943ef7440398ff4fcac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a663d9b3d5615c943ef7440398ff4fcac">COS2_0</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50979557910415916894 / 2)</td></tr>
 <tr class="separator:a663d9b3d5615c943ef7440398ff4fcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98578a625adb72e01b1ea6f20a2efac7" id="r_a98578a625adb72e01b1ea6f20a2efac7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a98578a625adb72e01b1ea6f20a2efac7">COS2_1</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.60134488693504528054/2)</td></tr>
+<tr class="memitem:a98578a625adb72e01b1ea6f20a2efac7" id="r_a98578a625adb72e01b1ea6f20a2efac7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a98578a625adb72e01b1ea6f20a2efac7">COS2_1</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.60134488693504528054 / 2)</td></tr>
 <tr class="separator:a98578a625adb72e01b1ea6f20a2efac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88f305fec8bcd7475441508658ff93f0" id="r_a88f305fec8bcd7475441508658ff93f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a88f305fec8bcd7475441508658ff93f0">COS2_2</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.89997622313641570463/2)</td></tr>
+<tr class="memitem:a88f305fec8bcd7475441508658ff93f0" id="r_a88f305fec8bcd7475441508658ff93f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a88f305fec8bcd7475441508658ff93f0">COS2_2</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.89997622313641570463 / 2)</td></tr>
 <tr class="separator:a88f305fec8bcd7475441508658ff93f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca86af9b8d03c39d3b6031dea8c3a12a" id="r_aca86af9b8d03c39d3b6031dea8c3a12a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#aca86af9b8d03c39d3b6031dea8c3a12a">COS2_3</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(2.56291544774150617881/8)</td></tr>
+<tr class="memitem:aca86af9b8d03c39d3b6031dea8c3a12a" id="r_aca86af9b8d03c39d3b6031dea8c3a12a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#aca86af9b8d03c39d3b6031dea8c3a12a">COS2_3</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(2.56291544774150617881 / 8)</td></tr>
 <tr class="separator:aca86af9b8d03c39d3b6031dea8c3a12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e9b0736ed05662488ccfd51b0e5ae88" id="r_a7e9b0736ed05662488ccfd51b0e5ae88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a7e9b0736ed05662488ccfd51b0e5ae88">COS3_0</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.54119610014619698439/2)</td></tr>
+<tr class="memitem:a7e9b0736ed05662488ccfd51b0e5ae88" id="r_a7e9b0736ed05662488ccfd51b0e5ae88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a7e9b0736ed05662488ccfd51b0e5ae88">COS3_0</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.54119610014619698439 / 2)</td></tr>
 <tr class="separator:a7e9b0736ed05662488ccfd51b0e5ae88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31801612d26ab9d77aabcc3ee866f403" id="r_a31801612d26ab9d77aabcc3ee866f403"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a31801612d26ab9d77aabcc3ee866f403">COS3_1</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.30656296487637652785/4)</td></tr>
+<tr class="memitem:a31801612d26ab9d77aabcc3ee866f403" id="r_a31801612d26ab9d77aabcc3ee866f403"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a31801612d26ab9d77aabcc3ee866f403">COS3_1</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.30656296487637652785 / 4)</td></tr>
 <tr class="separator:a31801612d26ab9d77aabcc3ee866f403"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e45a461f953a779296743a365934b86" id="r_a3e45a461f953a779296743a365934b86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a3e45a461f953a779296743a365934b86">COS4_0</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.70710678118654752439/2)</td></tr>
+<tr class="memitem:a3e45a461f953a779296743a365934b86" id="r_a3e45a461f953a779296743a365934b86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#a3e45a461f953a779296743a365934b86">COS4_0</a>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.70710678118654752439 / 2)</td></tr>
 <tr class="separator:a3e45a461f953a779296743a365934b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc4932539e313cc1fea9e1a2f0169a85" id="r_adc4932539e313cc1fea9e1a2f0169a85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="minimp3_8cpp.html#adc4932539e313cc1fea9e1a2f0169a85">BF</a>(a,  b,  c,  s)</td></tr>
 <tr class="separator:adc4932539e313cc1fea9e1a2f0169a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -431,13 +431,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    {\</div>
-<div class="line">    tmp0 = tab[a] + tab[b]; \</div>
-<div class="line">    tmp1 = tab[a] - tab[b]; \</div>
-<div class="line">    tab[a] = tmp0; \</div>
-<div class="line">    tab[b] = <a class="code hl_define" href="minimp3_8cpp.html#a56128db72bf0c5fff90936f2e4c8eff1">MULH</a>(tmp1 &lt;&lt; (s), c); \</div>
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        tmp0 = tab[a] + tab[b];                                                                    \</div>
+<div class="line">        tmp1 = tab[a] - tab[b];                                                                    \</div>
+<div class="line">        tab[a] = tmp0;                                                                             \</div>
+<div class="line">        tab[b] = <a class="code hl_define" href="minimp3_8cpp.html#a56128db72bf0c5fff90936f2e4c8eff1">MULH</a>(tmp1 &lt;&lt; (s), c);                                                             \</div>
 <div class="line">    }</div>
-<div class="ttc" id="aminimp3_8cpp_html_a56128db72bf0c5fff90936f2e4c8eff1"><div class="ttname"><a href="minimp3_8cpp.html#a56128db72bf0c5fff90936f2e4c8eff1">MULH</a></div><div class="ttdeci">#define MULH(a, b)</div><div class="ttdef"><b>Definition</b> minimp3.cpp:58</div></div>
+<div class="ttc" id="aminimp3_8cpp_html_a56128db72bf0c5fff90936f2e4c8eff1"><div class="ttname"><a href="minimp3_8cpp.html#a56128db72bf0c5fff90936f2e4c8eff1">MULH</a></div><div class="ttdeci">#define MULH(a, b)</div><div class="ttdef"><b>Definition</b> minimp3.cpp:57</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -478,12 +478,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    {\</div>
-<div class="line">    BF(a, b, <a class="code hl_define" href="minimp3_8cpp.html#a3e45a461f953a779296743a365934b86">COS4_0</a>, 1); \</div>
-<div class="line">    BF(c, d, -<a class="code hl_define" href="minimp3_8cpp.html#a3e45a461f953a779296743a365934b86">COS4_0</a>, 1); \</div>
-<div class="line">    tab[c] += tab[d]; \</div>
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        BF(a, b, <a class="code hl_define" href="minimp3_8cpp.html#a3e45a461f953a779296743a365934b86">COS4_0</a>, 1);                                                                       \</div>
+<div class="line">        BF(c, d, -<a class="code hl_define" href="minimp3_8cpp.html#a3e45a461f953a779296743a365934b86">COS4_0</a>, 1);                                                                      \</div>
+<div class="line">        tab[c] += tab[d];                                                                          \</div>
 <div class="line">    }</div>
-<div class="ttc" id="aminimp3_8cpp_html_a3e45a461f953a779296743a365934b86"><div class="ttname"><a href="minimp3_8cpp.html#a3e45a461f953a779296743a365934b86">COS4_0</a></div><div class="ttdeci">#define COS4_0</div><div class="ttdef"><b>Definition</b> minimp3.cpp:1826</div></div>
+<div class="ttc" id="aminimp3_8cpp_html_a3e45a461f953a779296743a365934b86"><div class="ttname"><a href="minimp3_8cpp.html#a3e45a461f953a779296743a365934b86">COS4_0</a></div><div class="ttdeci">#define COS4_0</div><div class="ttdef"><b>Definition</b> minimp3.cpp:1893</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -524,13 +524,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    {\</div>
-<div class="line">    BF(a, b, <a class="code hl_define" href="minimp3_8cpp.html#a3e45a461f953a779296743a365934b86">COS4_0</a>, 1); \</div>
-<div class="line">    BF(c, d, -<a class="code hl_define" href="minimp3_8cpp.html#a3e45a461f953a779296743a365934b86">COS4_0</a>, 1); \</div>
-<div class="line">    tab[c] += tab[d]; \</div>
-<div class="line">    tab[a] += tab[c]; \</div>
-<div class="line">    tab[c] += tab[b]; \</div>
-<div class="line">    tab[b] += tab[d]; \</div>
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        BF(a, b, <a class="code hl_define" href="minimp3_8cpp.html#a3e45a461f953a779296743a365934b86">COS4_0</a>, 1);                                                                       \</div>
+<div class="line">        BF(c, d, -<a class="code hl_define" href="minimp3_8cpp.html#a3e45a461f953a779296743a365934b86">COS4_0</a>, 1);                                                                      \</div>
+<div class="line">        tab[c] += tab[d];                                                                          \</div>
+<div class="line">        tab[a] += tab[c];                                                                          \</div>
+<div class="line">        tab[c] += tab[b];                                                                          \</div>
+<div class="line">        tab[b] += tab[d];                                                                          \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
 </div>
@@ -542,7 +542,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define C1&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.98480775301220805936/2)</td>
+          <td class="memname">#define C1&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.98480775301220805936 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -556,7 +556,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define C2&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.93969262078590838405/2)</td>
+          <td class="memname">#define C2&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.93969262078590838405 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -570,7 +570,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define C3&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.86602540378443864676/2)</td>
+          <td class="memname">#define C3&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.86602540378443864676 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -584,7 +584,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define C4&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.76604444311897803520/2)</td>
+          <td class="memname">#define C4&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.76604444311897803520 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -598,7 +598,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define C5&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.64278760968653932632/2)</td>
+          <td class="memname">#define C5&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.64278760968653932632 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -612,7 +612,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define C6&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.5/2)</td>
+          <td class="memname">#define C6&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.5 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -626,7 +626,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define C7&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.34202014332566873304/2)</td>
+          <td class="memname">#define C7&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.34202014332566873304 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -640,7 +640,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define C8&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.17364817766693034885/2)</td>
+          <td class="memname">#define C8&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.17364817766693034885 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -668,7 +668,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	(gb)-&gt;<a class="el" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a> = name##_index; \</td>
+          <td></td><td>&#160;&#160;&#160;(gb)-&gt;<a class="el" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a> = name##_index;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -682,7 +682,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_0&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50060299823519630134/2)</td>
+          <td class="memname">#define COS0_0&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50060299823519630134 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -696,7 +696,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_1&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50547095989754365998/2)</td>
+          <td class="memname">#define COS0_1&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50547095989754365998 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -710,7 +710,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_10&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.97256823786196069369/2)</td>
+          <td class="memname">#define COS0_10&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.97256823786196069369 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -724,7 +724,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_11&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.16943993343288495515/4)</td>
+          <td class="memname">#define COS0_11&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.16943993343288495515 / 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -738,7 +738,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_12&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.48416461631416627724/4)</td>
+          <td class="memname">#define COS0_12&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.48416461631416627724 / 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -752,7 +752,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_13&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(2.05778100995341155085/8)</td>
+          <td class="memname">#define COS0_13&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(2.05778100995341155085 / 8)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -766,7 +766,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_14&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(3.40760841846871878570/8)</td>
+          <td class="memname">#define COS0_14&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(3.40760841846871878570 / 8)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -780,7 +780,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_15&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(10.19000812354805681150/32)</td>
+          <td class="memname">#define COS0_15&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(10.19000812354805681150 / 32)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -794,7 +794,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_2&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.51544730992262454697/2)</td>
+          <td class="memname">#define COS0_2&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.51544730992262454697 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -808,7 +808,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_3&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.53104259108978417447/2)</td>
+          <td class="memname">#define COS0_3&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.53104259108978417447 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -822,7 +822,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_4&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.55310389603444452782/2)</td>
+          <td class="memname">#define COS0_4&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.55310389603444452782 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -836,7 +836,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_5&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.58293496820613387367/2)</td>
+          <td class="memname">#define COS0_5&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.58293496820613387367 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -850,7 +850,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_6&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.62250412303566481615/2)</td>
+          <td class="memname">#define COS0_6&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.62250412303566481615 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -864,7 +864,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_7&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.67480834145500574602/2)</td>
+          <td class="memname">#define COS0_7&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.67480834145500574602 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -878,7 +878,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_8&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.74453627100229844977/2)</td>
+          <td class="memname">#define COS0_8&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.74453627100229844977 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -892,7 +892,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS0_9&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.83934964541552703873/2)</td>
+          <td class="memname">#define COS0_9&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.83934964541552703873 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -906,7 +906,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS1_0&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50241928618815570551/2)</td>
+          <td class="memname">#define COS1_0&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50241928618815570551 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -920,7 +920,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS1_1&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.52249861493968888062/2)</td>
+          <td class="memname">#define COS1_1&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.52249861493968888062 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -934,7 +934,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS1_2&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.56694403481635770368/2)</td>
+          <td class="memname">#define COS1_2&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.56694403481635770368 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -948,7 +948,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS1_3&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.64682178335999012954/2)</td>
+          <td class="memname">#define COS1_3&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.64682178335999012954 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -962,7 +962,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS1_4&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.78815462345125022473/2)</td>
+          <td class="memname">#define COS1_4&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.78815462345125022473 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -976,7 +976,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS1_5&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.06067768599034747134/4)</td>
+          <td class="memname">#define COS1_5&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.06067768599034747134 / 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -990,7 +990,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS1_6&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.72244709823833392782/4)</td>
+          <td class="memname">#define COS1_6&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.72244709823833392782 / 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1004,7 +1004,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS1_7&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(5.10114861868916385802/16)</td>
+          <td class="memname">#define COS1_7&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(5.10114861868916385802 / 16)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1018,7 +1018,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS2_0&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50979557910415916894/2)</td>
+          <td class="memname">#define COS2_0&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.50979557910415916894 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1032,7 +1032,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS2_1&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.60134488693504528054/2)</td>
+          <td class="memname">#define COS2_1&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.60134488693504528054 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1046,7 +1046,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS2_2&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.89997622313641570463/2)</td>
+          <td class="memname">#define COS2_2&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.89997622313641570463 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1060,7 +1060,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS2_3&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(2.56291544774150617881/8)</td>
+          <td class="memname">#define COS2_3&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(2.56291544774150617881 / 8)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1074,7 +1074,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS3_0&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.54119610014619698439/2)</td>
+          <td class="memname">#define COS3_0&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.54119610014619698439 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1088,7 +1088,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS3_1&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.30656296487637652785/4)</td>
+          <td class="memname">#define COS3_1&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(1.30656296487637652785 / 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1102,7 +1102,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define COS4_0&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.70710678118654752439/2)</td>
+          <td class="memname">#define COS4_0&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a7ef9002d22aa9d96f531b59f618fee16">FIXHR</a>(0.70710678118654752439 / 2)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1152,7 +1152,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">a</td><td>)</td>
-          <td>&#160;&#160;&#160;((int)((a) * (1LL&lt;&lt;32) + 0.5))</td>
+          <td>&#160;&#160;&#160;((int)((a) * (1LL &lt;&lt; 32) + 0.5))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1216,7 +1216,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">a</td><td>)</td>
-          <td>&#160;&#160;&#160;(((a) + (<a class="el" href="minimp3_8cpp.html#a58bf38924819d3cb38facc24eb4bf799">FRAC_ONE</a>/2)) &gt;&gt; <a class="el" href="minimp3_8cpp.html#a0ac65b37442b7b10d74dedeb7d25e737">FRAC_BITS</a>)</td>
+          <td>&#160;&#160;&#160;(((a) + (<a class="el" href="minimp3_8cpp.html#a58bf38924819d3cb38facc24eb4bf799">FRAC_ONE</a> / 2)) &gt;&gt; <a class="el" href="minimp3_8cpp.html#a0ac65b37442b7b10d74dedeb7d25e737">FRAC_BITS</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1244,7 +1244,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	((<a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)name##_cache)</td>
+          <td></td><td>&#160;&#160;&#160;((<a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)name##_cache)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1294,20 +1294,20 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{\</div>
-<div class="line">    <span class="keyword">const</span> <a class="code hl_typedef" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *ptr = (<span class="keyword">const</span> <a class="code hl_typedef" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *)table + i * wrap; \</div>
-<div class="line">    switch (size) {\</div>
-<div class="line">    <span class="keywordflow">case</span> 1:\</div>
-<div class="line">    v = *(<span class="keyword">const</span> <a class="code hl_typedef" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *)ptr; \</div>
-<div class="line">    <span class="keywordflow">break</span>; \</div>
-<div class="line">    <span class="keywordflow">case</span> 2:\</div>
-<div class="line">    v = *(<span class="keyword">const</span> <a class="code hl_typedef" href="acefiex_8h.html#adf4d876453337156dde61095e1f20223">uint16_t</a> *)ptr; \</div>
-<div class="line">    <span class="keywordflow">break</span>; \</div>
-<div class="line">    <span class="keywordflow">default</span>:\</div>
-<div class="line">    v = *(<span class="keyword">const</span> <a class="code hl_typedef" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *)ptr; \</div>
-<div class="line">    <span class="keywordflow">break</span>; \</div>
-<div class="line">}\</div>
-<div class="line">}</div>
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        <span class="keyword">const</span> <a class="code hl_typedef" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>* ptr = (<span class="keyword">const</span> <a class="code hl_typedef" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>*)table + i * wrap;                                     \</div>
+<div class="line">        switch (size) {                                                                            \</div>
+<div class="line">        <span class="keywordflow">case</span> 1:                                                                                    \</div>
+<div class="line">            v = *(<span class="keyword">const</span> <a class="code hl_typedef" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>*)ptr;                                                              \</div>
+<div class="line">            <span class="keywordflow">break</span>;                                                                                 \</div>
+<div class="line">        <span class="keywordflow">case</span> 2:                                                                                    \</div>
+<div class="line">            v = *(<span class="keyword">const</span> <a class="code hl_typedef" href="acefiex_8h.html#adf4d876453337156dde61095e1f20223">uint16_t</a>*)ptr;                                                             \</div>
+<div class="line">            <span class="keywordflow">break</span>;                                                                                 \</div>
+<div class="line">        <span class="keywordflow">default</span>:                                                                                   \</div>
+<div class="line">            v = *(<span class="keyword">const</span> <a class="code hl_typedef" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>*)ptr;                                                             \</div>
+<div class="line">            <span class="keywordflow">break</span>;                                                                                 \</div>
+<div class="line">        }                                                                                          \</div>
+<div class="line">    }</div>
 <div class="ttc" id="aacefiex_8h_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition</b> acefiex.h:163</div></div>
 <div class="ttc" id="aacefiex_8h_html_aba7bc1797add20fe3efdf37ced1182c5"><div class="ttname"><a href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></div><div class="ttdeci">unsigned char uint8_t</div><div class="ttdef"><b>Definition</b> acefiex.h:161</div></div>
 <div class="ttc" id="aacefiex_8h_html_adf4d876453337156dde61095e1f20223"><div class="ttname"><a href="acefiex_8h.html#adf4d876453337156dde61095e1f20223">uint16_t</a></div><div class="ttdeci">unsigned short int uint16_t</div><div class="ttdef"><b>Definition</b> acefiex.h:162</div></div>
@@ -1363,7 +1363,38 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        <span class="keywordtype">int</span> n, <a class="code hl_define" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a>, nb_bits;                                                                     \</div>
+<div class="line">                                                                                                   \</div>
+<div class="line">        <a class="code hl_define" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a> = <a class="code hl_define" href="minimp3_8cpp.html#a4e11e2c007540a289872ed149593167e">SHOW_UBITS</a>(name, gb, bits);                                                        \</div>
+<div class="line">        code = table[<a class="code hl_define" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a>][0];                                                                    \</div>
+<div class="line">        n = table[<a class="code hl_define" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a>][1];                                                                       \</div>
+<div class="line">                                                                                                   \</div>
+<div class="line">        if (max_depth &gt; 1 &amp;&amp; n &lt; 0) {                                                              \</div>
+<div class="line">            LAST_SKIP_BITS(name, gb, bits)                                                         \</div>
+<div class="line">            UPDATE_CACHE(name, gb)                                                                 \</div>
+<div class="line">                                                                                                   \</div>
+<div class="line">            nb_bits = -n;                                                                          \</div>
+<div class="line">                                                                                                   \</div>
+<div class="line">            <a class="code hl_define" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a> = <a class="code hl_define" href="minimp3_8cpp.html#a4e11e2c007540a289872ed149593167e">SHOW_UBITS</a>(name, gb, nb_bits) + code;                                          \</div>
+<div class="line">            code = table[<a class="code hl_define" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a>][0];                                                                \</div>
+<div class="line">            n = table[<a class="code hl_define" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a>][1];                                                                   \</div>
+<div class="line">            if (max_depth &gt; 2 &amp;&amp; n &lt; 0) {                                                          \</div>
+<div class="line">                LAST_SKIP_BITS(name, gb, nb_bits)                                                  \</div>
+<div class="line">                UPDATE_CACHE(name, gb)                                                             \</div>
+<div class="line">                                                                                                   \</div>
+<div class="line">                nb_bits = -n;                                                                      \</div>
+<div class="line">                                                                                                   \</div>
+<div class="line">                <a class="code hl_define" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a> = <a class="code hl_define" href="minimp3_8cpp.html#a4e11e2c007540a289872ed149593167e">SHOW_UBITS</a>(name, gb, nb_bits) + code;                                      \</div>
+<div class="line">                code = table[<a class="code hl_define" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a>][0];                                                            \</div>
+<div class="line">                n = table[<a class="code hl_define" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a>][1];                                                               \</div>
+<div class="line">            }                                                                                      \</div>
+<div class="line">        }                                                                                          \</div>
+<div class="line">        SKIP_BITS(name, gb, n)                                                                     \</div>
+<div class="line">    }</div>
+<div class="ttc" id="aLibs_2XEClib_2includes_2string_8h_html_a48b8e98743833e6ce735f3d9f2fb240f"><div class="ttname"><a href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a></div><div class="ttdeci">#define index(str, chr)</div><div class="ttdef"><b>Definition</b> string.h:66</div></div>
+<div class="ttc" id="aminimp3_8cpp_html_a4e11e2c007540a289872ed149593167e"><div class="ttname"><a href="minimp3_8cpp.html#a4e11e2c007540a289872ed149593167e">SHOW_UBITS</a></div><div class="ttdeci">#define SHOW_UBITS(name, gb, num)</div><div class="ttdef"><b>Definition</b> minimp3.cpp:938</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a49999be01380f41cc0d0f1f1406fb277" name="a49999be01380f41cc0d0f1f1406fb277"></a>
@@ -1395,10 +1426,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    tmp0 = ptr[-1 - j]; \</div>
-<div class="line">    tmp1 = ptr[j]; \</div>
-<div class="line">    tmp2 = <a class="code hl_define" href="minimp3_8cpp.html#a56128db72bf0c5fff90936f2e4c8eff1">MULH</a>(tmp0 + tmp1, csa[0 + 4 * j]); \</div>
-<div class="line">    ptr[-1 - j] = 4 * (tmp2 - <a class="code hl_define" href="minimp3_8cpp.html#a56128db72bf0c5fff90936f2e4c8eff1">MULH</a>(tmp1, csa[2 + 4 * j])); \</div>
+<b>Value:</b><div class="fragment"><div class="line">    tmp0 = ptr[-1 - j];                                                                            \</div>
+<div class="line">    tmp1 = ptr[j];                                                                                 \</div>
+<div class="line">    tmp2 = <a class="code hl_define" href="minimp3_8cpp.html#a56128db72bf0c5fff90936f2e4c8eff1">MULH</a>(tmp0 + tmp1, csa[0 + 4 * j]);                                                      \</div>
+<div class="line">    ptr[-1 - j] = 4 * (tmp2 - <a class="code hl_define" href="minimp3_8cpp.html#a56128db72bf0c5fff90936f2e4c8eff1">MULH</a>(tmp1, csa[2 + 4 * j]));                                         \</div>
 <div class="line">    ptr[j] = 4 * (tmp2 + <a class="code hl_define" href="minimp3_8cpp.html#a56128db72bf0c5fff90936f2e4c8eff1">MULH</a>(tmp0, csa[3 + 4 * j]));</div>
 </div><!-- fragment -->
 </div>
@@ -1730,7 +1761,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((( <a class="el" href="acefiex_8h.html#a32f2e37ee053cf2ce8ca28d1f74630e5">int32_t</a>)(a))&gt;&gt;(32-(s)))</td>
+          <td></td><td>&#160;&#160;&#160;(((<a class="el" href="acefiex_8h.html#a32f2e37ee053cf2ce8ca28d1f74630e5">int32_t</a>)(a)) &gt;&gt; (32 - (s)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1758,7 +1789,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(((<a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)(a))&gt;&gt;(32-(s)))</td>
+          <td></td><td>&#160;&#160;&#160;(((<a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)(a)) &gt;&gt; (32 - (s)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1790,9 +1821,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">int</span> name##_index = (gb)-&gt;<a class="code hl_define" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a>; \</div>
-<div class="line">    <span class="keywordtype">int</span> name##_cache = 0; \</div>
-<div class="ttc" id="aLibs_2XEClib_2includes_2string_8h_html_a48b8e98743833e6ce735f3d9f2fb240f"><div class="ttname"><a href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a></div><div class="ttdeci">#define index(str, chr)</div><div class="ttdef"><b>Definition</b> string.h:66</div></div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">int</span> name##_index = (gb)-&gt;<a class="code hl_define" href="Libs_2XEClib_2includes_2string_8h.html#a48b8e98743833e6ce735f3d9f2fb240f">index</a>;                                                                \</div>
+<div class="line">    <span class="keywordtype">int</span> name##_cache = 0;</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1845,7 +1875,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SAME_HEADER_MASK&#160;&#160;&#160;	(0xffe00000 | (3 &lt;&lt; 17) | (0xf &lt;&lt; 12) | (3 &lt;&lt; 10) | (3 &lt;&lt; 19))</td>
+          <td class="memname">#define SAME_HEADER_MASK&#160;&#160;&#160;(0xffe00000 | (3 &lt;&lt; 17) | (0xf &lt;&lt; 12) | (3 &lt;&lt; 10) | (3 &lt;&lt; 19))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1893,7 +1923,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	<a class="el" href="minimp3_8cpp.html#a9778b38d326d97840b97dc6f7093a4f1">NEG_SSR32</a>(name##_cache, num)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#a9778b38d326d97840b97dc6f7093a4f1">NEG_SSR32</a>(name##_cache, num)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1927,7 +1957,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	<a class="el" href="minimp3_8cpp.html#ae335575a7b75916318476c02daeff6a5">NEG_USR32</a>(name##_cache, num)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="minimp3_8cpp.html#ae335575a7b75916318476c02daeff6a5">NEG_USR32</a>(name##_cache, num)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1961,15 +1991,11 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td>&#160;&#160;&#160;{<a class="el" href="minimp3_8cpp.html#a3383e4ed8ec358f65176c49e53488922">SKIP_CACHE</a>(name, gb, num) <a class="el" href="minimp3_8cpp.html#ac5635d3f42aa9eb98ccdae1d2fd13000">SKIP_COUNTER</a>(name, gb, num)}</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{\</div>
-<div class="line">    SKIP_CACHE(name, gb, num)\</div>
-<div class="line">    SKIP_COUNTER(name, gb, num)\</div>
-<div class="line">}\</div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="ac266989e93beaad352082b15d6d88fe7" name="ac266989e93beaad352082b15d6d88fe7"></a>
@@ -2013,7 +2039,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	name##_cache &lt;&lt;= (num);</td>
+          <td></td><td>&#160;&#160;&#160;name##_cache &lt;&lt;= (num);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2047,7 +2073,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	name##_index += (num); \</td>
+          <td></td><td>&#160;&#160;&#160;name##_index += (num);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2091,17 +2117,17 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    {                                               \</div>
-<div class="line">    sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[0 * 64], p[0 * 64]); \</div>
-<div class="line">    sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[1 * 64], p[1 * 64]); \</div>
-<div class="line">    sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[2 * 64], p[2 * 64]); \</div>
-<div class="line">    sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[3 * 64], p[3 * 64]); \</div>
-<div class="line">    sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[4 * 64], p[4 * 64]); \</div>
-<div class="line">    sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[5 * 64], p[5 * 64]); \</div>
-<div class="line">    sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[6 * 64], p[6 * 64]); \</div>
-<div class="line">    sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[7 * 64], p[7 * 64]); \</div>
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[0 * 64], p[0 * 64]);                                                       \</div>
+<div class="line">        sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[1 * 64], p[1 * 64]);                                                       \</div>
+<div class="line">        sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[2 * 64], p[2 * 64]);                                                       \</div>
+<div class="line">        sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[3 * 64], p[3 * 64]);                                                       \</div>
+<div class="line">        sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[4 * 64], p[4 * 64]);                                                       \</div>
+<div class="line">        sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[5 * 64], p[5 * 64]);                                                       \</div>
+<div class="line">        sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[6 * 64], p[6 * 64]);                                                       \</div>
+<div class="line">        sum op <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w)[7 * 64], p[7 * 64]);                                                       \</div>
 <div class="line">    }</div>
-<div class="ttc" id="aminimp3_8cpp_html_aab961f0465356c1c13df49d4e3ba9935"><div class="ttname"><a href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a></div><div class="ttdeci">#define MULS(ra, rb)</div><div class="ttdef"><b>Definition</b> minimp3.cpp:82</div></div>
+<div class="ttc" id="aminimp3_8cpp_html_aab961f0465356c1c13df49d4e3ba9935"><div class="ttname"><a href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a></div><div class="ttdeci">#define MULS(ra, rb)</div><div class="ttdef"><b>Definition</b> minimp3.cpp:81</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2160,32 +2186,32 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    {                                               \</div>
-<div class="line">    <span class="keywordtype">int</span> tmp; \</div>
-<div class="line">    tmp = p[0 * 64]; \</div>
-<div class="line">    sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[0 * 64], tmp); \</div>
-<div class="line">    sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[0 * 64], tmp); \</div>
-<div class="line">    tmp = p[1 * 64]; \</div>
-<div class="line">    sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[1 * 64], tmp); \</div>
-<div class="line">    sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[1 * 64], tmp); \</div>
-<div class="line">    tmp = p[2 * 64]; \</div>
-<div class="line">    sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[2 * 64], tmp); \</div>
-<div class="line">    sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[2 * 64], tmp); \</div>
-<div class="line">    tmp = p[3 * 64]; \</div>
-<div class="line">    sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[3 * 64], tmp); \</div>
-<div class="line">    sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[3 * 64], tmp); \</div>
-<div class="line">    tmp = p[4 * 64]; \</div>
-<div class="line">    sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[4 * 64], tmp); \</div>
-<div class="line">    sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[4 * 64], tmp); \</div>
-<div class="line">    tmp = p[5 * 64]; \</div>
-<div class="line">    sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[5 * 64], tmp); \</div>
-<div class="line">    sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[5 * 64], tmp); \</div>
-<div class="line">    tmp = p[6 * 64]; \</div>
-<div class="line">    sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[6 * 64], tmp); \</div>
-<div class="line">    sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[6 * 64], tmp); \</div>
-<div class="line">    tmp = p[7 * 64]; \</div>
-<div class="line">    sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[7 * 64], tmp); \</div>
-<div class="line">    sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[7 * 64], tmp); \</div>
+<b>Value:</b><div class="fragment"><div class="line">    {                                                                                              \</div>
+<div class="line">        <span class="keywordtype">int</span> tmp;                                                                                   \</div>
+<div class="line">        tmp = p[0 * 64];                                                                           \</div>
+<div class="line">        sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[0 * 64], tmp);                                                          \</div>
+<div class="line">        sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[0 * 64], tmp);                                                          \</div>
+<div class="line">        tmp = p[1 * 64];                                                                           \</div>
+<div class="line">        sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[1 * 64], tmp);                                                          \</div>
+<div class="line">        sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[1 * 64], tmp);                                                          \</div>
+<div class="line">        tmp = p[2 * 64];                                                                           \</div>
+<div class="line">        sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[2 * 64], tmp);                                                          \</div>
+<div class="line">        sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[2 * 64], tmp);                                                          \</div>
+<div class="line">        tmp = p[3 * 64];                                                                           \</div>
+<div class="line">        sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[3 * 64], tmp);                                                          \</div>
+<div class="line">        sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[3 * 64], tmp);                                                          \</div>
+<div class="line">        tmp = p[4 * 64];                                                                           \</div>
+<div class="line">        sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[4 * 64], tmp);                                                          \</div>
+<div class="line">        sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[4 * 64], tmp);                                                          \</div>
+<div class="line">        tmp = p[5 * 64];                                                                           \</div>
+<div class="line">        sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[5 * 64], tmp);                                                          \</div>
+<div class="line">        sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[5 * 64], tmp);                                                          \</div>
+<div class="line">        tmp = p[6 * 64];                                                                           \</div>
+<div class="line">        sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[6 * 64], tmp);                                                          \</div>
+<div class="line">        sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[6 * 64], tmp);                                                          \</div>
+<div class="line">        tmp = p[7 * 64];                                                                           \</div>
+<div class="line">        sum1 op1 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w1)[7 * 64], tmp);                                                          \</div>
+<div class="line">        sum2 op2 <a class="code hl_define" href="minimp3_8cpp.html#aab961f0465356c1c13df49d4e3ba9935">MULS</a>((w2)[7 * 64], tmp);                                                          \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
 </div>
@@ -2197,7 +2223,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TABLE_4_3_SIZE&#160;&#160;&#160;(8191 + 16)*4</td>
+          <td class="memname">#define TABLE_4_3_SIZE&#160;&#160;&#160;(8191 + 16) * 4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2225,7 +2251,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	name##_cache = unaligned32_be(&amp;((gb)-&gt;buffer[name##_index &gt;&gt; 3])) &lt;&lt; (name##_index &amp; 0x07); \</td>
+          <td></td><td>&#160;&#160;&#160;	name##_cache = unaligned32_be(&amp;((gb)-&gt;buffer[name##_index &gt;&gt; 3])) &lt;&lt; (name##_index &amp; 0x07);</td>
         </tr>
       </table>
 </div><div class="memdoc">

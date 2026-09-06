@@ -1,11 +1,15 @@
 <map id="XenevaOS/BootAA64/xnldr.h" name="XenevaOS/BootAA64/xnldr.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="507,5,713,31"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="658,5,863,31"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="485,79,556,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="597,33,548,72,544,68,594,29"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="723,33,570,78,569,73,721,28"/>
 <area shape="rect" id="Node000003" href="$Uefi_8h.html" title=" " alt="" coords="580,79,640,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="613,31,613,65,607,65,607,31"/>
-<area shape="rect" id="Node000028" title=" " alt="" coords="665,79,739,104"/>
-<area shape="poly" id="edge28_Node000001_Node000028" title=" " alt="" coords="626,29,678,68,675,72,623,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="738,33,648,75,646,70,735,28"/>
+<area shape="rect" id="Node000028" href="$GraphicsOutput_8h.html" title=" " alt="" coords="665,79,857,104"/>
+<area shape="poly" id="edge28_Node000001_Node000028" title=" " alt="" coords="763,31,763,65,758,65,758,31"/>
+<area shape="rect" id="Node000029" title=" " alt="" coords="881,79,955,104"/>
+<area shape="poly" id="edge29_Node000001_Node000029" title=" " alt="" coords="787,28,881,71,879,75,785,33"/>
+<area shape="rect" id="Node000030" title=" " alt="" coords="980,79,1056,104"/>
+<area shape="poly" id="edge30_Node000001_Node000030" title=" " alt="" coords="803,28,967,73,966,78,801,33"/>
 <area shape="rect" id="Node000004" href="$UefiBaseType_8h.html" title=" " alt="" coords="310,152,462,177"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="581,105,436,150,434,145,579,100"/>
 <area shape="rect" id="Node000007" href="$UefiSpec_8h.html" title=" " alt="" coords="775,152,896,177"/>

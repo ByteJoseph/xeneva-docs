@@ -84,19 +84,25 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="Uefi_8h_source.html">Uefi.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="GraphicsOutput_8h_source.html">Protocol/GraphicsOutput.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;aurora.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for xnldr.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="BootAA64_2xnldr_8h__incl.png" border="0" usemap="#aXenevaOS_2BootAA64_2xnldr_8h" alt=""/></div>
 <map name="aXenevaOS_2BootAA64_2xnldr_8h" id="aXenevaOS_2BootAA64_2xnldr_8h">
-<area shape="rect" title=" " alt="" coords="507,5,713,31"/>
+<area shape="rect" title=" " alt="" coords="658,5,863,31"/>
 <area shape="rect" title=" " alt="" coords="485,79,556,104"/>
-<area shape="poly" title=" " alt="" coords="597,33,548,72,544,68,594,29"/>
+<area shape="poly" title=" " alt="" coords="723,33,570,78,569,73,721,28"/>
 <area shape="rect" href="Uefi_8h.html" title=" " alt="" coords="580,79,640,104"/>
-<area shape="poly" title=" " alt="" coords="613,31,613,65,607,65,607,31"/>
-<area shape="rect" title=" " alt="" coords="665,79,739,104"/>
-<area shape="poly" title=" " alt="" coords="626,29,678,68,675,72,623,33"/>
+<area shape="poly" title=" " alt="" coords="738,33,648,75,646,70,735,28"/>
+<area shape="rect" href="GraphicsOutput_8h.html" title=" " alt="" coords="665,79,857,104"/>
+<area shape="poly" title=" " alt="" coords="763,31,763,65,758,65,758,31"/>
+<area shape="rect" title=" " alt="" coords="881,79,955,104"/>
+<area shape="poly" title=" " alt="" coords="787,28,881,71,879,75,785,33"/>
+<area shape="rect" title=" " alt="" coords="980,79,1056,104"/>
+<area shape="poly" title=" " alt="" coords="803,28,967,73,966,78,801,33"/>
 <area shape="rect" href="UefiBaseType_8h.html" title=" " alt="" coords="310,152,462,177"/>
 <area shape="poly" title=" " alt="" coords="581,105,436,150,434,145,579,100"/>
 <area shape="rect" href="UefiSpec_8h.html" title=" " alt="" coords="775,152,896,177"/>
@@ -206,8 +212,6 @@ This graph shows which files directly or indirectly include this file:</div>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__FB__INFO__.html">_FB_INFO_</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__XE__BOOT__INFO__.html">_XE_BOOT_INFO_</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structEfiMemoryMap.html">EfiMemoryMap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -215,14 +219,6 @@ Classes</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a3c75bb398badb69c7577b21486f9963f" id="r_a3c75bb398badb69c7577b21486f9963f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2xnldr_8h.html#a3c75bb398badb69c7577b21486f9963f">SIZE_MAX</a>&#160;&#160;&#160;0xFFFFFFFFULL</td></tr>
 <tr class="separator:a3c75bb398badb69c7577b21486f9963f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c75bb398badb69c7577b21486f9963f" id="r_a3c75bb398badb69c7577b21486f9963f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2xnldr_8h.html#a3c75bb398badb69c7577b21486f9963f">SIZE_MAX</a>&#160;&#160;&#160;0xFFFFFFFF</td></tr>
-<tr class="separator:a3c75bb398badb69c7577b21486f9963f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ac9eba3980393e3cac6570d6d67dae5" id="r_a7ac9eba3980393e3cac6570d6d67dae5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2xnldr_8h.html#a7ac9eba3980393e3cac6570d6d67dae5">EFI_GRAPHICS_OUTPUT_PROTOCOL_GUID</a></td></tr>
-<tr class="separator:a7ac9eba3980393e3cac6570d6d67dae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42dca28bfd63ee3b96bbcdc8d5eb37fe" id="r_a42dca28bfd63ee3b96bbcdc8d5eb37fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2xnldr_8h.html#a42dca28bfd63ee3b96bbcdc8d5eb37fe">BOOT_UEFI_X64</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a42dca28bfd63ee3b96bbcdc8d5eb37fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1fa98a96006a80a0709d5148c96c103" id="r_ab1fa98a96006a80a0709d5148c96c103"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2xnldr_8h.html#ab1fa98a96006a80a0709d5148c96c103">BOOT_UEFI_ARM64</a>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:ab1fa98a96006a80a0709d5148c96c103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -230,10 +226,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:a1fc01281816422b9ff0c23a3dc54a6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aa54fa2f968efa6cf9841438a5df660" id="r_a0aa54fa2f968efa6cf9841438a5df660"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct__FB__INFO__.html">_FB_INFO_</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2xnldr_8h.html#a0aa54fa2f968efa6cf9841438a5df660">PFRAMEBUFFER_INFORMATION</a></td></tr>
 <tr class="separator:a0aa54fa2f968efa6cf9841438a5df660"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a110c0d863952ca0b47156b0e8521de9b" id="r_a110c0d863952ca0b47156b0e8521de9b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct__XE__BOOT__INFO__.html">_XE_BOOT_INFO_</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2xnldr_8h.html#a110c0d863952ca0b47156b0e8521de9b">XEBootInfo</a></td></tr>
-<tr class="separator:a110c0d863952ca0b47156b0e8521de9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0549e5d3de10d5dc33ea6f6e4f8041b3" id="r_a0549e5d3de10d5dc33ea6f6e4f8041b3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct__XE__BOOT__INFO__.html">_XE_BOOT_INFO_</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2xnldr_8h.html#a0549e5d3de10d5dc33ea6f6e4f8041b3">XEPBootInfo</a></td></tr>
-<tr class="separator:a0549e5d3de10d5dc33ea6f6e4f8041b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab454116c98a6447006471c7047787be5" id="r_ab454116c98a6447006471c7047787be5"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="BaseHdr_2aurora_8h.html#a886498d078ece21b18b0bf2dad40fccd">KERNEL_BOOT_INFO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2xnldr_8h.html#ab454116c98a6447006471c7047787be5">XEBootInfo</a></td></tr>
+<tr class="separator:ab454116c98a6447006471c7047787be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12ab1a5eeed4731ab538d7633a89cd1" id="r_ad12ab1a5eeed4731ab538d7633a89cd1"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="BaseHdr_2aurora_8h.html#a886498d078ece21b18b0bf2dad40fccd">KERNEL_BOOT_INFO</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2xnldr_8h.html#ad12ab1a5eeed4731ab538d7633a89cd1">XEPBootInfo</a></td></tr>
+<tr class="separator:ad12ab1a5eeed4731ab538d7633a89cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac185d020a518df3f14065ba696c72fe0" id="r_ac185d020a518df3f14065ba696c72fe0"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="BootAA64_2xnldr_8h.html#ac185d020a518df3f14065ba696c72fe0">XEImageEntry</a>) (<a class="el" href="Boot_2xnldr_8h.html#a110c0d863952ca0b47156b0e8521de9b">XEBootInfo</a> *)</td></tr>
 <tr class="separator:ac185d020a518df3f14065ba696c72fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -260,80 +256,14 @@ Variables</h2></td></tr>
 <tr class="separator:a08f619cc73dda1150b2f09a92782d14d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ab1fa98a96006a80a0709d5148c96c103" name="ab1fa98a96006a80a0709d5148c96c103"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1fa98a96006a80a0709d5148c96c103">&#9670;&#160;</a></span>BOOT_UEFI_ARM64</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define BOOT_UEFI_ARM64&#160;&#160;&#160;2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a42dca28bfd63ee3b96bbcdc8d5eb37fe" name="a42dca28bfd63ee3b96bbcdc8d5eb37fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42dca28bfd63ee3b96bbcdc8d5eb37fe">&#9670;&#160;</a></span>BOOT_UEFI_X64</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define BOOT_UEFI_X64&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7ac9eba3980393e3cac6570d6d67dae5" name="a7ac9eba3980393e3cac6570d6d67dae5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ac9eba3980393e3cac6570d6d67dae5">&#9670;&#160;</a></span>EFI_GRAPHICS_OUTPUT_PROTOCOL_GUID</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EFI_GRAPHICS_OUTPUT_PROTOCOL_GUID</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">{0x9042a9de,0x23dc,0x4a38,\</div>
-<div class="line">{0x96,0xfb,0x7a,0xde,0xd0,0x80,0x51,0x6a}}</div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="a3c75bb398badb69c7577b21486f9963f" name="a3c75bb398badb69c7577b21486f9963f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c75bb398badb69c7577b21486f9963f">&#9670;&#160;</a></span>SIZE_MAX <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c75bb398badb69c7577b21486f9963f">&#9670;&#160;</a></span>SIZE_MAX</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">#define SIZE_MAX&#160;&#160;&#160;0xFFFFFFFFULL</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>BSD 2-Clause License</p>
-<p>Copyright (c) 2023-2025, Manas Kamal Choudhury All rights reserved.</p>
-<p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
-<ol type="1">
-<li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
-<li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
-</ol>
-<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </p>
-
-</div>
-</div>
-<a id="a3c75bb398badb69c7577b21486f9963f" name="a3c75bb398badb69c7577b21486f9963f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c75bb398badb69c7577b21486f9963f">&#9670;&#160;</a></span>SIZE_MAX <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SIZE_MAX&#160;&#160;&#160;0xFFFFFFFF</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -377,14 +307,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a110c0d863952ca0b47156b0e8521de9b" name="a110c0d863952ca0b47156b0e8521de9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a110c0d863952ca0b47156b0e8521de9b">&#9670;&#160;</a></span>XEBootInfo</h2>
+<a id="ab454116c98a6447006471c7047787be5" name="ab454116c98a6447006471c7047787be5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab454116c98a6447006471c7047787be5">&#9670;&#160;</a></span>XEBootInfo</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="struct__XE__BOOT__INFO__.html">_XE_BOOT_INFO_</a> <a class="el" href="Boot_2xnldr_8h.html#a110c0d863952ca0b47156b0e8521de9b">XEBootInfo</a></td>
+          <td class="memname">typedef <a class="el" href="BaseHdr_2aurora_8h.html#a886498d078ece21b18b0bf2dad40fccd">KERNEL_BOOT_INFO</a> <a class="el" href="Boot_2xnldr_8h.html#a110c0d863952ca0b47156b0e8521de9b">XEBootInfo</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -405,14 +335,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0549e5d3de10d5dc33ea6f6e4f8041b3" name="a0549e5d3de10d5dc33ea6f6e4f8041b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0549e5d3de10d5dc33ea6f6e4f8041b3">&#9670;&#160;</a></span>XEPBootInfo</h2>
+<a id="ad12ab1a5eeed4731ab538d7633a89cd1" name="ad12ab1a5eeed4731ab538d7633a89cd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad12ab1a5eeed4731ab538d7633a89cd1">&#9670;&#160;</a></span>XEPBootInfo</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="struct__XE__BOOT__INFO__.html">_XE_BOOT_INFO_</a> * <a class="el" href="Boot_2xnldr_8h.html#a0549e5d3de10d5dc33ea6f6e4f8041b3">XEPBootInfo</a></td>
+          <td class="memname">typedef <a class="el" href="BaseHdr_2aurora_8h.html#a886498d078ece21b18b0bf2dad40fccd">KERNEL_BOOT_INFO</a>* <a class="el" href="Boot_2xnldr_8h.html#a0549e5d3de10d5dc33ea6f6e4f8041b3">XEPBootInfo</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

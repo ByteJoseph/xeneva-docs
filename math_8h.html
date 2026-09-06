@@ -203,9 +203,9 @@ Macros</h2></td></tr>
 <tr class="separator:ab423bfd971e82c9491f8c5b66299f263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafc8dd1911616bc53eff89bcf08806c9" id="r_aafc8dd1911616bc53eff89bcf08806c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math_8h.html#aafc8dd1911616bc53eff89bcf08806c9">INSERT_WORDS</a>(d,  hi,  lo)</td></tr>
 <tr class="separator:aafc8dd1911616bc53eff89bcf08806c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0268238b4230e0e8d05b080697b2e37" id="r_af0268238b4230e0e8d05b080697b2e37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math_8h.html#af0268238b4230e0e8d05b080697b2e37">SET_HIGH_WORD</a>(d,  hi)&#160;&#160;&#160;  <a class="el" href="math_8h.html#aafc8dd1911616bc53eff89bcf08806c9">INSERT_WORDS</a>(d, hi, (<a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)asuint64(d))</td></tr>
+<tr class="memitem:af0268238b4230e0e8d05b080697b2e37" id="r_af0268238b4230e0e8d05b080697b2e37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math_8h.html#af0268238b4230e0e8d05b080697b2e37">SET_HIGH_WORD</a>(d,  hi)&#160;&#160;&#160;<a class="el" href="math_8h.html#aafc8dd1911616bc53eff89bcf08806c9">INSERT_WORDS</a>(d, hi, (<a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)asuint64(d))</td></tr>
 <tr class="separator:af0268238b4230e0e8d05b080697b2e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6cba77ff554dcebf47b2c9eb3e5469b" id="r_ae6cba77ff554dcebf47b2c9eb3e5469b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math_8h.html#ae6cba77ff554dcebf47b2c9eb3e5469b">SET_LOW_WORD</a>(d,  lo)&#160;&#160;&#160;  <a class="el" href="math_8h.html#aafc8dd1911616bc53eff89bcf08806c9">INSERT_WORDS</a>(d, asuint64(d)&gt;&gt;32, lo)</td></tr>
+<tr class="memitem:ae6cba77ff554dcebf47b2c9eb3e5469b" id="r_ae6cba77ff554dcebf47b2c9eb3e5469b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math_8h.html#ae6cba77ff554dcebf47b2c9eb3e5469b">SET_LOW_WORD</a>(d,  lo)&#160;&#160;&#160;<a class="el" href="math_8h.html#aafc8dd1911616bc53eff89bcf08806c9">INSERT_WORDS</a>(d, asuint64(d) &gt;&gt; 32, lo)</td></tr>
 <tr class="separator:ae6cba77ff554dcebf47b2c9eb3e5469b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8aa6378858ffd9b920b5568294638e6b" id="r_a8aa6378858ffd9b920b5568294638e6b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="math_8h.html#a8aa6378858ffd9b920b5568294638e6b">GET_FLOAT_WORD</a>(w,  d)</td></tr>
 <tr class="separator:a8aa6378858ffd9b920b5568294638e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -322,11 +322,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                              \</div>
-<div class="line">  <a class="code hl_typedef" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a> __u = asuint64(d);                     \</div>
-<div class="line">  (hi) = __u &gt;&gt; 32;                               \</div>
-<div class="line">  (lo) = (<a class="code hl_typedef" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)__u;                           \</div>
-<div class="line">} <span class="keywordflow">while</span> (0)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                           \</div>
+<div class="line">        <a class="code hl_typedef" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a> __u = asuint64(d);                                                                \</div>
+<div class="line">        (hi) = __u &gt;&gt; 32;                                                                          \</div>
+<div class="line">        (lo) = (<a class="code hl_typedef" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)__u;                                                                      \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
 <div class="ttc" id="aacefiex_8h_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition</b> acefiex.h:163</div></div>
 <div class="ttc" id="aacefiex_8h_html_ace97e810e06af5096bfe72ee3e7c5316"><div class="ttname"><a href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a></div><div class="ttdeci">COMPILER_DEPENDENT_UINT64 uint64_t</div><div class="ttdef"><b>Definition</b> acefiex.h:165</div></div>
 </div><!-- fragment -->
@@ -347,18 +347,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"> <span class="keywordflow">do</span> { \</div>
-<div class="line"> if (<span class="keyword">sizeof</span>(x) == <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>)){ \</div>
-<div class="line">     _KePrint(<span class="stringliteral">&quot;Evaluating float \r\n&quot;</span>); \</div>
-<div class="line">     fp_force_evalf(x); \</div>
-<div class="line"> }<span class="keywordflow">else</span> <span class="keywordflow">if</span> (<span class="keyword">sizeof</span>(x) == <span class="keyword">sizeof</span>(<span class="keywordtype">double</span>)) { \</div>
-<div class="line">     _KePrint(<span class="stringliteral">&quot;FORCE EVAL double \r\n&quot;</span>); \</div>
-<div class="line">     fp_force_eval(x);    \</div>
-<div class="line"> } <span class="keywordflow">else</span> {    \</div>
-<div class="line">     _KePrint(<span class="stringliteral">&quot;Force eval long \r\n&quot;</span>); \</div>
-<div class="line">     fp_force_evall(x); \</div>
-<div class="line"> }   \</div>
-<div class="line">}<span class="keywordflow">while</span>(0)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                           \</div>
+<div class="line">        if (<span class="keyword">sizeof</span>(x) == <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>)) {                                                          \</div>
+<div class="line">            _KePrint(<span class="stringliteral">&quot;Evaluating float \r\n&quot;</span>);                                                     \</div>
+<div class="line">            fp_force_evalf(x);                                                                     \</div>
+<div class="line">        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<span class="keyword">sizeof</span>(x) == <span class="keyword">sizeof</span>(<span class="keywordtype">double</span>)) {                                                  \</div>
+<div class="line">            _KePrint(<span class="stringliteral">&quot;FORCE EVAL double \r\n&quot;</span>);                                                    \</div>
+<div class="line">            fp_force_eval(x);                                                                      \</div>
+<div class="line">        } <span class="keywordflow">else</span> {                                                                                   \</div>
+<div class="line">            _KePrint(<span class="stringliteral">&quot;Force eval long \r\n&quot;</span>);                                                      \</div>
+<div class="line">            fp_force_evall(x);                                                                     \</div>
+<div class="line">        }                                                                                          \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -387,9 +387,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                              \</div>
-<div class="line">  (w) = asuint(d);                                \</div>
-<div class="line">} <span class="keywordflow">while</span> (0)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                           \</div>
+<div class="line">        (w) = asuint(d);                                                                           \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -418,9 +418,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                              \</div>
-<div class="line">  (hi) = asuint64(d) &gt;&gt; 32;                       \</div>
-<div class="line">} <span class="keywordflow">while</span> (0)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                           \</div>
+<div class="line">        (hi) = asuint64(d) &gt;&gt; 32;                                                                  \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -449,9 +449,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                              \</div>
-<div class="line">  (lo) = (<a class="code hl_typedef" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)asuint64(d);                   \</div>
-<div class="line">} <span class="keywordflow">while</span> (0)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                           \</div>
+<div class="line">        (lo) = (<a class="code hl_typedef" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)asuint64(d);                                                              \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -486,9 +486,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                              \</div>
-<div class="line">  (d) = asdouble(((<a class="code hl_typedef" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a>)(hi)&lt;&lt;32) | (<a class="code hl_typedef" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)(lo)); \</div>
-<div class="line">} <span class="keywordflow">while</span> (0)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                           \</div>
+<div class="line">        (d) = asdouble(((<a class="code hl_typedef" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a>)(hi) &lt;&lt; 32) | (<a class="code hl_typedef" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)(lo));                                   \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -779,9 +779,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                              \</div>
-<div class="line">  (d) = asfloat(w);                               \</div>
-<div class="line">} <span class="keywordflow">while</span> (0)</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                           \</div>
+<div class="line">        (d) = asfloat(w);                                                                          \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -806,7 +806,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;  <a class="el" href="math_8h.html#aafc8dd1911616bc53eff89bcf08806c9">INSERT_WORDS</a>(d, hi, (<a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)asuint64(d))</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="math_8h.html#aafc8dd1911616bc53eff89bcf08806c9">INSERT_WORDS</a>(d, hi, (<a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)asuint64(d))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -834,7 +834,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;  <a class="el" href="math_8h.html#aafc8dd1911616bc53eff89bcf08806c9">INSERT_WORDS</a>(d, asuint64(d)&gt;&gt;32, lo)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="math_8h.html#aafc8dd1911616bc53eff89bcf08806c9">INSERT_WORDS</a>(d, asuint64(d) &gt;&gt; 32, lo)</td>
         </tr>
       </table>
 </div><div class="memdoc">

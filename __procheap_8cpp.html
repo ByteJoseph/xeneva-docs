@@ -130,9 +130,9 @@ Include dependency graph for _procheap.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a945250e37a5268a58272617916bc3127" id="r_a945250e37a5268a58272617916bc3127"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__procheap_8cpp.html#a945250e37a5268a58272617916bc3127">PROC_HEAP_AREA_DEFAULT_SZ</a>&#160;&#160;&#160;(16*4096)</td></tr>
+<tr class="memitem:a945250e37a5268a58272617916bc3127" id="r_a945250e37a5268a58272617916bc3127"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__procheap_8cpp.html#a945250e37a5268a58272617916bc3127">PROC_HEAP_AREA_DEFAULT_SZ</a>&#160;&#160;&#160;(16 * 4096)</td></tr>
 <tr class="separator:a945250e37a5268a58272617916bc3127"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7596a320ab7a4a01df67b88bac806845" id="r_a7596a320ab7a4a01df67b88bac806845"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__procheap_8cpp.html#a7596a320ab7a4a01df67b88bac806845">PAGE_ALIGN</a>(value)&#160;&#160;&#160;(((<a class="el" href="BaseHdr_2Mm_2vmmngr_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>-1)&amp;value) ? ((value + <a class="el" href="BaseHdr_2Mm_2vmmngr_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>) &amp; ~(<a class="el" href="BaseHdr_2Mm_2vmmngr_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>-1)) : value)</td></tr>
+<tr class="memitem:a7596a320ab7a4a01df67b88bac806845" id="r_a7596a320ab7a4a01df67b88bac806845"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="__procheap_8cpp.html#a7596a320ab7a4a01df67b88bac806845">PAGE_ALIGN</a>(value)&#160;&#160;&#160;	(((<a class="el" href="BaseHdr_2Mm_2vmmngr_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> - 1) &amp; value) ? ((value + <a class="el" href="BaseHdr_2Mm_2vmmngr_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>) &amp; ~(<a class="el" href="BaseHdr_2Mm_2vmmngr_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> - 1)) : value)</td></tr>
 <tr class="separator:a7596a320ab7a4a01df67b88bac806845"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -168,7 +168,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">value</td><td>)</td>
-          <td>&#160;&#160;&#160;(((<a class="el" href="BaseHdr_2Mm_2vmmngr_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>-1)&amp;value) ? ((value + <a class="el" href="BaseHdr_2Mm_2vmmngr_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>) &amp; ~(<a class="el" href="BaseHdr_2Mm_2vmmngr_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>-1)) : value)</td>
+          <td>&#160;&#160;&#160;	(((<a class="el" href="BaseHdr_2Mm_2vmmngr_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> - 1) &amp; value) ? ((value + <a class="el" href="BaseHdr_2Mm_2vmmngr_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>) &amp; ~(<a class="el" href="BaseHdr_2Mm_2vmmngr_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> - 1)) : value)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -182,7 +182,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PROC_HEAP_AREA_DEFAULT_SZ&#160;&#160;&#160;(16*4096)</td>
+          <td class="memname">#define PROC_HEAP_AREA_DEFAULT_SZ&#160;&#160;&#160;(16 * 4096)</td>
         </tr>
       </table>
 </div><div class="memdoc">

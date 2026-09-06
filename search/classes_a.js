@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['list_5fhead_0',['list_head',['../structlist__head.html',1,'']]]
+  ['lbmemoryregion_0',['LBMemoryRegion',['../structLBMemoryRegion.html',1,'']]],
+  ['list_5fhead_1',['list_head',['../structlist__head.html',1,'']]]
 ];

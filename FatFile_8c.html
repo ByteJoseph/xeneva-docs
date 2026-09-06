@@ -171,10 +171,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a54a353ec335582bf22023f0b17933c8f" id="r_a54a353ec335582bf22023f0b17933c8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FatFile_8c.html#a54a353ec335582bf22023f0b17933c8f">FatFileWriteDone</a> (<a class="el" href="vfs_8h.html#a5e5aff63d019f11b9e810ff9f2165b57">AuVFSNode</a> *file)</td></tr>
 <tr class="separator:a54a353ec335582bf22023f0b17933c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7ea3a71a217081d41e39eb526676213" id="r_aa7ea3a71a217081d41e39eb526676213"><td class="memItemLeft" align="right" valign="top"><a class="el" href="BaseHdr_2stdint_8h.html#a186ea1339bffb378854987065835afe3">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FatFile_8c.html#aa7ea3a71a217081d41e39eb526676213">FatWrite</a> (<a class="el" href="vfs_8h.html#a5e5aff63d019f11b9e810ff9f2165b57">AuVFSNode</a> *fsys, <a class="el" href="vfs_8h.html#a5e5aff63d019f11b9e810ff9f2165b57">AuVFSNode</a> *file, <a class="el" href="acefiex_8h.html#ace97e810e06af5096bfe72ee3e7c5316">uint64_t</a> *buffer, <a class="el" href="acefiex_8h.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> length)</td></tr>
+<tr class="memdesc:aa7ea3a71a217081d41e39eb526676213"><td class="mdescLeft">&#160;</td><td class="mdescRight">FatWrite &ndash; write callback.  <br /></td></tr>
 <tr class="separator:aa7ea3a71a217081d41e39eb526676213"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3ac692597259e2108be9662d763ddc3" id="r_ad3ac692597259e2108be9662d763ddc3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FatFile_8c.html#ad3ac692597259e2108be9662d763ddc3">FatFileClearDirEntry</a> (<a class="el" href="vfs_8h.html#a5e5aff63d019f11b9e810ff9f2165b57">AuVFSNode</a> *fsys, <a class="el" href="vfs_8h.html#a5e5aff63d019f11b9e810ff9f2165b57">AuVFSNode</a> *file)</td></tr>
+<tr class="memdesc:ad3ac692597259e2108be9662d763ddc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">FatFileClearDirEntry &ndash; clears an entry of a directory.  <br /></td></tr>
 <tr class="separator:ad3ac692597259e2108be9662d763ddc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0d166b6dcfe4622eccf845806707eb8" id="r_af0d166b6dcfe4622eccf845806707eb8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="FatFile_8c.html#af0d166b6dcfe4622eccf845806707eb8">FatFileRemove</a> (<a class="el" href="vfs_8h.html#a5e5aff63d019f11b9e810ff9f2165b57">AuVFSNode</a> *fsys, <a class="el" href="vfs_8h.html#a5e5aff63d019f11b9e810ff9f2165b57">AuVFSNode</a> *file)</td></tr>
+<tr class="memdesc:af0d166b6dcfe4622eccf845806707eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">FatFileRemove &ndash; remove a file.  <br /></td></tr>
 <tr class="separator:af0d166b6dcfe4622eccf845806707eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
@@ -245,6 +248,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>FatFileClearDirEntry &ndash; clears an entry of a directory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fsys</td><td>&ndash; Pointer to file system node </td></tr>
+    <tr><td class="paramname">file</td><td>&ndash; Pointer to file </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a248c52b5839a7730c79ed8a4367abca8" name="a248c52b5839a7730c79ed8a4367abca8"></a>
@@ -301,6 +313,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>FatFileRemove &ndash; remove a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fsys</td><td>&ndash; Pointer to file </td></tr>
+    <tr><td class="paramname">file</td><td>&ndash; file to remove </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -461,6 +482,17 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>FatWrite &ndash; write callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fsys</td><td>&ndash; pointer to file system </td></tr>
+    <tr><td class="paramname">file</td><td>&ndash; pointer to file </td></tr>
+    <tr><td class="paramname">buffer</td><td>&ndash; buffer to write </td></tr>
+    <tr><td class="paramname">length</td><td>&ndash; bytes needed to write </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

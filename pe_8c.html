@@ -158,7 +158,7 @@ Macros</h2></td></tr>
 <tr class="separator:a51333beafcaf4419a70ec9b283c0641b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a404dff66b705560d5c81ff2dc190692b" id="r_a404dff66b705560d5c81ff2dc190692b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pe_8c.html#a404dff66b705560d5c81ff2dc190692b">IMAGE_DLL_CHARACTERISTICS_TERMINAL_SERVER_AWARE</a>&#160;&#160;&#160;0x8000</td></tr>
 <tr class="separator:a404dff66b705560d5c81ff2dc190692b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff6165db3fa02d1c8646031870230232" id="r_aff6165db3fa02d1c8646031870230232"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pe_8c.html#aff6165db3fa02d1c8646031870230232">DIV_ROUND_UP</a>(x,  y)&#160;&#160;&#160;	((x + y - 1) / y)</td></tr>
+<tr class="memitem:aff6165db3fa02d1c8646031870230232" id="r_aff6165db3fa02d1c8646031870230232"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pe_8c.html#aff6165db3fa02d1c8646031870230232">DIV_ROUND_UP</a>(x,  y)&#160;&#160;&#160;((x + y - 1) / y)</td></tr>
 <tr class="separator:aff6165db3fa02d1c8646031870230232"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fbbae8c38d8146379f71048cc4dc680" id="r_a3fbbae8c38d8146379f71048cc4dc680"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pe_8c.html#a3fbbae8c38d8146379f71048cc4dc680">IMAGE_DATA_DIRECTORY_EXPORT</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a3fbbae8c38d8146379f71048cc4dc680"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,7 +225,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	((x + y - 1) / y)</td>
+          <td></td><td>&#160;&#160;&#160;((x + y - 1) / y)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -416,15 +416,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    ((<a class="code hl_struct" href="struct__IMAGE__SECTION__HEADER.html">SECTION_HEADER</a>*)( \</div>
-<div class="line">     (<a class="code hl_typedef" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>*)(nt) + \</div>
-<div class="line">     <a class="code hl_define" href="pe_8c.html#a06fd590700d3bb729116e93acb353ce3">OFFSETOF</a>(<a class="code hl_struct" href="struct__IMAGE__NT__HEADERS__PE32PLUS.html">IMAGE_NT_HEADERS</a>, <a class="code hl_variable" href="LittleBoot_2pe_8h.html#ad6272a2366c4d11b39c31e9a0f0f6be8">OptionalHeader</a>) + \</div>
-<div class="line">     ((<a class="code hl_struct" href="struct__IMAGE__NT__HEADERS__PE32PLUS.html">IMAGE_NT_HEADERS</a>*)(nt))-&gt;<a class="code hl_variable" href="LittleBoot_2pe_8h.html#a25612f60df7b78e988643b03669d9815">FileHeader</a>.<a class="code hl_variable" href="struct__IMAGE__FILE__HEADER__.html#ac1bf7f9c4b91c3bf65a6008270e5a640">SizeOfOptionaHeader</a> \</div>
-<div class="line">))</div>
+<b>Value:</b><div class="fragment"><div class="line">    ((<a class="code hl_struct" href="struct__IMAGE__SECTION__HEADER.html">SECTION_HEADER</a>*)((<a class="code hl_typedef" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a>*)(nt) + <a class="code hl_define" href="pe_8c.html#a06fd590700d3bb729116e93acb353ce3">OFFSETOF</a>(<a class="code hl_struct" href="struct__IMAGE__NT__HEADERS__PE32PLUS.html">IMAGE_NT_HEADERS</a>, <a class="code hl_variable" href="LittleBoot_2pe_8h.html#ad6272a2366c4d11b39c31e9a0f0f6be8">OptionalHeader</a>) +               \</div>
+<div class="line">                       ((<a class="code hl_struct" href="struct__IMAGE__NT__HEADERS__PE32PLUS.html">IMAGE_NT_HEADERS</a>*)(nt))-&gt;<a class="code hl_variable" href="LittleBoot_2pe_8h.html#a25612f60df7b78e988643b03669d9815">FileHeader</a>.<a class="code hl_variable" href="struct__IMAGE__FILE__HEADER__.html#ac1bf7f9c4b91c3bf65a6008270e5a640">SizeOfOptionaHeader</a>))</div>
 <div class="ttc" id="aLittleBoot_2pe_8h_html_a25612f60df7b78e988643b03669d9815"><div class="ttname"><a href="LittleBoot_2pe_8h.html#a25612f60df7b78e988643b03669d9815">FileHeader</a></div><div class="ttdeci">IMAGE_FILE_HEADER FileHeader</div><div class="ttdef"><b>Definition</b> pe.h:1</div></div>
 <div class="ttc" id="aLittleBoot_2pe_8h_html_ad6272a2366c4d11b39c31e9a0f0f6be8"><div class="ttname"><a href="LittleBoot_2pe_8h.html#ad6272a2366c4d11b39c31e9a0f0f6be8">OptionalHeader</a></div><div class="ttdeci">IMAGE_OPTIONAL_HEADER_PE32PLUS OptionalHeader</div><div class="ttdef"><b>Definition</b> pe.h:2</div></div>
 <div class="ttc" id="aacefiex_8h_html_aba7bc1797add20fe3efdf37ced1182c5"><div class="ttname"><a href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></div><div class="ttdeci">unsigned char uint8_t</div><div class="ttdef"><b>Definition</b> acefiex.h:161</div></div>
-<div class="ttc" id="ape_8c_html_a06fd590700d3bb729116e93acb353ce3"><div class="ttname"><a href="pe_8c.html#a06fd590700d3bb729116e93acb353ce3">OFFSETOF</a></div><div class="ttdeci">#define OFFSETOF(s, m)</div><div class="ttdef"><b>Definition</b> pe.c:306</div></div>
+<div class="ttc" id="ape_8c_html_a06fd590700d3bb729116e93acb353ce3"><div class="ttname"><a href="pe_8c.html#a06fd590700d3bb729116e93acb353ce3">OFFSETOF</a></div><div class="ttdeci">#define OFFSETOF(s, m)</div><div class="ttdef"><b>Definition</b> pe.c:316</div></div>
 <div class="ttc" id="astruct__IMAGE__FILE__HEADER___html_ac1bf7f9c4b91c3bf65a6008270e5a640"><div class="ttname"><a href="struct__IMAGE__FILE__HEADER__.html#ac1bf7f9c4b91c3bf65a6008270e5a640">_IMAGE_FILE_HEADER_::SizeOfOptionaHeader</a></div><div class="ttdeci">uint16_t SizeOfOptionaHeader</div><div class="ttdef"><b>Definition</b> pe.h:84</div></div>
 <div class="ttc" id="astruct__IMAGE__NT__HEADERS__PE32PLUS_html"><div class="ttname"><a href="struct__IMAGE__NT__HEADERS__PE32PLUS.html">_IMAGE_NT_HEADERS_PE32PLUS</a></div><div class="ttdef"><b>Definition</b> pe.h:174</div></div>
 <div class="ttc" id="astruct__IMAGE__SECTION__HEADER_html"><div class="ttname"><a href="struct__IMAGE__SECTION__HEADER.html">_IMAGE_SECTION_HEADER</a></div><div class="ttdef"><b>Definition</b> pe.h:195</div></div>

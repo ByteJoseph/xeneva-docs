@@ -142,7 +142,7 @@ Include dependency graph for main.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a4102d3671919f5dfdf48f4359a242158" id="r_a4102d3671919f5dfdf48f4359a242158"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Process_2NETMngr_2main_8cpp.html#a4102d3671919f5dfdf48f4359a242158">htonl</a>(l)&#160;&#160;&#160;((((l) &amp; 0xFF) &lt;&lt; 24) | (((l) &amp; 0xFF00) &lt;&lt; 8) | (((l) &amp; 0xFF0000) &gt;&gt; 8) | (((l) &amp; 0xFF000000) &gt;&gt; 24))</td></tr>
+<tr class="memitem:a4102d3671919f5dfdf48f4359a242158" id="r_a4102d3671919f5dfdf48f4359a242158"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Process_2NETMngr_2main_8cpp.html#a4102d3671919f5dfdf48f4359a242158">htonl</a>(l)</td></tr>
 <tr class="separator:a4102d3671919f5dfdf48f4359a242158"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbfae56c72d87f485e44c4de84812cd3" id="r_abbfae56c72d87f485e44c4de84812cd3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Process_2NETMngr_2main_8cpp.html#abbfae56c72d87f485e44c4de84812cd3">htons</a>(s)&#160;&#160;&#160;((((s) &amp; 0xFF) &lt;&lt; 8) | (((s) &amp; 0xFF00) &gt;&gt; 8))</td></tr>
 <tr class="separator:abbfae56c72d87f485e44c4de84812cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,11 +219,13 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">l</td><td>)</td>
-          <td>&#160;&#160;&#160;((((l) &amp; 0xFF) &lt;&lt; 24) | (((l) &amp; 0xFF00) &lt;&lt; 8) | (((l) &amp; 0xFF0000) &gt;&gt; 8) | (((l) &amp; 0xFF000000) &gt;&gt; 24))</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>BSD 2-Clause License</p>
+<b>Value:</b><div class="fragment"><div class="line">    ((((l) &amp; 0xFF) &lt;&lt; 24) | (((l) &amp; 0xFF00) &lt;&lt; 8) | (((l) &amp; 0xFF0000) &gt;&gt; 8) |                      \</div>
+<div class="line">     (((l) &amp; 0xFF000000) &gt;&gt; 24))</div>
+</div><!-- fragment --><p>BSD 2-Clause License</p>
 <p>Copyright (c) 2023-2024, Manas Kamal Choudhury All rights reserved.</p>
 <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
 <ol type="1">

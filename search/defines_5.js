@@ -3224,7 +3224,7 @@ var searchData=
   ['efi_5fglyph_5fnon_5fspacing_3221',['EFI_GLYPH_NON_SPACING',['../UefiInternalFormRepresentation_8h.html#acd98e04e13a474e81b735ef73c178cb3',1,'UefiInternalFormRepresentation.h']]],
   ['efi_5fglyph_5fwide_3222',['EFI_GLYPH_WIDE',['../UefiInternalFormRepresentation_8h.html#a6e868144faa70de12742e32cb5423ed4',1,'UefiInternalFormRepresentation.h']]],
   ['efi_5fglyph_5fwidth_3223',['EFI_GLYPH_WIDTH',['../UefiInternalFormRepresentation_8h.html#abdfeae44a7a285bcbbb189564833c08d',1,'UefiInternalFormRepresentation.h']]],
-  ['efi_5fgraphics_5foutput_5fprotocol_5fguid_3224',['efi_graphics_output_protocol_guid',['../GraphicsOutput_8h.html#a7ac9eba3980393e3cac6570d6d67dae5',1,'EFI_GRAPHICS_OUTPUT_PROTOCOL_GUID:&#160;GraphicsOutput.h'],['../BootAA64_2xnldr_8h.html#a7ac9eba3980393e3cac6570d6d67dae5',1,'EFI_GRAPHICS_OUTPUT_PROTOCOL_GUID:&#160;xnldr.h']]],
+  ['efi_5fgraphics_5foutput_5fprotocol_5fguid_3224',['EFI_GRAPHICS_OUTPUT_PROTOCOL_GUID',['../GraphicsOutput_8h.html#a7ac9eba3980393e3cac6570d6d67dae5',1,'GraphicsOutput.h']]],
   ['efi_5fgreen_3225',['EFI_GREEN',['../SimpleTextOut_8h.html#adf599f019a14812131082cdb6ef7f5f7',1,'SimpleTextOut.h']]],
   ['efi_5fguided_5fsection_5fauth_5fstatus_5fvalid_3226',['EFI_GUIDED_SECTION_AUTH_STATUS_VALID',['../PiFirmwareFile_8h.html#a0ef974f4a993ccc7ba2fa3464300e249',1,'PiFirmwareFile.h']]],
   ['efi_5fguided_5fsection_5fprocessing_5frequired_3227',['EFI_GUIDED_SECTION_PROCESSING_REQUIRED',['../PiFirmwareFile_8h.html#a50d537bccfe692fff9f5699ed3aeed04',1,'PiFirmwareFile.h']]],
