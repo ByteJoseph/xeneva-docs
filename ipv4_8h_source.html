@@ -85,7 +85,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#ifndef __IPV4_H__</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#define __IPV4_H__</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#ifdef ARCH_X64</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#if defined(ARCH_X64) || defined(ARCH_ARM64)</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#pragma pack(push,1)</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#endif</span></div>
 <div class="foldopen" id="foldopen00036" data-start="{" data-end="};">
@@ -103,7 +103,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="struct__ipv4head__.html#a43cc2e4430b84bf865946ee224c8d2f0">   47</a></span>    <a class="code hl_typedef" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> <a class="code hl_variable" href="struct__ipv4head__.html#a43cc2e4430b84bf865946ee224c8d2f0">payload</a>[];</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="ipv4_8h.html#a0f3b5fecb0f1027edeecd9d665e60d89">   48</a></span>}<a class="code hl_typedef" href="ipv4_8h.html#a0f3b5fecb0f1027edeecd9d665e60d89">IPv4Header</a>;</div>
 </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#ifdef ARCH_X64</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#if defined(ARCH_X64) || defined(ARCH_ARM64)</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#pragma pack(pop)</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
