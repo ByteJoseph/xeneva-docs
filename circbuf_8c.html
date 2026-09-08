@@ -80,16 +80,19 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="circbuf_8h_source.html">circbuf.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="kmalloc_8h_source.html">Mm/kmalloc.h</a>&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for circbuf.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="circbuf_8c__incl.png" border="0" usemap="#aXenevaOS_2KernelAA64_2circbuf_8c" alt=""/></div>
 <map name="aXenevaOS_2KernelAA64_2circbuf_8c" id="aXenevaOS_2KernelAA64_2circbuf_8c">
-<area shape="rect" title=" " alt="" coords="20,5,188,45"/>
+<area shape="rect" title=" " alt="" coords="80,5,248,45"/>
 <area shape="rect" href="circbuf_8h.html" title=" " alt="" coords="5,93,83,119"/>
-<area shape="poly" title=" " alt="" coords="92,47,63,84,59,81,87,44"/>
+<area shape="poly" title=" " alt="" coords="136,48,75,88,72,84,133,43"/>
 <area shape="rect" href="kmalloc_8h.html" title=" " alt="" coords="107,93,221,119"/>
-<area shape="poly" title=" " alt="" coords="121,44,149,81,145,84,116,47"/>
+<area shape="poly" title=" " alt="" coords="167,46,167,79,161,79,161,46"/>
+<area shape="rect" title=" " alt="" coords="246,93,317,119"/>
+<area shape="poly" title=" " alt="" coords="194,43,254,84,251,88,191,48"/>
 <area shape="rect" href="BaseHdr_2stdint_8h.html" title=" " alt="" coords="9,167,79,192"/>
 <area shape="poly" title=" " alt="" coords="47,119,47,153,41,153,41,119"/>
 <area shape="rect" title=" " alt="" coords="115,167,186,192"/>
@@ -128,9 +131,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a2e25b26cd8cb641c7b3136bc8e7cc752" id="r_a2e25b26cd8cb641c7b3136bc8e7cc752"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="circbuf_8c.html#a2e25b26cd8cb641c7b3136bc8e7cc752">AuCircBufPut</a> (<a class="el" href="circbuf_8h.html#a762c58b651c016716f49a038e3b94aca">CircBuffer</a> *cbuf, <a class="el" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> data)</td></tr>
 <tr class="memdesc:a2e25b26cd8cb641c7b3136bc8e7cc752"><td class="mdescLeft">&#160;</td><td class="mdescRight">AuCircBufPut &ndash; puts data onto circular buffer.  <br /></td></tr>
 <tr class="separator:a2e25b26cd8cb641c7b3136bc8e7cc752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b184ab7431e764b578c750d350dc6b1" id="r_a9b184ab7431e764b578c750d350dc6b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="BaseHdr_2stdint_8h.html#a186ea1339bffb378854987065835afe3">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="circbuf_8c.html#a9b184ab7431e764b578c750d350dc6b1">AuCircBufWrite</a> (<a class="el" href="circbuf_8h.html#a762c58b651c016716f49a038e3b94aca">CircBuffer</a> *cbuf, const <a class="el" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *src, <a class="el" href="BaseHdr_2stdint_8h.html#a186ea1339bffb378854987065835afe3">size_t</a> len)</td></tr>
+<tr class="separator:a9b184ab7431e764b578c750d350dc6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21cd6d9bde59042b6162ff6a073428a2" id="r_a21cd6d9bde59042b6162ff6a073428a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="circbuf_8c.html#a21cd6d9bde59042b6162ff6a073428a2">AuCircBufGet</a> (<a class="el" href="circbuf_8h.html#a762c58b651c016716f49a038e3b94aca">CircBuffer</a> *cbuf, <a class="el" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *data)</td></tr>
 <tr class="memdesc:a21cd6d9bde59042b6162ff6a073428a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">AuCircBufGet &ndash; gets a data from circular buffer.  <br /></td></tr>
 <tr class="separator:a21cd6d9bde59042b6162ff6a073428a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b15a8a8bb94aec99a56dd6a732e6c29" id="r_a6b15a8a8bb94aec99a56dd6a732e6c29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="BaseHdr_2stdint_8h.html#a186ea1339bffb378854987065835afe3">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="circbuf_8c.html#a6b15a8a8bb94aec99a56dd6a732e6c29">AuCircBufRead</a> (<a class="el" href="circbuf_8h.html#a762c58b651c016716f49a038e3b94aca">CircBuffer</a> *cbuf, <a class="el" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *dst, <a class="el" href="BaseHdr_2stdint_8h.html#a186ea1339bffb378854987065835afe3">size_t</a> len)</td></tr>
+<tr class="separator:a6b15a8a8bb94aec99a56dd6a732e6c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13e83418fba35bb2dffc8366b41db75f" id="r_a13e83418fba35bb2dffc8366b41db75f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="BaseHdr_2stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="circbuf_8c.html#a13e83418fba35bb2dffc8366b41db75f">CircBufEmpty</a> (<a class="el" href="circbuf_8h.html#a762c58b651c016716f49a038e3b94aca">CircBuffer</a> *cbuf)</td></tr>
 <tr class="memdesc:a13e83418fba35bb2dffc8366b41db75f"><td class="mdescLeft">&#160;</td><td class="mdescRight">CircBufEmpty &ndash; checks if the circular buffer is empty.  <br /></td></tr>
 <tr class="separator:a13e83418fba35bb2dffc8366b41db75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -368,6 +375,40 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a6b15a8a8bb94aec99a56dd6a732e6c29" name="a6b15a8a8bb94aec99a56dd6a732e6c29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b15a8a8bb94aec99a56dd6a732e6c29">&#9670;&#160;</a></span>AuCircBufRead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="BaseHdr_2stdint_8h.html#a186ea1339bffb378854987065835afe3">size_t</a> AuCircBufRead </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="circbuf_8h.html#a762c58b651c016716f49a038e3b94aca">CircBuffer</a> *&#160;</td>
+          <td class="paramname"><em>cbuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="BaseHdr_2stdint_8h.html#a186ea1339bffb378854987065835afe3">size_t</a>&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9301db287ced78512059228ba365c726" name="a9301db287ced78512059228ba365c726"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9301db287ced78512059228ba365c726">&#9670;&#160;</a></span>AuCircBufReset()</h2>
 
@@ -417,6 +458,40 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a9b184ab7431e764b578c750d350dc6b1" name="a9b184ab7431e764b578c750d350dc6b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b184ab7431e764b578c750d350dc6b1">&#9670;&#160;</a></span>AuCircBufWrite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="BaseHdr_2stdint_8h.html#a186ea1339bffb378854987065835afe3">size_t</a> AuCircBufWrite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="circbuf_8h.html#a762c58b651c016716f49a038e3b94aca">CircBuffer</a> *&#160;</td>
+          <td class="paramname"><em>cbuf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="acefiex_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="BaseHdr_2stdint_8h.html#a186ea1339bffb378854987065835afe3">size_t</a>&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
